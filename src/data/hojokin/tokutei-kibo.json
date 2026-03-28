@@ -1,0 +1,52 @@
+{
+  "slug": "tokutei-kibo",
+  "name": "特定求職者雇用開発助成金",
+  "official_name": "特定求職者雇用開発助成金（特定就職困難者コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 1200000,
+  "subsidy_rate": 0.5,
+  "target_company_size": ["中小企業", "中堅企業", "大企業"],
+  "target_industries": ["全業種"],
+  "purpose": "高齢者・障害者・母子家庭の母等の就職困難者を雇い入れた事業主への助成",
+  "deadline": "随時受付",
+  "next_expected": "恒久制度",
+  "eligible_expenses": [
+    "対象者の賃金相当額（一部助成）"
+  ],
+  "ineligible_expenses": [
+    "役員への報酬",
+    "助成対象者以外の賃金"
+  ],
+  "eligibility_conditions": [
+    "ハローワーク等の紹介で対象者を雇い入れること",
+    "雇用保険の適用事業主であること",
+    "対象者を継続して雇用する意思があること"
+  ],
+  "company_size_limit": {
+    "all": { "capital": null, "employees": null }
+  },
+  "application_flow": [
+    "ハローワークに求人申込み",
+    "ハローワーク等の紹介で対象者を採用",
+    "雇入れ日の翌日から2ヶ月以内に支給申請",
+    "6ヶ月ごとに支給申請（最大2回）"
+  ],
+  "rejection_reasons": [
+    "ハローワーク紹介以外の採用",
+    "申請期限（2ヶ月）を過ぎている",
+    "雇用保険未加入"
+  ],
+  "success_tips": [
+    "採用前にハローワークに相談し、紹介状を取得する",
+    "雇入れ後すぐに申請書類の準備を始める"
+  ],
+  "affiliate_cta": {
+    "text": "採用・助成金の専門家に相談する",
+    "url_placeholder": "AFFILIATE_KOYO"
+  },
+  "related_subsidies": ["koyo-chosei", "shorikika"],
+  "tags": ["雇用助成金", "採用", "高齢者", "障害者", "厚生労働省"],
+  "monthly_searches": 18000,
+  "last_updated": "2026-03-28"
+}

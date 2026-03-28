@@ -1,0 +1,59 @@
+{
+  "slug": "denshi-invoice",
+  "name": "インボイス対応補助金",
+  "official_name": "小規模事業者持続化補助金（インボイス枠）",
+  "category": "デジタル化",
+  "managing_org": "日本商工会議所・全国商工会連合会",
+  "max_amount": 1000000,
+  "subsidy_rate": 0.667,
+  "target_company_size": ["小規模事業者"],
+  "target_industries": ["全業種"],
+  "purpose": "インボイス制度対応のための経費支援",
+  "deadline": "2026年度公募予定",
+  "next_expected": "継続予定",
+  "eligible_expenses": [
+    "会計ソフト・請求書ソフト導入費",
+    "インボイス対応レジシステム",
+    "ホームページ改修費（インボイス番号掲載対応）",
+    "研修費"
+  ],
+  "ineligible_expenses": [
+    "インボイス対応と関係のない経費",
+    "人件費",
+    "交付決定前の支出"
+  ],
+  "eligibility_conditions": [
+    "課税事業者への転換または予定があること",
+    "小規模事業者であること",
+    "インボイス制度に対応するための取組であること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": null, "employees": 20 },
+    "service": { "capital": null, "employees": 5 }
+  },
+  "application_flow": [
+    "商工会議所・商工会に相談・申請書類準備",
+    "事業支援計画書の発行依頼",
+    "公募期間中に申請",
+    "採択後に事業実施",
+    "実績報告"
+  ],
+  "rejection_reasons": [
+    "インボイス対応との関連性が薄い",
+    "小規模事業者の定義を満たしていない",
+    "事業計画の具体性不足"
+  ],
+  "success_tips": [
+    "会計ソフト（freee・マネーフォワード）の導入が最も採択されやすい",
+    "商工会議所の窓口で無料相談を活用する",
+    "既にインボイス登録済みでも申請可能"
+  ],
+  "affiliate_cta": {
+    "text": "freeeでインボイス対応を始める",
+    "url_placeholder": "AFFILIATE_FREEE"
+  },
+  "related_subsidies": ["jizokuka", "it-donyu"],
+  "tags": ["インボイス", "会計ソフト", "小規模事業者", "デジタル化", "freee"],
+  "monthly_searches": 35000,
+  "last_updated": "2026-03-28"
+}

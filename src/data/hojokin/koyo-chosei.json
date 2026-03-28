@@ -1,0 +1,59 @@
+{
+  "slug": "koyo-chosei",
+  "name": "雇用調整助成金",
+  "official_name": "雇用調整助成金",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 15000,
+  "subsidy_rate": 0.75,
+  "target_company_size": ["中小企業", "中堅企業", "大企業"],
+  "target_industries": ["全業種"],
+  "purpose": "景気変動等による一時的な事業縮小時の休業・教育訓練への助成",
+  "deadline": "随時受付",
+  "next_expected": "恒久制度",
+  "eligible_expenses": [
+    "休業手当（従業員への支払い分）",
+    "教育訓練費",
+    "出向賃金"
+  ],
+  "ineligible_expenses": [
+    "解雇した従業員への費用",
+    "役員報酬",
+    "パートタイム労働者（一部条件あり）"
+  ],
+  "eligibility_conditions": [
+    "雇用保険の適用事業主であること",
+    "売上・生産量等が前年比10%以上減少していること",
+    "労使協定を締結していること",
+    "計画届を事前に提出していること"
+  ],
+  "company_size_limit": {
+    "all": { "capital": null, "employees": null }
+  },
+  "application_flow": [
+    "労使協定の締結",
+    "休業等実施計画届の提出（休業前に提出）",
+    "休業・教育訓練の実施",
+    "支給申請書の提出（休業実施後）",
+    "審査・支給"
+  ],
+  "rejection_reasons": [
+    "計画届が休業前に提出されていない",
+    "売上減少の要件を満たしていない",
+    "労使協定が適切に締結されていない",
+    "支給申請の期限（2ヶ月以内）を過ぎている"
+  ],
+  "success_tips": [
+    "休業前に必ず計画届を提出する（事後申請は不可）",
+    "社労士に依頼すると手続きがスムーズ",
+    "休業手当は平均賃金の60%以上が必要"
+  ],
+  "affiliate_cta": {
+    "text": "社労士に雇用調整助成金を相談する",
+    "url_placeholder": "AFFILIATE_SHAROUSHI"
+  },
+  "related_subsidies": ["shorikika", "jigyou-saikouchiku"],
+  "tags": ["雇用", "休業", "助成金", "厚生労働省", "人件費"],
+  "monthly_searches": 90000,
+  "last_updated": "2026-03-28"
+}

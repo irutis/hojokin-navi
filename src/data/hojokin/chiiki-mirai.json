@@ -1,0 +1,58 @@
+{
+  "slug": "chiiki-mirai",
+  "name": "地域未来投資促進補助金",
+  "official_name": "地域未来投資促進事業",
+  "category": "地域活性化",
+  "managing_org": "経済産業省・地方経済産業局",
+  "max_amount": 50000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": ["中小企業", "中堅企業"],
+  "target_industries": ["製造業", "農林水産業", "観光業", "サービス業"],
+  "purpose": "地域の特性を活かした事業への投資促進・地域経済の活性化",
+  "deadline": "各地方局により異なる",
+  "next_expected": "毎年度継続",
+  "eligible_expenses": [
+    "機械装置・設備費",
+    "建物改修費",
+    "専門家活用費",
+    "広告宣伝費"
+  ],
+  "ineligible_expenses": [
+    "土地取得費",
+    "汎用性の高い設備",
+    "交付決定前の支出"
+  ],
+  "eligibility_conditions": [
+    "地域経済牽引事業計画の承認を受けていること",
+    "都道府県の基本計画に沿った事業であること",
+    "地域への経済的波及効果が見込まれること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": 300000000, "employees": 300 },
+    "service": { "capital": 50000000, "employees": 100 }
+  },
+  "application_flow": [
+    "都道府県に地域経済牽引事業計画を申請・承認取得",
+    "地方経済産業局に補助金申請",
+    "交付決定後に事業実施",
+    "実績報告"
+  ],
+  "rejection_reasons": [
+    "地域への波及効果が不明確",
+    "事業計画の具体性が低い",
+    "地域の基本計画との整合性がない"
+  ],
+  "success_tips": [
+    "都道府県の担当窓口に早めに相談する",
+    "地域の雇用創出・所得向上効果を数値で示す",
+    "地元企業との連携をアピールする"
+  ],
+  "affiliate_cta": {
+    "text": "補助金申請の専門家に相談する",
+    "url_placeholder": "AFFILIATE_CHIIKI"
+  },
+  "related_subsidies": ["jigyou-saikouchiku", "jizokuka"],
+  "tags": ["地域活性化", "観光", "農業", "製造業", "地方"],
+  "monthly_searches": 15000,
+  "last_updated": "2026-03-28"
+}

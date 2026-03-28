@@ -1,0 +1,58 @@
+{
+  "slug": "shoene-setsubi",
+  "name": "省エネ設備補助金",
+  "official_name": "省エネルギー投資促進支援事業費補助金",
+  "category": "省エネ・脱炭素",
+  "managing_org": "経済産業省・資源エネルギー庁",
+  "max_amount": 150000000,
+  "subsidy_rate": 0.33,
+  "target_company_size": ["中小企業", "中堅企業", "大企業"],
+  "target_industries": ["製造業", "物流業", "農業", "サービス業"],
+  "purpose": "省エネ設備への更新・導入によるエネルギーコスト削減と脱炭素化",
+  "deadline": "2026年度公募予定",
+  "next_expected": "毎年度継続",
+  "eligible_expenses": [
+    "高効率省エネ設備の購入費",
+    "設備設置工事費",
+    "エネルギー管理システム導入費"
+  ],
+  "ineligible_expenses": [
+    "省エネ効果が基準値未満の設備",
+    "中古設備",
+    "汎用性の高い設備（パソコン等）"
+  ],
+  "eligibility_conditions": [
+    "省エネ効果が一定基準以上あること",
+    "設備導入後に省エネ効果を報告できること",
+    "日本国内の事業所で使用すること"
+  ],
+  "company_size_limit": {
+    "all": { "capital": null, "employees": null }
+  },
+  "application_flow": [
+    "省エネ診断の実施（任意だが推奨）",
+    "補助対象設備の選定・見積取得",
+    "公募期間中に申請",
+    "採択・交付決定後に設備発注・導入",
+    "実績報告・省エネ効果の測定報告"
+  ],
+  "rejection_reasons": [
+    "省エネ率が要件基準を下回っている",
+    "対象外設備が含まれている",
+    "交付決定前に発注・納品している",
+    "省エネ計算の根拠が不明確"
+  ],
+  "success_tips": [
+    "設備メーカーや販売店に補助金対応モデルを確認する",
+    "省エネ診断（無料）を事前に受けると申請がスムーズ",
+    "電気代・ガス代の過去データを整備しておく"
+  ],
+  "affiliate_cta": {
+    "text": "省エネ設備の専門家に相談する",
+    "url_placeholder": "AFFILIATE_SHOENE"
+  },
+  "related_subsidies": ["shorikika", "monozukuri"],
+  "tags": ["省エネ", "脱炭素", "設備投資", "エネルギーコスト", "製造業"],
+  "monthly_searches": 40000,
+  "last_updated": "2026-03-28"
+}

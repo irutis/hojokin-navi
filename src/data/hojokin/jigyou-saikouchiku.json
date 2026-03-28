@@ -1,0 +1,70 @@
+{
+  "slug": "jigyou-saikouchiku",
+  "name": "事業再構築補助金",
+  "official_name": "事業再構築補助金",
+  "category": "事業転換",
+  "managing_org": "中小企業庁",
+  "max_amount": 150000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": ["中小企業", "中堅企業"],
+  "target_industries": ["全業種"],
+  "purpose": "コロナや市場変化に対応した新分野展開・業態転換・事業転換",
+  "deadline": "2026年度公募予定",
+  "next_expected": "2026年度継続予定",
+  "eligible_expenses": [
+    "建物費（建築・改修）",
+    "機械装置・システム構築費",
+    "技術導入費",
+    "専門家経費",
+    "広告宣伝・販売促進費",
+    "研修費",
+    "外注費"
+  ],
+  "ineligible_expenses": [
+    "土地の取得費",
+    "株式・債権の取得",
+    "交付決定前に発注・契約・支払いした経費",
+    "補助対象外の事業に係る費用"
+  ],
+  "eligibility_conditions": [
+    "売上が減少していること（コロナ等の影響）",
+    "事業再構築指針に沿った事業計画を策定すること",
+    "認定経営革新等支援機関と共同申請すること",
+    "補助事業終了後3〜5年で付加価値額の増加目標を達成すること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": 300000000, "employees": 300 },
+    "wholesale": { "capital": 100000000, "employees": 100 },
+    "service": { "capital": 50000000, "employees": 100 },
+    "retail_food": { "capital": 50000000, "employees": 50 }
+  },
+  "application_flow": [
+    "認定経営革新等支援機関（認定支援機関）を探す・相談",
+    "事業再構築計画の策定",
+    "gBizIDプライム取得",
+    "公募期間中にオンライン申請",
+    "採択後に交付申請・交付決定",
+    "事業実施・実績報告"
+  ],
+  "rejection_reasons": [
+    "事業再構築の要件（新分野展開・業態転換等）を満たしていない",
+    "売上減少の証明書類が不十分",
+    "事業計画の実現可能性が低いと判断された",
+    "付加価値額の増加目標が根拠なく設定されている",
+    "認定支援機関の確認書が添付されていない"
+  ],
+  "success_tips": [
+    "認定支援機関（商工会議所・金融機関・コンサル）を早めに決める",
+    "新事業の市場規模・競合分析を具体的な数字で記載する",
+    "コロナ前後の売上比較データを整備しておく",
+    "交付決定前の発注・契約は絶対にしない"
+  ],
+  "affiliate_cta": {
+    "text": "認定支援機関に無料相談する",
+    "url_placeholder": "AFFILIATE_SAIKOUCHIKU"
+  },
+  "related_subsidies": ["monozukuri", "jizokuka"],
+  "tags": ["事業転換", "新分野展開", "業態転換", "コロナ対策", "大型補助金"],
+  "monthly_searches": 120000,
+  "last_updated": "2026-03-28"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "innovation-souzou",
+  "name": "イノベーション創出補助金",
+  "official_name": "中小企業イノベーション創出推進事業（SBIR）",
+  "category": "研究開発",
+  "managing_org": "内閣府・各省庁",
+  "max_amount": 30000000,
+  "subsidy_rate": 0.667,
+  "target_company_size": ["中小企業", "スタートアップ"],
+  "target_industries": ["製造業", "IT", "医療", "農業", "建設"],
+  "purpose": "社会課題解決に向けた革新的な研究開発・事業化の支援",
+  "deadline": "各省庁により異なる",
+  "next_expected": "毎年度継続",
+  "eligible_expenses": [
+    "研究開発費（人件費含む）",
+    "機械装置・設備費",
+    "外注費",
+    "知財関連費用",
+    "マーケティング費用"
+  ],
+  "ineligible_expenses": [
+    "既存製品・サービスの改良",
+    "汎用設備の購入",
+    "交付決定前の支出"
+  ],
+  "eligibility_conditions": [
+    "中小企業またはスタートアップであること",
+    "指定されたテーマ・技術領域に合致すること",
+    "革新性・新規性があること",
+    "事業化の見込みがあること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": 300000000, "employees": 300 },
+    "service": { "capital": 50000000, "employees": 100 }
+  },
+  "application_flow": [
+    "公募テーマの確認（各省庁のウェブサイト）",
+    "技術提案書の作成",
+    "公募期間中に申請",
+    "書類審査・ヒアリング審査",
+    "採択後に研究開発実施",
+    "成果報告・事業化計画提出"
+  ],
+  "rejection_reasons": [
+    "革新性・新規性が認められない",
+    "事業化の具体的な道筋が不明確",
+    "テーマとの適合性が低い",
+    "技術的実現可能性に疑問がある"
+  ],
+  "success_tips": [
+    "公募テーマに完全に合わせて提案書を書く",
+    "特許出願など知財戦略を示すと評価が上がる",
+    "大学・研究機関との連携をアピールする"
+  ],
+  "affiliate_cta": {
+    "text": "研究開発補助金の専門家に相談する",
+    "url_placeholder": "AFFILIATE_INNOVATION"
+  },
+  "related_subsidies": ["monozukuri", "jigyou-saikouchiku"],
+  "tags": ["研究開発", "スタートアップ", "イノベーション", "SBIR", "技術開発"],
+  "monthly_searches": 12000,
+  "last_updated": "2026-03-28"
+}

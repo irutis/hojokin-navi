@@ -1,0 +1,60 @@
+{
+  "slug": "souzoku-jigyo",
+  "name": "事業承継補助金",
+  "official_name": "事業承継・引継ぎ補助金",
+  "category": "事業承継",
+  "managing_org": "中小企業庁",
+  "max_amount": 8000000,
+  "subsidy_rate": 0.667,
+  "target_company_size": ["中小企業", "小規模事業者"],
+  "target_industries": ["全業種"],
+  "purpose": "事業承継・M&Aを契機とした経営革新や廃業・再チャレンジの支援",
+  "deadline": "2026年度公募予定",
+  "next_expected": "毎年度継続",
+  "eligible_expenses": [
+    "設備投資費",
+    "店舗・事務所の改装費",
+    "広告宣伝費",
+    "専門家活用費（M&Aアドバイザー等）",
+    "廃業費用（廃業・再チャレンジ型）"
+  ],
+  "ineligible_expenses": [
+    "承継前から継続している通常の事業経費",
+    "土地・建物の取得費",
+    "交付決定前の支出"
+  ],
+  "eligibility_conditions": [
+    "事業承継・引継ぎを行う（または予定する）中小企業であること",
+    "承継を契機とした経営革新等に取り組むこと",
+    "認定支援機関の確認を受けた事業計画を策定すること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": 300000000, "employees": 300 },
+    "service": { "capital": 50000000, "employees": 100 }
+  },
+  "application_flow": [
+    "認定支援機関に相談・事業計画策定",
+    "公募期間中に申請",
+    "採択・交付決定",
+    "事業実施",
+    "実績報告・効果報告"
+  ],
+  "rejection_reasons": [
+    "承継を契機とした新たな取組が不明確",
+    "事業計画の実現可能性が低い",
+    "認定支援機関の確認書が不適切"
+  ],
+  "success_tips": [
+    "承継前後で何が変わるかを明確に示す",
+    "新たな販路開拓・商品開発などを具体的に計画する",
+    "M&Aマッチングサービスを活用した引継ぎも対象"
+  ],
+  "affiliate_cta": {
+    "text": "事業承継の専門家に無料相談する",
+    "url_placeholder": "AFFILIATE_SOUZOKU"
+  },
+  "related_subsidies": ["jigyou-saikouchiku", "jizokuka"],
+  "tags": ["事業承継", "M&A", "引継ぎ", "廃業", "再チャレンジ"],
+  "monthly_searches": 25000,
+  "last_updated": "2026-03-28"
+}

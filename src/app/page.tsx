@@ -8,7 +8,7 @@ export default function Home() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <div>
-            <span className="font-bold text-xl text-blue-700">補助金DB</span>
+            <span className="font-bold text-xl text-blue-700">補助金申請ガイド</span>
             <span className="text-xs text-gray-400 ml-2">中小企業・個人事業主の補助金ガイド</span>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       <footer className="text-center text-xs text-gray-400 py-8">
-        © 2026 補助金DB | 本サイトの情報は参考情報です。申請前に必ず公式サイトをご確認ください。
+        © 2026 補助金申請ガイド | 本サイトの情報は参考情報です。申請前に必ず公式サイトをご確認ください。
       </footer>
     </main>
   )

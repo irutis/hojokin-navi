@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "補助金DB｜中小企業・個人事業主の補助金を5問で診断",
+  title: "補助金申請ガイド｜中小企業・個人事業主の補助金を5問で診断",
   description: "業種・従業員数・目的を答えるだけ。AIがあなたに最適な補助金を即診断。IT導入補助金・ものづくり補助金・持続化補助金など主要補助金の申請方法・不採択理由を完全解説。",
 };
 

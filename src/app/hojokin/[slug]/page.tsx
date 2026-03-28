@@ -28,7 +28,7 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
     <main className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <Link href="/" className="text-blue-700 font-bold text-lg">補助金DB</Link>
+          <Link href="/" className="text-blue-700 font-bold text-lg">補助金申請ガイド</Link>
           <span className="text-gray-400 mx-2">/</span>
           <span className="text-gray-600 text-sm">{h.name}</span>
         </div>
@@ -141,6 +141,22 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
               </li>
             ))}
           </ul>
+        </section>
+
+        {/* 申請書の書き方リンク */}
+        <section className="bg-orange-50 rounded-2xl p-6 border border-orange-200 mb-6">
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            <div>
+              <h2 className="font-bold text-gray-800 mb-1">📝 申請書の書き方を詳しく知る</h2>
+              <p className="text-sm text-gray-600">採択される書き方・落とされる書き方を実例で解説</p>
+            </div>
+            <Link
+              href={`/hojokin/${h.slug}/kakikata`}
+              className="shrink-0 bg-orange-500 text-white font-bold px-5 py-2.5 rounded-xl hover:bg-orange-600 transition-colors text-sm"
+            >
+              書き方ガイドを見る →
+            </Link>
+          </div>
         </section>
 
         {/* CTA */}

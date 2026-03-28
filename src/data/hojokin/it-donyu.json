@@ -1,0 +1,67 @@
+{
+  "slug": "it-donyu",
+  "name": "IT導入補助金",
+  "official_name": "IT導入補助金2025",
+  "category": "デジタル化",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 4500000,
+  "subsidy_rate": 0.5,
+  "target_company_size": ["中小企業", "小規模事業者"],
+  "target_industries": ["全業種"],
+  "purpose": "ITツール・ソフトウェア導入による業務効率化",
+  "deadline": "2025-12-31",
+  "next_expected": "2026年度も継続予定",
+  "eligible_expenses": [
+    "ソフトウェア購入費",
+    "クラウドサービス利用料（最大2年分）",
+    "導入・設定費用",
+    "研修費"
+  ],
+  "ineligible_expenses": [
+    "ハードウェア購入費（単体）",
+    "汎用的なPCやスマートフォン",
+    "すでに導入済みのツール"
+  ],
+  "eligibility_conditions": [
+    "中小企業または小規模事業者であること",
+    "日本国内で事業を営んでいること",
+    "gBizIDプライムアカウントを保有していること",
+    "SECURITY ACTIONの宣言をしていること",
+    "ITベンダー・サービス事業者と共同申請すること"
+  ],
+  "company_size_limit": {
+    "retail_food": { "capital": 50000000, "employees": 50 },
+    "service": { "capital": 50000000, "employees": 100 },
+    "wholesale": { "capital": 100000000, "employees": 100 },
+    "manufacturing": { "capital": 300000000, "employees": 300 }
+  },
+  "application_flow": [
+    "gBizIDプライム取得（2〜3週間かかるため早めに）",
+    "SECURITY ACTION宣言",
+    "IT導入支援事業者・ITツールの選定",
+    "交付申請（IT導入支援事業者と共同で提出）",
+    "交付決定後にツール導入・支払い",
+    "実績報告・効果報告"
+  ],
+  "rejection_reasons": [
+    "gBizIDプライム未取得での申請",
+    "交付決定前にツールを導入・支払いしてしまった",
+    "対象外のITツール（認定されていないベンダーのもの）",
+    "事業計画の具体性が乏しい（数値目標が曖昧）",
+    "SECURITY ACTIONの宣言漏れ"
+  ],
+  "success_tips": [
+    "gBizIDは取得に2〜3週間かかる。申請予定が決まったら最優先で手続きする",
+    "交付決定通知が来る前に絶対に発注・支払いをしない",
+    "IT導入支援事業者のサポートを活用する（申請書類作成を手伝ってもらえる）",
+    "労働生産性の向上目標を具体的な数値で記載する"
+  ],
+  "affiliate_cta": {
+    "text": "申請サポートを専門家に依頼する",
+    "url_placeholder": "AFFILIATE_IT_DONYU"
+  },
+  "related_subsidies": ["monozukuri", "shorikika"],
+  "tags": ["IT", "デジタル化", "ソフトウェア", "クラウド", "業務効率化"],
+  "monthly_searches": 180000,
+  "last_updated": "2026-03-28"
+}

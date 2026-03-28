@@ -1,0 +1,66 @@
+{
+  "slug": "shorikika",
+  "name": "省力化投資補助金",
+  "official_name": "中小企業省力化投資補助金",
+  "category": "人手不足対策",
+  "managing_org": "中小企業庁",
+  "max_amount": 15000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": ["中小企業", "小規模事業者"],
+  "target_industries": ["全業種"],
+  "purpose": "人手不足解消に向けた汎用製品（IoT・ロボット等）の導入",
+  "deadline": "2026年度も継続公募予定",
+  "next_expected": "随時公募（カタログ型）",
+  "eligible_expenses": [
+    "カタログ掲載製品の購入費",
+    "設置・設定費用",
+    "導入に必要な付帯工事費"
+  ],
+  "ineligible_expenses": [
+    "カタログ未掲載製品",
+    "汎用パソコン・スマートフォン",
+    "中古品",
+    "レンタル・リース"
+  ],
+  "eligibility_conditions": [
+    "中小企業者または小規模事業者であること",
+    "人手不足の状態にあること（従業員数・売上等で確認）",
+    "カタログに掲載された製品を購入すること",
+    "GビズIDプライムを保有していること"
+  ],
+  "company_size_limit": {
+    "manufacturing": { "capital": 300000000, "employees": 300 },
+    "wholesale": { "capital": 100000000, "employees": 100 },
+    "service": { "capital": 50000000, "employees": 100 },
+    "retail": { "capital": 50000000, "employees": 50 }
+  },
+  "application_flow": [
+    "GビズIDプライムの取得",
+    "カタログから導入したい製品を選定",
+    "販売事業者に見積もりを依頼",
+    "補助金申請システムから申請",
+    "採択・交付決定",
+    "製品導入・支払い",
+    "実績報告"
+  ],
+  "rejection_reasons": [
+    "カタログ未掲載の製品を申請",
+    "人手不足の状況説明が不十分",
+    "交付決定前に製品を発注・購入",
+    "GビズIDプライム未取得"
+  ],
+  "success_tips": [
+    "ものづくり補助金と異なり、事業計画書の審査がない。採択率が高め",
+    "まずカタログで対象製品を確認する（清掃ロボット、自動販売機、券売機等）",
+    "販売事業者が申請をサポートしてくれるケースが多い",
+    "GビズIDの取得に時間がかかるため早めに手続きする"
+  ],
+  "affiliate_cta": {
+    "text": "省力化製品の導入相談をする",
+    "url_placeholder": "AFFILIATE_SHORIKIKA"
+  },
+  "related_subsidies": ["it-donyu", "monozukuri"],
+  "tags": ["人手不足", "ロボット", "IoT", "自動化", "省力化"],
+  "monthly_searches": 45000,
+  "last_updated": "2026-03-28"
+}

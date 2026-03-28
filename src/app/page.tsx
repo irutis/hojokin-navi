@@ -11,6 +11,9 @@ export default function Home() {
             <span className="font-bold text-xl text-blue-700">補助金申請ガイド</span>
             <span className="text-xs text-gray-400 ml-2">中小企業・個人事業主の補助金ガイド</span>
           </div>
+          <a href="/search" className="text-sm bg-blue-50 text-blue-700 font-medium px-4 py-2 rounded-xl hover:bg-blue-100 transition-colors">
+            全件検索 →
+          </a>
         </div>
       </header>
 

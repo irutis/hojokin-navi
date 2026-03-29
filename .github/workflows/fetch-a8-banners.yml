@@ -1,0 +1,61 @@
+name: A8.net バナー自動取得
+
+on:
+  schedule:
+    - cron: '0 2 1 * *'  # 毎月1日 午前2時（JST 11時）
+  workflow_dispatch:       # 手動実行も可能
+
+jobs:
+  fetch-banners:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright + Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: 環境変数チェック
+        run: |
+          if [ -z "${{ secrets.A8_EMAIL }}" ]; then
+            echo "❌ A8_EMAIL が設定されていません"
+            echo "GitHub Settings > Secrets > Actions に A8_EMAIL を追加してください"
+            exit 1
+          fi
+          if [ -z "${{ secrets.A8_PASSWORD }}" ]; then
+            echo "❌ A8_PASSWORD が設定されていません"
+            echo "GitHub Settings > Secrets > Actions に A8_PASSWORD を追加してください"
+            exit 1
+          fi
+          echo "✅ 環境変数OK"
+
+      - name: A8.net バナー取得
+        env:
+          A8_EMAIL: ${{ secrets.A8_EMAIL }}
+          A8_PASSWORD: ${{ secrets.A8_PASSWORD }}
+        run: node scripts/fetch-a8-banners.mjs
+
+      - name: 変更をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/affiliates.json
+          if git diff --staged --quiet; then
+            echo "バナーに変更なし"
+          else
+            git commit -m "chore: A8.netバナーを自動更新 $(date '+%Y-%m-%d')"
+            git push
+            echo "✅ affiliates.json を更新しました"
+          fi

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { ShindanResult } from '@/lib/claude'
+import AffiliateBanners from '@/components/AffiliateBanners'
 
 const STEPS = [
   {
@@ -155,18 +156,7 @@ export default function Shindan() {
         {/* 申請準備ツール */}
         <div className="mt-6 pt-5 border-t border-gray-100">
           <p className="text-xs text-gray-500 mb-3 font-medium">📌 申請準備・経費管理におすすめ</p>
-          <div className="space-y-2">
-            <a href="https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y" target="_blank" rel="nofollow noopener noreferrer"
-              className="flex items-center justify-between bg-green-50 border border-green-200 rounded-xl px-4 py-2.5 hover:bg-green-100 transition-colors">
-              <span className="text-sm font-medium text-gray-800">freee会計 – 補助金の経費管理に</span>
-              <span className="text-xs text-green-600 font-bold shrink-0">無料で試す →</span>
-            </a>
-            <a href="https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY" target="_blank" rel="nofollow noopener noreferrer"
-              className="flex items-center justify-between bg-blue-50 border border-blue-200 rounded-xl px-4 py-2.5 hover:bg-blue-100 transition-colors">
-              <span className="text-sm font-medium text-gray-800">マネーフォワード クラウド – 会計・給与を一括</span>
-              <span className="text-xs text-blue-600 font-bold shrink-0">無料で試す →</span>
-            </a>
-          </div>
+          <AffiliateBanners />
         </div>
       </div>
     )

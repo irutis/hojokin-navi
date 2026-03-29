@@ -1,0 +1,6818 @@
+[
+  {
+    "name": "新創業融資制度",
+    "managing_org": "日本政策金融公庫",
+    "official_url": "https://www.jfc.go.jp/n/finance/search/04_shinsogyo_m.html",
+    "max_amount": 30000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "新たに事業を始める方向けの無担保・無保証人融資",
+    "tags": [
+      "創業融資",
+      "無担保",
+      "日本政策金融公庫",
+      "開業",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "新規開業資金",
+    "managing_org": "日本政策金融公庫",
+    "official_url": "https://www.jfc.go.jp/n/finance/search/01_sinkikaigyou_m.html",
+    "max_amount": 72000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "設備投資"
+    ],
+    "description": "新規開業や開業後おおむね7年以内の方への融資",
+    "tags": [
+      "開業資金",
+      "創業融資",
+      "日本政策金融公庫",
+      "新規事業"
+    ]
+  },
+  {
+    "name": "女性、若者／シニア起業家支援資金",
+    "managing_org": "日本政策金融公庫",
+    "official_url": "https://www.jfc.go.jp/n/finance/search/02_zyoseikigyouka_m.html",
+    "max_amount": 72000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "女性・35歳未満・55歳以上の起業家向け融資",
+    "tags": [
+      "女性起業",
+      "若者起業",
+      "シニア起業",
+      "日本政策金融公庫",
+      "創業支援"
+    ]
+  },
+  {
+    "name": "東京都創業助成事業",
+    "managing_org": "東京都中小企業振興公社",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/sogyo.html",
+    "max_amount": 4000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "都内で創業予定または創業5年未満の方への助成",
+    "tags": [
+      "東京都",
+      "創業助成",
+      "開業支援",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "起業支援金（地方創生起業支援事業）",
+    "managing_org": "内閣府",
+    "official_url": "https://www.chisou.go.jp/sousei/shienkin/index.html",
+    "max_amount": 2000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "地方で社会的事業を起業する方への支援金",
+    "tags": [
+      "地方創生",
+      "起業支援金",
+      "移住",
+      "UIJターン",
+      "社会的事業"
+    ]
+  },
+  {
+    "name": "移住支援金",
+    "managing_org": "内閣府",
+    "official_url": "https://www.chisou.go.jp/sousei/ijyu_shienkin.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "東京圏から地方へ移住し起業・就業する方への支援金",
+    "tags": [
+      "移住支援",
+      "地方創生",
+      "UIJターン",
+      "東京一極集中是正"
+    ]
+  },
+  {
+    "name": "TOKYO STARTUP GATEWAY",
+    "managing_org": "東京都",
+    "official_url": "https://tokyo-startup.jp/",
+    "max_amount": 1000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "東京都によるスタートアップビジネスプランコンテスト",
+    "tags": [
+      "東京都",
+      "ビジネスプラン",
+      "コンテスト",
+      "スタートアップ",
+      "起業"
+    ]
+  },
+  {
+    "name": "スタートアップ創出促進保証制度",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/kinyu/2023/230315startup.html",
+    "max_amount": 35000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "経営者保証不要のスタートアップ向け信用保証制度",
+    "tags": [
+      "信用保証",
+      "経営者保証免除",
+      "創業融資",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "J-Startup認定支援プログラム",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.j-startup.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "トップレベルのスタートアップを集中支援するプログラム",
+    "tags": [
+      "J-Startup",
+      "スタートアップ",
+      "グローバル",
+      "経済産業省"
+    ]
+  },
+  {
+    "name": "SBIR（中小企業技術革新制度）",
+    "managing_org": "内閣府・経済産業省",
+    "official_url": "https://www8.cao.go.jp/cstp/sbir/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "description": "中小企業・スタートアップの研究開発を支援する制度",
+    "tags": [
+      "SBIR",
+      "研究開発",
+      "技術革新",
+      "イノベーション",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "NEDOディープテック・スタートアップ支援事業",
+    "managing_org": "NEDO（新エネルギー・産業技術総合開発機構）",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100197.html",
+    "max_amount": 500000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "description": "ディープテック分野のスタートアップへの研究開発支援",
+    "tags": [
+      "NEDO",
+      "ディープテック",
+      "スタートアップ",
+      "研究開発",
+      "技術"
+    ]
+  },
+  {
+    "name": "NEDO研究開発型スタートアップ支援事業（DTSU）",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP2_100170.html",
+    "max_amount": 100000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "description": "研究開発型スタートアップの事業化を支援",
+    "tags": [
+      "NEDO",
+      "研究開発",
+      "スタートアップ",
+      "事業化",
+      "STS"
+    ]
+  },
+  {
+    "name": "経営革新計画承認制度",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/kakushin/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "販路拡大",
+      "設備投資"
+    ],
+    "description": "経営革新計画の承認で各種支援措置を受けられる制度",
+    "tags": [
+      "経営革新",
+      "第二創業",
+      "新事業",
+      "中小企業庁"
+    ]
+  },
+  {
+    "name": "大阪府スタートアップ創出支援事業",
+    "managing_org": "大阪府",
+    "official_url": "https://www.pref.osaka.lg.jp/o090050/startup/",
+    "max_amount": 2000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "大阪府内で創業する方へのスタートアップ支援",
+    "tags": [
+      "大阪府",
+      "創業",
+      "スタートアップ",
+      "開業"
+    ]
+  },
+  {
+    "name": "挑戦的研究開発助成事業（SBIRフェーズ1）",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100198.html",
+    "max_amount": 7500000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "description": "スタートアップの初期研究開発に対する定額助成",
+    "tags": [
+      "SBIR",
+      "NEDO",
+      "フェーズ1",
+      "研究開発",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "中小企業経営力強化資金",
+    "managing_org": "日本政策金融公庫",
+    "official_url": "https://www.jfc.go.jp/n/finance/search/64.html",
+    "max_amount": 72000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "設備投資"
+    ],
+    "description": "認定支援機関の支援を受ける中小企業向け融資",
+    "tags": [
+      "認定支援機関",
+      "日本政策金融公庫",
+      "経営力強化",
+      "創業"
+    ]
+  },
+  {
+    "name": "経営承継円滑化法に基づく金融支援",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/zaimu/shoukei/shoukei_enkatsu.htm",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業承継"
+    ],
+    "description": "事業承継に伴う資金調達を円滑化する金融支援措置",
+    "tags": [
+      "事業承継",
+      "経営承継円滑化法",
+      "金融支援",
+      "中小企業庁"
+    ]
+  },
+  {
+    "name": "事業承継税制（特例措置）",
+    "managing_org": "中小企業庁・国税庁",
+    "official_url": "https://www.chusho.meti.go.jp/zaimu/shoukei/shoukei_zeisei.htm",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業承継"
+    ],
+    "description": "事業承継時の贈与税・相続税の納税を猶予・免除",
+    "tags": [
+      "事業承継税制",
+      "贈与税猶予",
+      "相続税猶予",
+      "特例措置"
+    ]
+  },
+  {
+    "name": "福岡市ステップアップ助成事業",
+    "managing_org": "福岡市",
+    "official_url": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/stepup.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "福岡市内の創業者の成長を後押しする助成事業",
+    "tags": [
+      "福岡市",
+      "創業",
+      "ステップアップ",
+      "助成金"
+    ]
+  },
+  {
+    "name": "生涯現役起業支援助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000115906.html",
+    "max_amount": 2000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "雇用・人材"
+    ],
+    "description": "中高年齢者が起業時に従業員を雇用する際の助成",
+    "tags": [
+      "中高年起業",
+      "シニア",
+      "雇用",
+      "厚生労働省",
+      "生涯現役"
+    ]
+  },
+  {
+    "name": "事業承継・世代交代集中支援事業",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/zaimu/shoukei/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業承継"
+    ],
+    "description": "事業承継に関する総合的な支援パッケージ",
+    "tags": [
+      "事業承継",
+      "世代交代",
+      "中小企業庁",
+      "後継者"
+    ]
+  },
+  {
+    "name": "横浜市創業促進助成金",
+    "managing_org": "横浜市",
+    "official_url": "https://www.city.yokohama.lg.jp/business/kigyoshien/sogyo/",
+    "max_amount": 300000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "横浜市内で新たに創業する方への経費助成",
+    "tags": [
+      "横浜市",
+      "創業",
+      "助成金",
+      "開業"
+    ]
+  },
+  {
+    "name": "名古屋市スタートアップ支援事業費補助金",
+    "managing_org": "名古屋市",
+    "official_url": "https://www.city.nagoya.jp/keizai/page/0000117430.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "名古屋市内のスタートアップ企業を支援する補助金",
+    "tags": [
+      "名古屋市",
+      "スタートアップ",
+      "創業",
+      "補助金"
+    ]
+  },
+  {
+    "name": "中小機構ファンド出資事業（起業支援ファンド）",
+    "managing_org": "中小企業基盤整備機構",
+    "official_url": "https://www.smrj.go.jp/sme/funding/fund/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "民間VCと共同でスタートアップへ出資する仕組み",
+    "tags": [
+      "中小機構",
+      "ファンド",
+      "出資",
+      "VC",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "地域創業促進支援事業（創業スクール）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/sogyo/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "地域での創業を促進するための創業スクール事業",
+    "tags": [
+      "創業スクール",
+      "地域創業",
+      "セミナー",
+      "中小企業庁"
+    ]
+  },
+  {
+    "name": "特定創業支援等事業（認定市区町村）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/chiiki/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "市区町村の認定で登録免許税軽減等の優遇を受ける制度",
+    "tags": [
+      "特定創業支援",
+      "登録免許税軽減",
+      "認定市区町村",
+      "産業競争力強化法"
+    ]
+  },
+  {
+    "name": "神戸市起業家支援事業補助金",
+    "managing_org": "神戸市",
+    "official_url": "https://www.city.kobe.lg.jp/a09222/business/sangyoshinko/shokogyo/sogyo/",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "神戸市内での起業・創業を支援する補助金",
+    "tags": [
+      "神戸市",
+      "起業",
+      "創業",
+      "補助金"
+    ]
+  },
+  {
+    "name": "NEDOスタートアップ支援事業（TCP）",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100170.html",
+    "max_amount": 30000000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "description": "技術シーズの事業化可能性を検証する支援事業",
+    "tags": [
+      "NEDO",
+      "TCP",
+      "技術シーズ",
+      "事業化",
+      "スタートアップ"
+    ]
+  },
+  {
+    "name": "さいたま市創業支援補助金",
+    "managing_org": "さいたま市",
+    "official_url": "https://www.city.saitama.jp/005/002/001/p048880.html",
+    "max_amount": 300000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "さいたま市内で創業する方への補助金",
+    "tags": [
+      "さいたま市",
+      "創業",
+      "補助金",
+      "開業支援"
+    ]
+  },
+  {
+    "name": "再挑戦支援資金（再チャレンジ支援融資）",
+    "managing_org": "日本政策金融公庫",
+    "official_url": "https://www.jfc.go.jp/n/finance/search/05_rechallenge_m.html",
+    "max_amount": 72000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "description": "廃業歴がある方の再起業を支援する融資制度",
+    "tags": [
+      "再チャレンジ",
+      "再起業",
+      "日本政策金融公庫",
+      "廃業歴",
+      "再挑戦"
+    ]
+  },
+  {
+    "name": "強い農業づくり総合支援交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/suisin/tuyoi_nougyou/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "産地の収益力強化に必要な施設整備等を支援",
+    "tags": [
+      "農業",
+      "産地強化",
+      "施設整備",
+      "収益力",
+      "交付金"
+    ]
+  },
+  {
+    "name": "畜産クラスター事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/chikusan/kikaku/lin/l_cluster/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "畜産の収益性向上に向けた施設整備を支援",
+    "tags": [
+      "畜産",
+      "クラスター",
+      "施設整備",
+      "収益性向上",
+      "機械導入"
+    ]
+  },
+  {
+    "name": "産地生産基盤パワーアップ事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/suisin/pwup/pwup.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "農産物の生産基盤強化と高収益作物導入を支援",
+    "tags": [
+      "産地",
+      "生産基盤",
+      "高収益",
+      "作物転換",
+      "パワーアップ"
+    ]
+  },
+  {
+    "name": "経営継続補助金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/keiei/keizoku.html",
+    "max_amount": 1500000,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "農林漁業者の経営継続に向けた取組を支援",
+    "tags": [
+      "経営継続",
+      "農林漁業",
+      "販路開拓",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "新規就農者育成総合対策（経営開始資金）",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/new_farmer/",
+    "max_amount": 1500000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "創業",
+      "雇用・人材"
+    ],
+    "description": "新規就農者の経営開始直後の資金を交付",
+    "tags": [
+      "新規就農",
+      "経営開始資金",
+      "青年就農",
+      "担い手育成"
+    ]
+  },
+  {
+    "name": "新規就農者育成総合対策（就農準備資金）",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/new_farmer/",
+    "max_amount": 1500000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "創業",
+      "雇用・人材"
+    ],
+    "description": "就農に向けた研修期間中の資金を交付",
+    "tags": [
+      "就農準備",
+      "研修",
+      "新規就農",
+      "人材育成"
+    ]
+  },
+  {
+    "name": "新規就農者育成総合対策（経営発展支援事業）",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/new_farmer/",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "創業"
+    ],
+    "description": "新規就農者の機械・施設等の導入を支援",
+    "tags": [
+      "新規就農",
+      "経営発展",
+      "機械導入",
+      "施設整備"
+    ]
+  },
+  {
+    "name": "6次産業化支援事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/sanki/6jika/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "農林漁業者の加工・販売等の多角化を支援",
+    "tags": [
+      "6次産業化",
+      "加工",
+      "直売",
+      "農商工連携",
+      "多角化"
+    ]
+  },
+  {
+    "name": "食品産業の輸出向けHACCP等対応施設整備事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/export/gfp/haccp.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "海外展開"
+    ],
+    "description": "輸出に必要なHACCP対応施設の整備を支援",
+    "tags": [
+      "HACCP",
+      "輸出",
+      "食品",
+      "施設整備",
+      "衛生管理"
+    ]
+  },
+  {
+    "name": "農林水産物・食品輸出促進緊急対策事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/export/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "農林水産物・食品の輸出拡大を支援",
+    "tags": [
+      "輸出",
+      "農産物",
+      "食品",
+      "海外販路",
+      "プロモーション"
+    ]
+  },
+  {
+    "name": "GFPグローバル産地づくり推進事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/export/gfp/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "輸出向け産地形成とグローバル展開を支援",
+    "tags": [
+      "GFP",
+      "グローバル産地",
+      "輸出",
+      "農産物",
+      "産地形成"
+    ]
+  },
+  {
+    "name": "持続的生産強化対策事業（野菜）",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/ryutu/yasai/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "野菜の安定生産に向けた産地の取組を支援",
+    "tags": [
+      "野菜",
+      "安定供給",
+      "産地",
+      "持続的生産",
+      "生産強化"
+    ]
+  },
+  {
+    "name": "果樹・茶支援関連対策事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/ryutu/fruits/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "果樹・茶の生産基盤強化と改植等を支援",
+    "tags": [
+      "果樹",
+      "茶",
+      "改植",
+      "生産基盤",
+      "品種転換"
+    ]
+  },
+  {
+    "name": "水田活用の直接支払交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/suisin/mizuta.html",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "水田での戦略作物の生産を支援する交付金",
+    "tags": [
+      "水田活用",
+      "転作",
+      "戦略作物",
+      "交付金",
+      "飼料用米"
+    ]
+  },
+  {
+    "name": "畑地化促進事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/suisin/hatachika.html",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "水田の畑地化による高収益作物導入を支援",
+    "tags": [
+      "畑地化",
+      "水田転換",
+      "高収益作物",
+      "基盤整備"
+    ]
+  },
+  {
+    "name": "中山間地域等直接支払交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/nousin/tyusan/siharai_seido/",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "中山間地域の農業生産活動の継続を支援",
+    "tags": [
+      "中山間地域",
+      "条件不利地域",
+      "直接支払",
+      "耕作放棄地"
+    ]
+  },
+  {
+    "name": "多面的機能支払交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/nousin/kanri/tamen_siharai.html",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "農地等の多面的機能の維持・発揮を支援",
+    "tags": [
+      "多面的機能",
+      "農地維持",
+      "資源向上",
+      "共同活動",
+      "交付金"
+    ]
+  },
+  {
+    "name": "環境保全型農業直接支払交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/kankyo/kakyou_chokubarai/",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "有機農業等の環境保全型農業の取組を支援",
+    "tags": [
+      "環境保全",
+      "有機農業",
+      "直接支払",
+      "グリーン",
+      "減農薬"
+    ]
+  },
+  {
+    "name": "みどりの食料システム戦略推進交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/kanbo/kankyo/seisaku/midori/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "環境負荷低減と持続的な食料システム構築を支援",
+    "tags": [
+      "みどり戦略",
+      "環境負荷低減",
+      "有機",
+      "脱炭素",
+      "持続可能"
+    ]
+  },
+  {
+    "name": "農業用ハウスセーフティネット資金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/ryutu/engei/sisetsu/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "農業用ハウスの被災防止・復旧対策を支援",
+    "tags": [
+      "ハウス",
+      "園芸施設",
+      "災害対策",
+      "復旧",
+      "防災"
+    ]
+  },
+  {
+    "name": "森林・山村多面的機能発揮対策交付金",
+    "managing_org": "林野庁",
+    "official_url": "https://www.rinya.maff.go.jp/j/sanson/tamen/",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "森林の多面的機能発揮に向けた地域活動を支援",
+    "tags": [
+      "森林",
+      "山村",
+      "多面的機能",
+      "里山",
+      "林業"
+    ]
+  },
+  {
+    "name": "林業・木材産業成長産業化促進対策",
+    "managing_org": "林野庁",
+    "official_url": "https://www.rinya.maff.go.jp/j/rinsei/yosanst/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "林業・木材産業の成長産業化に向けた取組を支援",
+    "tags": [
+      "林業",
+      "木材産業",
+      "成長産業化",
+      "高性能林業機械",
+      "施設整備"
+    ]
+  },
+  {
+    "name": "合板・製材・集成材国際競争力強化対策事業",
+    "managing_org": "林野庁",
+    "official_url": "https://www.rinya.maff.go.jp/j/riyou/gohan/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "木材加工施設の整備による国際競争力強化を支援",
+    "tags": [
+      "合板",
+      "製材",
+      "集成材",
+      "木材加工",
+      "国際競争力"
+    ]
+  },
+  {
+    "name": "水産業競争力強化緊急事業（もうかる漁業）",
+    "managing_org": "水産庁",
+    "official_url": "https://www.jfa.maff.go.jp/j/bousai/moukaru.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "漁業の収益性向上に向けた実証事業を支援",
+    "tags": [
+      "水産業",
+      "漁業",
+      "収益性向上",
+      "競争力強化",
+      "もうかる漁業"
+    ]
+  },
+  {
+    "name": "浜の活力再生・成長促進交付金",
+    "managing_org": "水産庁",
+    "official_url": "https://www.jfa.maff.go.jp/j/bousai/hama.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "漁村地域の活性化と水産業の成長産業化を支援",
+    "tags": [
+      "浜プラン",
+      "漁村",
+      "水産業",
+      "活性化",
+      "漁港"
+    ]
+  },
+  {
+    "name": "水産加工業施設改良資金",
+    "managing_org": "水産庁",
+    "official_url": "https://www.jfa.maff.go.jp/j/kakou/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "水産加工施設の改良・近代化を融資で支援",
+    "tags": [
+      "水産加工",
+      "施設改良",
+      "融資",
+      "近代化"
+    ]
+  },
+  {
+    "name": "食料産業・6次産業化交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/sanki/6jika/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "食料産業の6次産業化と付加価値向上を支援",
+    "tags": [
+      "6次産業化",
+      "食料産業",
+      "付加価値",
+      "交付金",
+      "農商工連携"
+    ]
+  },
+  {
+    "name": "鳥獣被害防止総合対策交付金",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/seisan/tyozyu/higai/",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "野生鳥獣による農作物被害防止の取組を支援",
+    "tags": [
+      "鳥獣被害",
+      "有害鳥獣",
+      "防護柵",
+      "捕獲",
+      "ジビエ"
+    ]
+  },
+  {
+    "name": "農地耕作条件改善事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/nousin/noukan/nougaku/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "農地の区画拡大や排水改良等の基盤整備を支援",
+    "tags": [
+      "農地整備",
+      "基盤整備",
+      "区画拡大",
+      "排水改良",
+      "暗渠"
+    ]
+  },
+  {
+    "name": "農の雇用事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/new_farmer/nounokoyou.html",
+    "max_amount": 600000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "農業法人等が新規就業者を雇用・研修する際を支援",
+    "tags": [
+      "農の雇用",
+      "新規就業",
+      "研修",
+      "農業法人",
+      "人材育成"
+    ]
+  },
+  {
+    "name": "訪日外国人旅行者受入環境整備緊急対策事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kokusai/ukeire.html",
+    "max_amount": 35000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業",
+      "小売業",
+      "飲食業",
+      "運輸・物流"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "訪日外国人旅行者の受入環境整備を支援",
+    "tags": [
+      "インバウンド",
+      "多言語対応",
+      "観光",
+      "受入環境",
+      "Wi-Fi",
+      "免税"
+    ]
+  },
+  {
+    "name": "観光振興事業費補助金（地域一体となった観光地・観光産業の再生・高付加価値化事業）",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/page09_000001_00032.html",
+    "max_amount": 500000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "観光地の高付加価値化・再生を地域一体で支援",
+    "tags": [
+      "高付加価値化",
+      "観光地再生",
+      "宿泊施設",
+      "地域連携",
+      "リノベーション"
+    ]
+  },
+  {
+    "name": "観光コンテンツ造成支援事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kankochi/content.html",
+    "max_amount": 20000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "description": "体験型観光コンテンツの造成を支援",
+    "tags": [
+      "体験型観光",
+      "アドベンチャーツーリズム",
+      "コンテンツ造成",
+      "インバウンド"
+    ]
+  },
+  {
+    "name": "宿泊施設インバウンド対応支援事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/sangyou/inbound-taiou.html",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "宿泊施設のインバウンド対応設備を補助",
+    "tags": [
+      "宿泊施設",
+      "インバウンド",
+      "多言語",
+      "キャッシュレス",
+      "バリアフリー"
+    ]
+  },
+  {
+    "name": "地方創生推進交付金",
+    "managing_org": "内閣府（地方創生推進事務局）",
+    "official_url": "https://www.chisou.go.jp/tiiki/tiikisaisei/souseikoufukin.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "販路拡大",
+      "設備投資",
+      "雇用・人材"
+    ],
+    "description": "地方公共団体の地方創生事業を交付金で支援",
+    "tags": [
+      "地方創生",
+      "交付金",
+      "まちづくり",
+      "地域振興",
+      "自治体"
+    ]
+  },
+  {
+    "name": "地方創生拠点整備交付金",
+    "managing_org": "内閣府（地方創生推進事務局）",
+    "official_url": "https://www.chisou.go.jp/tiiki/tiikisaisei/kyoten.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "地方創生の拠点施設整備をハード面で支援",
+    "tags": [
+      "地方創生",
+      "施設整備",
+      "拠点",
+      "ハード事業",
+      "交付金"
+    ]
+  },
+  {
+    "name": "デジタル田園都市国家構想交付金",
+    "managing_org": "内閣府（地方創生推進事務局）",
+    "official_url": "https://www.chisou.go.jp/tiiki/denentoshi/koufukin.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "IT導入",
+      "設備投資"
+    ],
+    "description": "デジタル活用による地方活性化を交付金で支援",
+    "tags": [
+      "デジタル田園都市",
+      "DX",
+      "地方創生",
+      "スマートシティ",
+      "交付金"
+    ]
+  },
+  {
+    "name": "地域・まちなか商業活性化支援事業（地域商業機能複合化推進事業）",
+    "managing_org": "経済産業省（中小企業庁）",
+    "official_url": "https://www.chusho.meti.go.jp/shogyo/shogyo/index.html",
+    "max_amount": 50000000,
+    "subsidy_rate": 0.667,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "小売業",
+      "サービス業",
+      "飲食業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "商店街の商業機能複合化・活性化を支援",
+    "tags": [
+      "商店街",
+      "まちなか",
+      "商業活性化",
+      "複合化",
+      "地域振興"
+    ]
+  },
+  {
+    "name": "社会資本整備総合交付金（都市再生整備計画事業）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/toshi/city/sigaiti/toshi_urbanmainte_tk_000012.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.4,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "まちづくりに必要な都市基盤整備を包括支援",
+    "tags": [
+      "都市再生",
+      "まちづくり",
+      "社会資本整備",
+      "交付金",
+      "基盤整備"
+    ]
+  },
+  {
+    "name": "歴史的風致維持向上推進等事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/toshi/rekimachi/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業",
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "歴史的建造物・まちなみの維持向上を支援",
+    "tags": [
+      "歴史的風致",
+      "まちなみ",
+      "景観",
+      "文化財",
+      "歴まち"
+    ]
+  },
+  {
+    "name": "景観まちづくり刷新支援事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/toshi/townscape/toshi_townscape_tk_000074.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "良好な景観形成によるまちづくりを支援",
+    "tags": [
+      "景観",
+      "まちづくり",
+      "地域活性化",
+      "観光",
+      "公共空間"
+    ]
+  },
+  {
+    "name": "文化資源活用事業費補助金（文化観光拠点施設を中核とした地域における文化観光推進事業）",
+    "managing_org": "文化庁",
+    "official_url": "https://www.bunka.go.jp/seisaku/bunka_gyosei/bunkakanko/index.html",
+    "max_amount": 200000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "文化観光拠点を中核とした文化観光を推進",
+    "tags": [
+      "文化観光",
+      "博物館",
+      "文化施設",
+      "地域振興",
+      "文化庁"
+    ]
+  },
+  {
+    "name": "国際観光旅客税財源充当事業（JNTO訪日プロモーション事業）",
+    "managing_org": "日本政府観光局（JNTO）",
+    "official_url": "https://www.jnto.go.jp/projects/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "販路拡大",
+      "海外展開"
+    ],
+    "description": "訪日外国人旅行者の誘客プロモーションを支援",
+    "tags": [
+      "JNTO",
+      "訪日プロモーション",
+      "インバウンド",
+      "国際観光旅客税"
+    ]
+  },
+  {
+    "name": "広域周遊観光促進のための観光地域支援事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kankochi/kouikishuyu.html",
+    "max_amount": 50000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業",
+      "運輸・物流"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "description": "広域周遊ルートの形成・観光地域づくりを支援",
+    "tags": [
+      "広域周遊",
+      "観光ルート",
+      "DMO",
+      "地域連携",
+      "インバウンド"
+    ]
+  },
+  {
+    "name": "世界に誇る観光地を形成するためのDMO体制整備事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/page04_000155.html",
+    "max_amount": 25000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "販路拡大"
+    ],
+    "description": "観光地域づくり法人（DMO）の体制整備を支援",
+    "tags": [
+      "DMO",
+      "観光地域づくり",
+      "人材育成",
+      "マーケティング",
+      "観光庁"
+    ]
+  },
+  {
+    "name": "観光地域づくり法人（DMO）による観光地経営の推進事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kankochi/dmo.html",
+    "max_amount": 20000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "販路拡大",
+      "雇用・人材"
+    ],
+    "description": "DMOの観光地経営力向上を支援",
+    "tags": [
+      "DMO",
+      "観光地経営",
+      "データ活用",
+      "地域観光",
+      "マネジメント"
+    ]
+  },
+  {
+    "name": "サステナブルな観光に資する好循環の仕組みづくりモデル事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/page04_000252.html",
+    "max_amount": 30000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "販路拡大"
+    ],
+    "description": "持続可能な観光地づくりのモデル事業を支援",
+    "tags": [
+      "サステナブル",
+      "持続可能な観光",
+      "オーバーツーリズム",
+      "環境",
+      "好循環"
+    ]
+  },
+  {
+    "name": "オーバーツーリズムの未然防止・抑制に向けた対策事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/overtourism.html",
+    "max_amount": 50000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業",
+      "運輸・物流"
+    ],
+    "purposes": [
+      "設備投資",
+      "IT導入"
+    ],
+    "description": "オーバーツーリズム対策の取組を支援",
+    "tags": [
+      "オーバーツーリズム",
+      "混雑緩和",
+      "観光マナー",
+      "分散化",
+      "観光庁"
+    ]
+  },
+  {
+    "name": "特定有人国境離島地域社会維持推進交付金",
+    "managing_org": "内閣府",
+    "official_url": "https://www.cas.go.jp/jp/seisaku/kokkyouritou/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "創業",
+      "雇用・人材",
+      "販路拡大"
+    ],
+    "description": "有人国境離島の雇用・創業・航路維持を支援",
+    "tags": [
+      "離島",
+      "国境離島",
+      "雇用",
+      "創業",
+      "航路維持",
+      "地域振興"
+    ]
+  },
+  {
+    "name": "過疎地域持続的発展支援交付金",
+    "managing_org": "総務省",
+    "official_url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/2001/kaso/kasomain0.htm",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "雇用・人材"
+    ],
+    "description": "過疎地域の持続的発展に向けた取組を支援",
+    "tags": [
+      "過疎",
+      "地域振興",
+      "定住促進",
+      "交付金",
+      "総務省"
+    ]
+  },
+  {
+    "name": "地域おこし協力隊推進事業",
+    "managing_org": "総務省",
+    "official_url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/02gyosei08_03000066.html",
+    "max_amount": 4800000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "創業"
+    ],
+    "description": "都市部から地方への移住・地域活動を支援",
+    "tags": [
+      "地域おこし協力隊",
+      "移住",
+      "定住",
+      "地方創生",
+      "人材",
+      "総務省"
+    ]
+  },
+  {
+    "name": "国宝重要文化財等保存・活用事業費補助金",
+    "managing_org": "文化庁",
+    "official_url": "https://www.bunka.go.jp/seisaku/bunkazai/hogofukyu/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "国宝・重要文化財の保存修理・活用を補助",
+    "tags": [
+      "文化財",
+      "国宝",
+      "重要文化財",
+      "保存修理",
+      "文化庁",
+      "観光"
+    ]
+  },
+  {
+    "name": "日本遺産活性化事業",
+    "managing_org": "文化庁",
+    "official_url": "https://www.bunka.go.jp/seisaku/bunkazai/nihon_isan/index.html",
+    "max_amount": 20000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "description": "日本遺産を活用した地域活性化を支援",
+    "tags": [
+      "日本遺産",
+      "文化財",
+      "ストーリー",
+      "地域活性化",
+      "文化庁"
+    ]
+  },
+  {
+    "name": "城泊・寺泊による歴史的資源の活用事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kankochi/castlestay.html",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大"
+    ],
+    "description": "城や寺社等を宿泊活用する事業を支援",
+    "tags": [
+      "城泊",
+      "寺泊",
+      "歴史的資源",
+      "ユニークべニュー",
+      "体験型宿泊"
+    ]
+  },
+  {
+    "name": "ナイトタイムエコノミー推進事業",
+    "managing_org": "観光庁",
+    "official_url": "https://www.mlit.go.jp/kankocho/shisaku/kankochi/nighttime.html",
+    "max_amount": 20000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "観光・宿泊",
+      "サービス業",
+      "飲食業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "description": "夜間の観光コンテンツ造成・消費拡大を支援",
+    "tags": [
+      "ナイトタイム",
+      "夜間観光",
+      "コンテンツ",
+      "消費拡大",
+      "インバウンド"
+    ]
+  },
+  {
+    "name": "地域医療介護総合確保基金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000060713.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "雇用・人材"
+    ],
+    "description": "地域の医療・介護提供体制の整備を支援",
+    "tags": [
+      "地域医療",
+      "介護",
+      "基金",
+      "施設整備",
+      "人材確保"
+    ]
+  },
+  {
+    "name": "介護職員処遇改善加算",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000202748.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "介護職員の賃金改善を図る加算制度",
+    "tags": [
+      "介護",
+      "処遇改善",
+      "賃金",
+      "人材確保",
+      "加算"
+    ]
+  },
+  {
+    "name": "医療施設等施設整備費補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/iryou_sisetu.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "医療施設の新設・改修等の整備を補助",
+    "tags": [
+      "医療施設",
+      "施設整備",
+      "病院",
+      "診療所",
+      "設備"
+    ]
+  },
+  {
+    "name": "子ども・子育て支援交付金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/kokoseido/koufukin/",
+    "max_amount": 0,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉",
+      "サービス業"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "設備投資"
+    ],
+    "description": "地域の子育て支援事業の実施を交付金で支援",
+    "tags": [
+      "子育て",
+      "交付金",
+      "地域子育て",
+      "放課後児童",
+      "こども"
+    ]
+  },
+  {
+    "name": "保育所等整備交付金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/hoiku/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "保育所等の新設・改修等の施設整備を支援",
+    "tags": [
+      "保育所",
+      "施設整備",
+      "待機児童",
+      "認可保育",
+      "子育て"
+    ]
+  },
+  {
+    "name": "企業主導型保育事業費補助金",
+    "managing_org": "こども家庭庁（児童育成協会）",
+    "official_url": "https://www.kigyounaihoiku.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "雇用・人材"
+    ],
+    "description": "企業が設置する保育施設の整備・運営を補助",
+    "tags": [
+      "企業主導型保育",
+      "事業所内保育",
+      "子育て",
+      "従業員",
+      "福利厚生"
+    ]
+  },
+  {
+    "name": "介護ロボット導入支援事業",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000209634.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "IT導入"
+    ],
+    "description": "介護施設への介護ロボット導入費用を補助",
+    "tags": [
+      "介護ロボット",
+      "ICT",
+      "介護施設",
+      "省力化",
+      "テクノロジー"
+    ]
+  },
+  {
+    "name": "ICT導入支援事業（介護分野）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000209634.html",
+    "max_amount": 2600000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "IT導入",
+      "設備投資"
+    ],
+    "description": "介護事業所のICT化を支援する補助事業",
+    "tags": [
+      "介護ICT",
+      "記録システム",
+      "業務効率化",
+      "介護ソフト",
+      "デジタル化"
+    ]
+  },
+  {
+    "name": "医療機関等物価高騰対策支援補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "物価高騰に直面する医療機関等を支援",
+    "tags": [
+      "物価高騰",
+      "医療機関",
+      "光熱費",
+      "経営支援",
+      "緊急対策"
+    ]
+  },
+  {
+    "name": "出産・子育て応援交付金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/shussan-kosodate/",
+    "max_amount": 100000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "妊娠届出・出生届出時に経済的支援を給付",
+    "tags": [
+      "出産",
+      "子育て",
+      "伴走型支援",
+      "妊婦",
+      "経済的支援"
+    ]
+  },
+  {
+    "name": "障害者総合支援事業費補助金（施設整備）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/shougaishahukushi/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "障害福祉サービス事業所の施設整備を補助",
+    "tags": [
+      "障害福祉",
+      "施設整備",
+      "グループホーム",
+      "就労支援",
+      "障害者"
+    ]
+  },
+  {
+    "name": "社会福祉施設等施設整備費補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/shakaifukushi-shisetsu/",
+    "max_amount": 0,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "社会福祉施設の創設・改修等を補助",
+    "tags": [
+      "社会福祉施設",
+      "施設整備",
+      "特養",
+      "老人ホーム",
+      "福祉"
+    ]
+  },
+  {
+    "name": "医療提供体制施設整備交付金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/iryou_sisetu.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "救急・周産期等の医療提供体制整備を交付",
+    "tags": [
+      "医療提供体制",
+      "救急医療",
+      "周産期",
+      "施設整備",
+      "交付金"
+    ]
+  },
+  {
+    "name": "次世代育成支援対策施設整備交付金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/hoiku/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "児童福祉施設等の整備費用を交付金で支援",
+    "tags": [
+      "次世代育成",
+      "児童福祉施設",
+      "乳児院",
+      "児童養護",
+      "施設整備"
+    ]
+  },
+  {
+    "name": "放課後児童クラブ運営費等補助金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/houkago/",
+    "max_amount": 0,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "医療・福祉",
+      "サービス業"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "設備投資"
+    ],
+    "description": "放課後児童クラブの運営費等を補助",
+    "tags": [
+      "放課後児童クラブ",
+      "学童保育",
+      "子育て",
+      "運営費",
+      "放課後"
+    ]
+  },
+  {
+    "name": "保育士等処遇改善臨時特例事業",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/hoiku/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "保育士等の賃金引上げのための処遇改善支援",
+    "tags": [
+      "保育士",
+      "処遇改善",
+      "賃金",
+      "人材確保",
+      "保育"
+    ]
+  },
+  {
+    "name": "介護基盤緊急整備等臨時特例交付金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "特養等の介護施設の緊急整備を支援",
+    "tags": [
+      "介護施設",
+      "緊急整備",
+      "特別養護老人ホーム",
+      "地域密着型",
+      "交付金"
+    ]
+  },
+  {
+    "name": "勤務医の働き方改革推進事業",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/ishi-hatarakikata_reform.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "働き方改革",
+      "雇用・人材"
+    ],
+    "description": "勤務医の労働時間短縮に向けた取組を支援",
+    "tags": [
+      "勤務医",
+      "働き方改革",
+      "医師",
+      "労働時間短縮",
+      "病院"
+    ]
+  },
+  {
+    "name": "看護職員確保対策事業費補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000095525.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "看護職員の確保・定着・復職支援を補助",
+    "tags": [
+      "看護師",
+      "人材確保",
+      "復職支援",
+      "ナースセンター",
+      "看護職員"
+    ]
+  },
+  {
+    "name": "介護人材確保・介護従事者処遇改善事業費補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000207961.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "介護人材の確保と処遇改善を総合的に支援",
+    "tags": [
+      "介護人材",
+      "処遇改善",
+      "人材確保",
+      "研修",
+      "介護従事者"
+    ]
+  },
+  {
+    "name": "福祉・介護職員処遇改善臨時特例交付金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000202748.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "福祉・介護職員の賃上げを交付金で支援",
+    "tags": [
+      "福祉職員",
+      "介護職員",
+      "賃上げ",
+      "処遇改善",
+      "交付金"
+    ]
+  },
+  {
+    "name": "新型コロナウイルス感染症緊急包括支援交付金（医療分）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00296.html",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "雇用・人材"
+    ],
+    "description": "感染症対応の医療機関等を包括的に支援",
+    "tags": [
+      "コロナ",
+      "感染症",
+      "医療機関",
+      "緊急支援",
+      "包括支援"
+    ]
+  },
+  {
+    "name": "病床機能再編支援事業",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000080850.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "病床の機能分化・連携を推進する再編を支援",
+    "tags": [
+      "病床機能",
+      "再編",
+      "地域医療構想",
+      "病院",
+      "機能分化"
+    ]
+  },
+  {
+    "name": "児童虐待・DV対策等総合支援事業費補助金",
+    "managing_org": "こども家庭庁",
+    "official_url": "https://www.cfa.go.jp/policies/jidougyakutai/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "児童虐待防止やDV対策の体制整備を補助",
+    "tags": [
+      "児童虐待",
+      "DV",
+      "こども",
+      "相談体制",
+      "防止対策"
+    ]
+  },
+  {
+    "name": "WAM助成（社会福祉振興助成事業）",
+    "managing_org": "独立行政法人福祉医療機構（WAM）",
+    "official_url": "https://www.wam.go.jp/hp/cat/wamjosei/",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "医療・福祉"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "設備投資"
+    ],
+    "description": "社会福祉活動を行うNPO等の事業を助成",
+    "tags": [
+      "WAM",
+      "社会福祉",
+      "NPO",
+      "助成",
+      "地域福祉",
+      "福祉医療機構"
+    ]
+  },
+  {
+    "name": "地域脱炭素移行・再エネ推進交付金",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/policy/local_gov/funds/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "地域の脱炭素化と再エネ導入を支援する交付金",
+    "tags": [
+      "脱炭素",
+      "再生可能エネルギー",
+      "地域脱炭素",
+      "交付金",
+      "環境省"
+    ]
+  },
+  {
+    "name": "民間企業等による再エネ主力化・レジリエンス強化促進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/earth/ondanka/biz_local.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "自家消費型太陽光や蓄電池等の導入支援",
+    "tags": [
+      "太陽光",
+      "蓄電池",
+      "自家消費",
+      "レジリエンス",
+      "再エネ"
+    ]
+  },
+  {
+    "name": "工場・事業場における先導的な脱炭素化取組推進事業（SHIFT事業）",
+    "managing_org": "環境省",
+    "official_url": "https://shift.env.go.jp/",
+    "max_amount": 100000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "工場・事業場のCO2削減計画策定と設備導入支援",
+    "tags": [
+      "SHIFT",
+      "脱炭素",
+      "CO2削減",
+      "工場",
+      "省エネ"
+    ]
+  },
+  {
+    "name": "建築物等の脱炭素化・レジリエンス強化促進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/earth/ondanka/building_decarbonization.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "既存建築物の省エネ改修・再エネ導入を支援",
+    "tags": [
+      "建築物",
+      "省エネ改修",
+      "ZEB",
+      "脱炭素",
+      "レジリエンス"
+    ]
+  },
+  {
+    "name": "グリーンイノベーション基金事業",
+    "managing_org": "NEDO（経済産業省）",
+    "official_url": "https://green-innovation.nedo.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "研究開発",
+      "省エネ・環境"
+    ],
+    "description": "2兆円基金による脱炭素技術の研究開発支援",
+    "tags": [
+      "グリーンイノベーション",
+      "NEDO",
+      "研究開発",
+      "脱炭素",
+      "GI基金"
+    ]
+  },
+  {
+    "name": "クリーンエネルギー自動車導入促進補助金（CEV補助金）",
+    "managing_org": "経済産業省（次世代自動車振興センター）",
+    "official_url": "https://www.cev-pc.or.jp/",
+    "max_amount": 850000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "EV・PHV・FCV等の購入費用を補助",
+    "tags": [
+      "CEV",
+      "電気自動車",
+      "EV",
+      "クリーンエネルギー",
+      "次世代自動車"
+    ]
+  },
+  {
+    "name": "充電インフラ補助金（充電設備等導入促進補助金）",
+    "managing_org": "経済産業省（次世代自動車振興センター）",
+    "official_url": "https://www.cev-pc.or.jp/hojo/infrastructure.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "EV用充電設備の設置費用を補助",
+    "tags": [
+      "充電インフラ",
+      "EV充電",
+      "充電設備",
+      "電気自動車"
+    ]
+  },
+  {
+    "name": "省エネルギー投資促進に向けた支援補助金（省エネ補助金）",
+    "managing_org": "経済産業省（SII）",
+    "official_url": "https://sii.or.jp/",
+    "max_amount": 1500000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "省エネルギー性能の高い設備への更新を支援",
+    "tags": [
+      "省エネ",
+      "設備更新",
+      "SII",
+      "エネルギー効率"
+    ]
+  },
+  {
+    "name": "需要家主導による太陽光発電導入促進補助金",
+    "managing_org": "経済産業省（JPEA）",
+    "official_url": "https://demand-side-pv.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "PPA等による太陽光発電の導入を支援",
+    "tags": [
+      "太陽光発電",
+      "PPA",
+      "需要家主導",
+      "再エネ",
+      "自家消費"
+    ]
+  },
+  {
+    "name": "脱炭素社会の構築に向けたESGリース促進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.esg-lease.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0.04,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "低炭素機器のリース料を総額の最大4%補助",
+    "tags": [
+      "ESGリース",
+      "脱炭素",
+      "リース",
+      "中小企業",
+      "低炭素機器"
+    ]
+  },
+  {
+    "name": "グリーンボンド等促進体制整備支援事業",
+    "managing_org": "環境省",
+    "official_url": "https://greenbondplatform.env.go.jp/",
+    "max_amount": 50000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "グリーンボンド発行の外部レビュー費用等を支援",
+    "tags": [
+      "グリーンボンド",
+      "ESG",
+      "サステナブルファイナンス",
+      "環境省"
+    ]
+  },
+  {
+    "name": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設の脱炭素化）",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/recycle/waste/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "サービス業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "廃棄物処理施設への高効率設備導入を支援",
+    "tags": [
+      "CO2削減",
+      "廃棄物処理",
+      "脱炭素",
+      "設備導入"
+    ]
+  },
+  {
+    "name": "住宅省エネ2024キャンペーン（子育てエコホーム支援事業）",
+    "managing_org": "国土交通省",
+    "official_url": "https://kosodate-ecohome.mlit.go.jp/",
+    "max_amount": 1000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "高い省エネ性能を有する住宅の新築・改修を支援",
+    "tags": [
+      "住宅省エネ",
+      "ZEH",
+      "エコホーム",
+      "断熱",
+      "子育て"
+    ]
+  },
+  {
+    "name": "先進的窓リノベ事業",
+    "managing_org": "環境省",
+    "official_url": "https://window-renovation2024.env.go.jp/",
+    "max_amount": 2000000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "高断熱窓への改修費用を補助",
+    "tags": [
+      "窓リノベ",
+      "断熱窓",
+      "リフォーム",
+      "省エネ"
+    ]
+  },
+  {
+    "name": "給湯省エネ事業（高効率給湯器導入促進による家庭部門の省エネルギー推進事業費補助金）",
+    "managing_org": "経済産業省",
+    "official_url": "https://kyutou-shoene2024.meti.go.jp/",
+    "max_amount": 200000,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "建設業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "エコキュート等高効率給湯器の導入を補助",
+    "tags": [
+      "給湯省エネ",
+      "エコキュート",
+      "ヒートポンプ",
+      "省エネ"
+    ]
+  },
+  {
+    "name": "脱炭素化事業支援情報プラットフォーム（エネ特会）における地域脱炭素実現に向けた重点対策加速化事業",
+    "managing_org": "環境省",
+    "official_url": "https://policies.env.go.jp/policy/roadmap/",
+    "max_amount": 0,
+    "subsidy_rate": 0.66,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "地域の重点脱炭素対策を集中的に支援",
+    "tags": [
+      "重点対策",
+      "地域脱炭素",
+      "加速化",
+      "交付金"
+    ]
+  },
+  {
+    "name": "J-クレジット制度推進のための支援事業",
+    "managing_org": "経済産業省・環境省・農林水産省",
+    "official_url": "https://japancredit.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "J-クレジット創出プロジェクトの登録等を支援",
+    "tags": [
+      "J-クレジット",
+      "カーボンクレジット",
+      "排出削減",
+      "カーボンオフセット"
+    ]
+  },
+  {
+    "name": "サプライチェーン全体の脱炭素化推進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/earth/ondanka/supply_chain.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "サプライチェーン排出量の算定・削減を支援",
+    "tags": [
+      "サプライチェーン",
+      "Scope3",
+      "脱炭素",
+      "排出量算定"
+    ]
+  },
+  {
+    "name": "地域レジリエンス・脱炭素化を同時実現する公共施設への自立・分散型エネルギー設備等導入推進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/ondanka/biz_local/06a_01.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.66,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "公共施設への再エネ・蓄電池等の導入を支援",
+    "tags": [
+      "公共施設",
+      "レジリエンス",
+      "分散型エネルギー",
+      "蓄電池",
+      "再エネ"
+    ]
+  },
+  {
+    "name": "脱フロン・低炭素社会の早期実現のための省エネ型自然冷媒機器導入加速化事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/ozone/hfc.html",
+    "max_amount": 50000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "小売業",
+      "飲食業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "自然冷媒を用いた冷凍冷蔵機器の導入を支援",
+    "tags": [
+      "脱フロン",
+      "自然冷媒",
+      "冷凍冷蔵",
+      "省エネ",
+      "HFC"
+    ]
+  },
+  {
+    "name": "バイオマス産業都市推進事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/biomass/b_sangyo.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "農業",
+      "製造業"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "バイオマスの活用による産業化を支援",
+    "tags": [
+      "バイオマス",
+      "バイオエネルギー",
+      "再生可能エネルギー",
+      "農林水産省"
+    ]
+  },
+  {
+    "name": "再生可能エネルギー電気・熱自立的普及促進事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/ondanka/biz_local.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "設備投資"
+    ],
+    "description": "再エネの電気・熱の自立的な普及を促進",
+    "tags": [
+      "再エネ",
+      "熱利用",
+      "地中熱",
+      "バイオマス熱",
+      "自立的普及"
+    ]
+  },
+  {
+    "name": "蓄電池等の分散型エネルギーリソースを活用した次世代技術構築実証事業",
+    "managing_org": "経済産業省（SII）",
+    "official_url": "https://sii.or.jp/DER/",
+    "max_amount": 0,
+    "subsidy_rate": 0.66,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境",
+      "研究開発",
+      "設備投資"
+    ],
+    "description": "蓄電池等の分散型エネルギー活用実証を支援",
+    "tags": [
+      "蓄電池",
+      "DER",
+      "VPP",
+      "分散型エネルギー",
+      "実証事業"
+    ]
+  },
+  {
+    "name": "中小企業等に対するエネルギー利用最適化推進事業（省エネ診断）",
+    "managing_org": "経済産業省（省エネルギーセンター）",
+    "official_url": "https://www.shindan-net.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "中小企業への無料省エネ診断を実施",
+    "tags": [
+      "省エネ診断",
+      "エネルギー最適化",
+      "中小企業",
+      "無料診断"
+    ]
+  },
+  {
+    "name": "TCFD等に基づく気候変動リスク・機会の評価等に関する支援事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/policy/j-tcfd/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "TCFD提言に沿った情報開示体制構築を支援",
+    "tags": [
+      "TCFD",
+      "気候変動",
+      "情報開示",
+      "リスク評価",
+      "ESG"
+    ]
+  },
+  {
+    "name": "海外ビジネス戦略推進支援事業（JAPANブランド育成支援等事業）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/shogyo/chiiki/japan_brand/index.html",
+    "max_amount": 5000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "中小企業の海外展開・ブランド確立を支援",
+    "tags": [
+      "JAPANブランド",
+      "海外展開",
+      "輸出",
+      "ブランディング",
+      "販路開拓"
+    ]
+  },
+  {
+    "name": "JETRO海外市場開拓支援事業（新輸出大国コンソーシアム）",
+    "managing_org": "日本貿易振興機構（JETRO）",
+    "official_url": "https://www.jetro.go.jp/services/shinshutsu_support/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "専門家伴走による中小企業の海外展開支援",
+    "tags": [
+      "JETRO",
+      "新輸出大国",
+      "海外進出",
+      "輸出支援",
+      "伴走支援"
+    ]
+  },
+  {
+    "name": "中小企業海外展開現地支援プラットフォーム事業",
+    "managing_org": "中小企業庁・JETRO",
+    "official_url": "https://www.jetro.go.jp/services/platform/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開"
+    ],
+    "description": "海外現地での中小企業の課題解決を支援",
+    "tags": [
+      "海外現地支援",
+      "JETRO",
+      "プラットフォーム",
+      "現地法人",
+      "海外進出"
+    ]
+  },
+  {
+    "name": "スタンドアップ事業（中小企業生産性革命推進事業・海外展開類型）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/sapoin/index.html",
+    "max_amount": 30000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大",
+      "設備投資"
+    ],
+    "description": "海外展開に必要な設備・販路開拓を補助",
+    "tags": [
+      "生産性革命",
+      "海外展開",
+      "設備投資",
+      "販路拡大"
+    ]
+  },
+  {
+    "name": "JICA中小企業・SDGsビジネス支援事業",
+    "managing_org": "国際協力機構（JICA）",
+    "official_url": "https://www.jica.go.jp/priv_partner/activities/sme/index.html",
+    "max_amount": 50000000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "研究開発"
+    ],
+    "description": "途上国での中小企業のビジネス展開を支援",
+    "tags": [
+      "JICA",
+      "途上国",
+      "SDGs",
+      "海外ビジネス",
+      "ODA",
+      "開発途上国"
+    ]
+  },
+  {
+    "name": "海外サプライチェーン多元化等支援事業",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/economy/total_produce/supplychain/index.html",
+    "max_amount": 5000000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "設備投資"
+    ],
+    "description": "海外サプライチェーンの多元化・強靱化を支援",
+    "tags": [
+      "サプライチェーン",
+      "多元化",
+      "ASEAN",
+      "製造拠点",
+      "海外投資"
+    ]
+  },
+  {
+    "name": "農林水産物・食品輸出促進対策事業（輸出プロモーション）",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/export/gfp/",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "農林水産物・食品の輸出プロモーションを支援",
+    "tags": [
+      "農林水産物",
+      "食品輸出",
+      "プロモーション",
+      "輸出促進"
+    ]
+  },
+  {
+    "name": "輸出環境整備推進事業",
+    "managing_org": "農林水産省",
+    "official_url": "https://www.maff.go.jp/j/shokusan/export/",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "農業"
+    ],
+    "purposes": [
+      "海外展開"
+    ],
+    "description": "食品輸出のための規制対応・環境整備を支援",
+    "tags": [
+      "輸出環境",
+      "規制対応",
+      "食品輸出",
+      "農産物"
+    ]
+  },
+  {
+    "name": "中小企業等貿易保険（EI保険）",
+    "managing_org": "日本貿易保険（NEXI）",
+    "official_url": "https://www.nexi.go.jp/products/sme/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開"
+    ],
+    "description": "中小企業の輸出リスクをカバーする貿易保険",
+    "tags": [
+      "貿易保険",
+      "NEXI",
+      "輸出リスク",
+      "信用リスク",
+      "中小企業"
+    ]
+  },
+  {
+    "name": "海外需要開拓支援機構（クールジャパン機構）出資事業",
+    "managing_org": "経済産業省・海外需要開拓支援機構",
+    "official_url": "https://www.cj-fund.co.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "クールジャパン関連の海外展開にリスクマネー供給",
+    "tags": [
+      "クールジャパン",
+      "海外需要",
+      "出資",
+      "コンテンツ",
+      "文化輸出"
+    ]
+  },
+  {
+    "name": "JETRO海外見本市出展支援事業",
+    "managing_org": "日本貿易振興機構（JETRO）",
+    "official_url": "https://www.jetro.go.jp/events/tradefair/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "海外見本市へのジャパンパビリオン出展支援",
+    "tags": [
+      "見本市",
+      "展示会",
+      "JETRO",
+      "海外出展",
+      "販路開拓"
+    ]
+  },
+  {
+    "name": "中小企業国際化支援事業費補助金（海外バイヤー招へい商談会）",
+    "managing_org": "中小企業基盤整備機構",
+    "official_url": "https://www.smrj.go.jp/sme/overseas/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "海外バイヤーとの商談機会を提供し輸出を促進",
+    "tags": [
+      "商談会",
+      "バイヤー",
+      "輸出促進",
+      "中小機構",
+      "マッチング"
+    ]
+  },
+  {
+    "name": "日本食品海外プロモーションセンター（JFOODO）事業",
+    "managing_org": "農林水産省・JETRO",
+    "official_url": "https://www.jetro.go.jp/jfoodo/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "農業",
+      "飲食業"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "日本産食品の海外プロモーションを戦略的に実施",
+    "tags": [
+      "JFOODO",
+      "食品輸出",
+      "プロモーション",
+      "日本食",
+      "海外市場"
+    ]
+  },
+  {
+    "name": "スタートアップの海外展開支援事業（J-StarX）",
+    "managing_org": "経済産業省・JETRO",
+    "official_url": "https://www.jetro.go.jp/j-starx/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "創業"
+    ],
+    "description": "スタートアップの海外市場進出を総合支援",
+    "tags": [
+      "J-StarX",
+      "スタートアップ",
+      "海外進出",
+      "グローバル",
+      "JETRO"
+    ]
+  },
+  {
+    "name": "経済産業省 国際化促進インターンシップ事業",
+    "managing_org": "経済産業省・JETRO",
+    "official_url": "https://www.jetro.go.jp/services/intern/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "雇用・人材"
+    ],
+    "description": "外国人材インターンシップで企業の国際化を促進",
+    "tags": [
+      "インターンシップ",
+      "国際化",
+      "外国人材",
+      "グローバル人材"
+    ]
+  },
+  {
+    "name": "戦略的基盤技術高度化支援事業（海外展開型）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/sapoin/",
+    "max_amount": 30000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "研究開発",
+      "海外展開"
+    ],
+    "description": "ものづくり基盤技術を活かした海外展開を支援",
+    "tags": [
+      "サポイン",
+      "基盤技術",
+      "研究開発",
+      "海外展開",
+      "製造業"
+    ]
+  },
+  {
+    "name": "中堅・中小企業輸出ビジネスモデル調査支援事業",
+    "managing_org": "日本貿易振興機構（JETRO）",
+    "official_url": "https://www.jetro.go.jp/services/export_business_model/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "輸出ビジネスモデル構築のための調査を支援",
+    "tags": [
+      "輸出",
+      "ビジネスモデル",
+      "調査",
+      "JETRO",
+      "市場調査"
+    ]
+  },
+  {
+    "name": "東京都海外販路開拓支援事業",
+    "managing_org": "東京都産業労働局",
+    "official_url": "https://www.tokyo-kosha.or.jp/support/shien/kaigai/",
+    "max_amount": 3000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "販路拡大"
+    ],
+    "description": "都内中小企業の海外販路開拓費用を補助",
+    "tags": [
+      "東京都",
+      "海外販路",
+      "中小企業",
+      "展示会出展",
+      "輸出"
+    ]
+  },
+  {
+    "name": "大阪府海外ビジネス支援事業（IBPC大阪）",
+    "managing_org": "大阪府・大阪産業局",
+    "official_url": "https://www.ibpcosaka.or.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開"
+    ],
+    "description": "大阪の中小企業の海外ビジネスを総合支援",
+    "tags": [
+      "大阪府",
+      "IBPC",
+      "海外ビジネス",
+      "貿易相談",
+      "海外進出"
+    ]
+  },
+  {
+    "name": "国際経済連携推進事業費補助金（EPA活用支援事業）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/trade_policy/epa/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開"
+    ],
+    "description": "EPA・FTA活用による関税削減・輸出促進を支援",
+    "tags": [
+      "EPA",
+      "FTA",
+      "関税",
+      "経済連携",
+      "貿易",
+      "原産地証明"
+    ]
+  },
+  {
+    "name": "長期優良住宅化リフォーム推進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.kenken.go.jp/chouki_r/",
+    "max_amount": 2500000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境"
+    ],
+    "description": "既存住宅の長寿命化・省エネリフォームを支援",
+    "tags": [
+      "リフォーム",
+      "長期優良住宅",
+      "省エネ",
+      "住宅改修",
+      "耐震"
+    ]
+  },
+  {
+    "name": "地域型住宅グリーン化事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://chiiki-grn.jp/",
+    "max_amount": 1500000,
+    "subsidy_rate": 0.1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境"
+    ],
+    "description": "地域の中小工務店による省エネ住宅建設を支援",
+    "tags": [
+      "木造住宅",
+      "省エネ",
+      "ZEH",
+      "地域工務店",
+      "グリーン化"
+    ]
+  },
+  {
+    "name": "サステナブル建築物等先導事業（省CO2先導型）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000153.html",
+    "max_amount": 500000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境",
+      "研究開発"
+    ],
+    "description": "省CO2に優れた先導的建築プロジェクトを支援",
+    "tags": [
+      "省CO2",
+      "先導事業",
+      "建築物",
+      "サステナブル",
+      "脱炭素"
+    ]
+  },
+  {
+    "name": "住宅・建築物安全ストック形成事業（耐震改修）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_fr_000043.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.23,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "住宅・建築物の耐震診断・改修費用を補助",
+    "tags": [
+      "耐震",
+      "改修",
+      "安全",
+      "既存建築物",
+      "耐震診断"
+    ]
+  },
+  {
+    "name": "建築物省エネルギー性能表示制度（BELS）普及推進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000153.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "省エネ・環境"
+    ],
+    "description": "建築物の省エネ性能表示の普及を推進",
+    "tags": [
+      "BELS",
+      "省エネ",
+      "建築物",
+      "性能表示",
+      "評価"
+    ]
+  },
+  {
+    "name": "次世代住宅プロジェクト（LCCM住宅整備推進事業）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000153.html",
+    "max_amount": 1400000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境"
+    ],
+    "description": "ライフサイクルCO2マイナス住宅の整備を支援",
+    "tags": [
+      "LCCM",
+      "住宅",
+      "脱炭素",
+      "ZEH",
+      "省エネ"
+    ]
+  },
+  {
+    "name": "マンション長寿命化促進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk5_000103.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "老朽マンションの長寿命化改修工事を支援",
+    "tags": [
+      "マンション",
+      "長寿命化",
+      "大規模修繕",
+      "改修",
+      "管理組合"
+    ]
+  },
+  {
+    "name": "住宅確保要配慮者専用賃貸住宅改修事業（セーフティネット住宅）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000055.html",
+    "max_amount": 500000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "住宅確保要配慮者向け賃貸住宅の改修を支援",
+    "tags": [
+      "セーフティネット",
+      "賃貸住宅",
+      "改修",
+      "要配慮者",
+      "バリアフリー"
+    ]
+  },
+  {
+    "name": "既存住宅における断熱リフォーム支援事業",
+    "managing_org": "環境省",
+    "official_url": "https://www.env.go.jp/earth/earth/ondanka/building_insulation/index.html",
+    "max_amount": 1200000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境"
+    ],
+    "description": "既存住宅の高性能断熱材等の導入を支援",
+    "tags": [
+      "断熱",
+      "リフォーム",
+      "省エネ",
+      "窓",
+      "住宅改修"
+    ]
+  },
+  {
+    "name": "空き家対策総合支援事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000035.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "空き家の除却・活用・改修等を総合的に支援",
+    "tags": [
+      "空き家",
+      "除却",
+      "活用",
+      "改修",
+      "地方自治体"
+    ]
+  },
+  {
+    "name": "建設キャリアアップシステム普及促進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/totikensangyo/const/totikensangyo_const_tk2_000118.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "IT導入"
+    ],
+    "description": "建設技能者のキャリアアップシステム導入を支援",
+    "tags": [
+      "CCUS",
+      "建設キャリアアップ",
+      "技能者",
+      "建設業",
+      "人材"
+    ]
+  },
+  {
+    "name": "優良住宅取得支援制度（フラット35S）",
+    "managing_org": "住宅金融支援機構",
+    "official_url": "https://www.flat35.com/loan/flat35s/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "省エネ・耐震等に優れた住宅取得の金利優遇",
+    "tags": [
+      "フラット35",
+      "住宅ローン",
+      "金利優遇",
+      "省エネ",
+      "耐震"
+    ]
+  },
+  {
+    "name": "住宅市場を活用した空き家対策モデル事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000035.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "空き家の流通・活用モデル事業を支援",
+    "tags": [
+      "空き家",
+      "流通",
+      "不動産",
+      "住宅市場",
+      "モデル事業"
+    ]
+  },
+  {
+    "name": "建設業働き方改革加速化プログラム関連支援事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/totikensangyo/const/totikensangyo_const_tk1_000077.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "働き方改革",
+      "雇用・人材"
+    ],
+    "description": "建設業の長時間労働是正・生産性向上を支援",
+    "tags": [
+      "働き方改革",
+      "建設業",
+      "生産性向上",
+      "ICT",
+      "週休二日"
+    ]
+  },
+  {
+    "name": "サステナブル建築物等先導事業（木造先導型）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000153.html",
+    "max_amount": 500000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ・環境",
+      "研究開発"
+    ],
+    "description": "先導的な木造建築物の整備プロジェクトを支援",
+    "tags": [
+      "木造",
+      "先導事業",
+      "建築物",
+      "CLT",
+      "木材利用"
+    ]
+  },
+  {
+    "name": "スマートウェルネス住宅等推進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000055.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "高齢者等向け健康・快適住宅の整備を支援",
+    "tags": [
+      "スマートウェルネス",
+      "高齢者住宅",
+      "バリアフリー",
+      "サ高住",
+      "健康"
+    ]
+  },
+  {
+    "name": "子育て支援型共同住宅推進事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/content/001737291.pdf",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "子育て世帯向け共同住宅の安全対策を支援",
+    "tags": [
+      "子育て",
+      "共同住宅",
+      "安全対策",
+      "転落防止",
+      "マンション"
+    ]
+  },
+  {
+    "name": "防災・安全交付金（住宅・建築物安全ストック形成事業）",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_fr_000043.html",
+    "max_amount": 0,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "住宅・建築物の耐震化・アスベスト対策を支援",
+    "tags": [
+      "防災",
+      "耐震化",
+      "アスベスト",
+      "安全",
+      "ストック"
+    ]
+  },
+  {
+    "name": "i-Construction推進事業費補助金",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/tec/tec_tk_000073.html",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "IT導入",
+      "設備投資"
+    ],
+    "description": "建設現場のICT活用・生産性向上を支援",
+    "tags": [
+      "i-Construction",
+      "ICT",
+      "建設DX",
+      "BIM",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "サービス付き高齢者向け住宅整備事業",
+    "managing_org": "国土交通省",
+    "official_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000055.html",
+    "max_amount": 1200000,
+    "subsidy_rate": 0.1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "建設業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "description": "サービス付き高齢者向け住宅の整備費を補助",
+    "tags": [
+      "サ高住",
+      "高齢者住宅",
+      "バリアフリー",
+      "整備",
+      "介護"
+    ]
+  },
+  {
+    "name": "トライアル雇用助成金（一般トライアルコース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/trial_koyou.html",
+    "max_amount": 120000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "未経験者等を試行雇用する事業主への助成",
+    "tags": [
+      "トライアル雇用",
+      "就職困難者",
+      "月額助成"
+    ]
+  },
+  {
+    "name": "特定求職者雇用開発助成金（特定就職困難者コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/tokutei_konnan.html",
+    "max_amount": 2400000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "高齢者・母子家庭の母等の雇用への助成",
+    "tags": [
+      "特定求職者",
+      "就職困難者",
+      "継続雇用"
+    ]
+  },
+  {
+    "name": "特定求職者雇用開発助成金（生涯現役コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000158464.html",
+    "max_amount": 700000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "65歳以上の高齢者を雇用する事業主支援",
+    "tags": [
+      "高齢者雇用",
+      "生涯現役",
+      "継続雇用"
+    ]
+  },
+  {
+    "name": "特定求職者雇用開発助成金（就職氷河期世代安定雇用実現コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000158169_00001.html",
+    "max_amount": 600000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "氷河期世代の正社員雇用への助成金",
+    "tags": [
+      "就職氷河期",
+      "正社員化",
+      "安定雇用"
+    ]
+  },
+  {
+    "name": "特定求職者雇用開発助成金（成長分野等人材確保・育成コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/tokutei_seichou.html",
+    "max_amount": 2400000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "成長分野での就職困難者雇用を助成",
+    "tags": [
+      "成長分野",
+      "人材確保",
+      "デジタル・グリーン"
+    ]
+  },
+  {
+    "name": "中途採用等支援助成金（中途採用拡大コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160737_00001.html",
+    "max_amount": 700000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "中途採用率を拡大した事業主への助成",
+    "tags": [
+      "中途採用",
+      "採用拡大",
+      "労働移動"
+    ]
+  },
+  {
+    "name": "人材確保等支援助成金（雇用管理制度助成コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199292.html",
+    "max_amount": 570000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "雇用管理制度の導入で離職率低下を支援",
+    "tags": [
+      "雇用管理",
+      "離職率改善",
+      "制度導入"
+    ]
+  },
+  {
+    "name": "人材確保等支援助成金（人事評価改善等助成コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199292.html",
+    "max_amount": 800000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "人事評価制度の整備で賃上げ等を支援",
+    "tags": [
+      "人事評価",
+      "賃金改善",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "人材確保等支援助成金（テレワークコース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/telework_josei_R3.html",
+    "max_amount": 1000000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "テレワーク制度導入で人材確保を支援",
+    "tags": [
+      "テレワーク",
+      "働き方改革",
+      "人材確保"
+    ]
+  },
+  {
+    "name": "人材開発支援助成金（人材育成支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+    "max_amount": null,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "従業員への職業訓練経費・賃金を助成",
+    "tags": [
+      "職業訓練",
+      "人材育成",
+      "OJT・Off-JT"
+    ]
+  },
+  {
+    "name": "人材開発支援助成金（事業展開等リスキリング支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+    "max_amount": 10000000,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "新事業・DX等のリスキリング訓練を助成",
+    "tags": [
+      "リスキリング",
+      "DX",
+      "新事業展開"
+    ]
+  },
+  {
+    "name": "人材開発支援助成金（教育訓練休暇等付与コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+    "max_amount": 360000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "教育訓練休暇制度を導入した事業主支援",
+    "tags": [
+      "教育訓練休暇",
+      "自発的学習",
+      "制度導入"
+    ]
+  },
+  {
+    "name": "雇用調整助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07.html",
+    "max_amount": 8490,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "休業・教育訓練等で雇用維持する事業主支援",
+    "tags": [
+      "雇用維持",
+      "休業",
+      "経済変動対応"
+    ]
+  },
+  {
+    "name": "産業雇用安定助成金（産業連携人材確保等支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000082805_00002.html",
+    "max_amount": 2500000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "景気変動時の在籍型出向による雇用維持支援",
+    "tags": [
+      "在籍型出向",
+      "雇用維持",
+      "産業連携"
+    ]
+  },
+  {
+    "name": "65歳超雇用推進助成金（65歳超継続雇用促進コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000139692.html",
+    "max_amount": 1600000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "定年引上げ等で高齢者雇用促進を助成",
+    "tags": [
+      "高齢者雇用",
+      "定年引上げ",
+      "継続雇用"
+    ]
+  },
+  {
+    "name": "65歳超雇用推進助成金（高年齢者無期雇用転換コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000139692.html",
+    "max_amount": 480000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "50歳以上の有期労働者を無期転換で助成",
+    "tags": [
+      "高年齢者",
+      "無期雇用転換",
+      "雇用安定"
+    ]
+  },
+  {
+    "name": "労働移動支援助成金（早期雇入れ支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000082805.html",
+    "max_amount": 300000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "離職者を早期に雇入れた事業主への助成",
+    "tags": [
+      "労働移動",
+      "早期雇入れ",
+      "再就職支援"
+    ]
+  },
+  {
+    "name": "働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000120692.html",
+    "max_amount": 2500000,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "労働時間短縮や年休取得促進の取組を支援",
+    "tags": [
+      "働き方改革",
+      "労働時間短縮",
+      "年次有給休暇"
+    ]
+  },
+  {
+    "name": "働き方改革推進支援助成金（勤務間インターバル導入コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000150891.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 0.75,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "勤務間インターバル制度の導入を助成",
+    "tags": [
+      "勤務間インターバル",
+      "働き方改革",
+      "過重労働防止"
+    ]
+  },
+  {
+    "name": "業務改善助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
+    "max_amount": 6000000,
+    "subsidy_rate": 0.9,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "設備投資と賃金引上げを同時に支援する助成",
+    "tags": [
+      "最低賃金",
+      "賃金引上げ",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "働き方改革推進支援助成金（団体推進コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000200273.html",
+    "max_amount": 5000000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "働き方改革"
+    ],
+    "description": "中小企業団体の働き方改革取組を支援",
+    "tags": [
+      "働き方改革",
+      "団体",
+      "労働時間"
+    ]
+  },
+  {
+    "name": "働き方改革推進支援助成金（適用猶予業種等対応コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000120692.html",
+    "max_amount": 5000000,
+    "subsidy_rate": 75,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "建設業",
+      "運送業",
+      "医療"
+    ],
+    "purposes": [
+      "働き方改革"
+    ],
+    "description": "上限規制猶予業種の時間外労働削減を支援",
+    "tags": [
+      "働き方改革",
+      "時間外労働",
+      "2024年問題"
+    ]
+  },
+  {
+    "name": "両立支援等助成金（出生時両立支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 600000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "育児支援",
+      "両立支援"
+    ],
+    "description": "男性労働者の育児休業取得を促進",
+    "tags": [
+      "育児休業",
+      "男性育休",
+      "両立支援"
+    ]
+  },
+  {
+    "name": "両立支援等助成金（介護離職防止支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 570000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "介護支援",
+      "両立支援"
+    ],
+    "description": "介護休業の円滑な取得・復帰を支援",
+    "tags": [
+      "介護休業",
+      "介護離職防止",
+      "両立支援"
+    ]
+  },
+  {
+    "name": "両立支援等助成金（育児休業等支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 570000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "育児支援",
+      "両立支援"
+    ],
+    "description": "育休取得・職場復帰の円滑化を支援",
+    "tags": [
+      "育児休業",
+      "職場復帰",
+      "中小企業"
+    ]
+  },
+  {
+    "name": "両立支援等助成金（柔軟な働き方選択制度等支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 200000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "育児支援",
+      "働き方改革"
+    ],
+    "description": "育児期の柔軟な働き方制度導入を支援",
+    "tags": [
+      "柔軟な働き方",
+      "育児",
+      "短時間勤務"
+    ]
+  },
+  {
+    "name": "両立支援等助成金（不妊治療両立支援コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 300000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "両立支援"
+    ],
+    "description": "不妊治療と仕事の両立環境整備を支援",
+    "tags": [
+      "不妊治療",
+      "両立支援",
+      "休暇制度"
+    ]
+  },
+  {
+    "name": "キャリアアップ助成金（正社員化コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+    "max_amount": 800000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "非正規労働者の正社員転換を支援",
+    "tags": [
+      "正社員化",
+      "非正規雇用",
+      "キャリアアップ"
+    ]
+  },
+  {
+    "name": "キャリアアップ助成金（賃金規定等改定コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+    "max_amount": 65000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "賃上げ"
+    ],
+    "description": "非正規労働者の賃金規定引上げを支援",
+    "tags": [
+      "賃金改定",
+      "非正規雇用",
+      "処遇改善"
+    ]
+  },
+  {
+    "name": "キャリアアップ助成金（短時間労働者労働時間延長コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+    "max_amount": 238000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材"
+    ],
+    "description": "短時間労働者の労働時間延長・社保適用を支援",
+    "tags": [
+      "短時間労働",
+      "社会保険適用",
+      "労働時間延長"
+    ]
+  },
+  {
+    "name": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/gaikokujin.html",
+    "max_amount": 720000,
+    "subsidy_rate": 66.6,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "働き方改革"
+    ],
+    "description": "外国人労働者の就労環境整備を支援",
+    "tags": [
+      "外国人労働者",
+      "就労環境",
+      "多文化共生"
+    ]
+  },
+  {
+    "name": "受動喫煙防止対策助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/anzeneisei/kitsuen/index.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 66.6,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "職場環境改善"
+    ],
+    "description": "職場の受動喫煙防止対策設備導入を支援",
+    "tags": [
+      "受動喫煙",
+      "職場環境",
+      "健康経営"
+    ]
+  },
+  {
+    "name": "団体経由産業保健活動推進助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.johas.go.jp/sangyouhoken/tabid/1944/Default.aspx",
+    "max_amount": 10000000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "職場環境改善",
+      "健康経営"
+    ],
+    "description": "事業主団体を通じた産業保健活動を支援",
+    "tags": [
+      "産業保健",
+      "事業主団体",
+      "メンタルヘルス"
+    ]
+  },
+  {
+    "name": "エイジフレンドリー補助金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/newpage_09940.html",
+    "max_amount": 1000000,
+    "subsidy_rate": 50,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "職場環境改善"
+    ],
+    "description": "高齢者の安全・健康確保対策を支援",
+    "tags": [
+      "高齢者",
+      "職場安全",
+      "転倒防止"
+    ]
+  },
+  {
+    "name": "治療と仕事の両立支援助成金",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000115267.html",
+    "max_amount": 200000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "両立支援"
+    ],
+    "description": "疾病治療と仕事の両立環境整備を支援",
+    "tags": [
+      "治療両立",
+      "がん",
+      "休暇制度"
+    ]
+  },
+  {
+    "name": "中小企業育児・介護休業等推進支援事業（育休復帰支援プラン策定等）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html",
+    "max_amount": 0,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "育児支援",
+      "両立支援"
+    ],
+    "description": "育休復帰プランの無料策定支援事業",
+    "tags": [
+      "育休復帰",
+      "プラン策定",
+      "無料支援"
+    ]
+  },
+  {
+    "name": "くるみん助成金（中小企業子ども・子育て支援環境整備助成事業）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/kodomo_kosodate/jisedai/kurumin_josei.html",
+    "max_amount": 500000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "育児支援",
+      "両立支援"
+    ],
+    "description": "くるみん認定取得中小企業に助成",
+    "tags": [
+      "くるみん",
+      "子育て支援",
+      "認定制度"
+    ]
+  },
+  {
+    "name": "人材確保等支援助成金（介護福祉機器助成コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199292.html",
+    "max_amount": 1500000,
+    "subsidy_rate": 20,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "介護"
+    ],
+    "purposes": [
+      "働き方改革",
+      "職場環境改善"
+    ],
+    "description": "介護福祉機器導入で労働環境改善を支援",
+    "tags": [
+      "介護機器",
+      "離職率低下",
+      "腰痛予防"
+    ]
+  },
+  {
+    "name": "キャリアアップ助成金（賃金規定等共通化コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+    "max_amount": 600000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "働き方改革"
+    ],
+    "description": "正規・非正規の賃金規定共通化を支援",
+    "tags": [
+      "同一労働同一賃金",
+      "賃金規定",
+      "均等待遇"
+    ]
+  },
+  {
+    "name": "キャリアアップ助成金（賞与・退職金制度導入コース）",
+    "managing_org": "厚生労働省",
+    "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+    "max_amount": 480000,
+    "subsidy_rate": 100,
+    "target_size": [
+      "中小企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "雇用・人材",
+      "働き方改革"
+    ],
+    "description": "非正規への賞与・退職金制度導入を支援",
+    "tags": [
+      "賞与制度",
+      "退職金",
+      "処遇改善"
+    ]
+  },
+  {
+    "name": "省エネルギー投資促進に向けた支援補助金（工場・事業場型）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/support/",
+    "max_amount": 1500000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ",
+      "設備投資"
+    ],
+    "description": "工場・事業場の省エネ設備導入を支援",
+    "tags": [
+      "省エネ",
+      "設備投資",
+      "工場"
+    ]
+  },
+  {
+    "name": "省エネルギー投資促進に向けた支援補助金（電化・脱炭素燃転型）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/support/",
+    "max_amount": 300000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "省エネ"
+    ],
+    "description": "燃料転換・電化による脱炭素化を支援",
+    "tags": [
+      "脱炭素",
+      "電化",
+      "燃料転換"
+    ]
+  },
+  {
+    "name": "省エネルギー投資促進に向けた支援補助金（設備単位型）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/support/",
+    "max_amount": 100000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ",
+      "設備投資"
+    ],
+    "description": "省エネ性能の高い設備への更新を支援",
+    "tags": [
+      "省エネ",
+      "設備更新",
+      "指定設備"
+    ]
+  },
+  {
+    "name": "省エネルギー投資促進・需要構造転換支援事業費補助金（エネルギー需要最適化対策事業）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/support/",
+    "max_amount": 200000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ",
+      "エネルギー管理"
+    ],
+    "description": "エネマネシステム導入による省エネを支援",
+    "tags": [
+      "EMS",
+      "エネルギー管理",
+      "省エネ"
+    ]
+  },
+  {
+    "name": "グリーンイノベーション基金事業",
+    "managing_org": "NEDO",
+    "official_url": "https://green-innovation.nedo.go.jp/",
+    "max_amount": null,
+    "subsidy_rate": 1,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "エネルギー",
+      "運輸"
+    ],
+    "purposes": [
+      "脱炭素",
+      "研究開発"
+    ],
+    "description": "2050年カーボンニュートラル実現の研究開発",
+    "tags": [
+      "GI基金",
+      "カーボンニュートラル",
+      "NEDO"
+    ]
+  },
+  {
+    "name": "ものづくり・商業・サービス生産性向上促進補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://portal.monodukuri-hojo.jp/",
+    "max_amount": 125000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "商業",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "生産性向上",
+      "DX"
+    ],
+    "description": "中小企業の革新的製品・サービス開発を支援",
+    "tags": [
+      "ものづくり補助金",
+      "設備投資",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "事業再構築補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://jigyou-saikouchiku.go.jp/",
+    "max_amount": 150000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業再構築",
+      "設備投資",
+      "脱炭素"
+    ],
+    "description": "思い切った事業再構築の挑戦を支援",
+    "tags": [
+      "事業再構築",
+      "新分野展開",
+      "業態転換"
+    ]
+  },
+  {
+    "name": "IT導入補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 4500000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "DX",
+      "IT導入"
+    ],
+    "description": "中小企業のITツール導入費用を補助",
+    "tags": [
+      "IT導入",
+      "DX",
+      "業務効率化"
+    ]
+  },
+  {
+    "name": "カーボンニュートラルに向けた投資促進税制（CN投資促進税制）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/energy_environment/global_warming/ggs/cn_tax.html",
+    "max_amount": null,
+    "subsidy_rate": null,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "設備投資"
+    ],
+    "description": "脱炭素化設備投資の税額控除・特別償却",
+    "tags": [
+      "税制優遇",
+      "カーボンニュートラル",
+      "設備投資"
+    ]
+  },
+  {
+    "name": "NEDO先導研究プログラム",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100195.html",
+    "max_amount": 300000000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "エネルギー"
+    ],
+    "purposes": [
+      "研究開発",
+      "脱炭素"
+    ],
+    "description": "エネルギー・環境分野の先導的研究を支援",
+    "tags": [
+      "NEDO",
+      "先導研究",
+      "研究開発"
+    ]
+  },
+  {
+    "name": "クリーンエネルギー自動車導入促進補助金（CEV補助金）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.cev-pc.or.jp/",
+    "max_amount": 850000,
+    "subsidy_rate": null,
+    "target_size": [
+      "小規模事業者",
+      "中小企業",
+      "中堅企業",
+      "大企業",
+      "個人"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "省エネ"
+    ],
+    "description": "電気自動車等の購入費用を補助",
+    "tags": [
+      "EV",
+      "電気自動車",
+      "脱炭素"
+    ]
+  },
+  {
+    "name": "充電・充てんインフラ等導入促進補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.cev-pc.or.jp/",
+    "max_amount": null,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "設備投資"
+    ],
+    "description": "EV充電設備・水素充填設備の導入を支援",
+    "tags": [
+      "充電インフラ",
+      "水素",
+      "EV"
+    ]
+  },
+  {
+    "name": "中小企業等に対するエネルギー利用最適化推進事業（省エネ診断）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.shindan-net.jp/",
+    "max_amount": null,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "省エネ",
+      "コンサルティング"
+    ],
+    "description": "中小企業への無料省エネ診断を提供",
+    "tags": [
+      "省エネ診断",
+      "無料",
+      "エネルギー"
+    ]
+  },
+  {
+    "name": "成長型中小企業等研究開発支援事業（Go-Tech事業）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/sapoin/index.html",
+    "max_amount": 450000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "研究開発",
+      "ものづくり"
+    ],
+    "description": "中小企業のものづくり基盤技術の研究開発",
+    "tags": [
+      "Go-Tech",
+      "研究開発",
+      "ものづくり"
+    ]
+  },
+  {
+    "name": "中小企業省力化投資補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://shoryokuka.smrj.go.jp/",
+    "max_amount": 15000000,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "省力化",
+      "DX"
+    ],
+    "description": "人手不足対応の省力化製品導入を支援",
+    "tags": [
+      "省力化",
+      "人手不足",
+      "カタログ型"
+    ]
+  },
+  {
+    "name": "大規模成長投資補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://seichotoushi-hojo.jp/",
+    "max_amount": 5000000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中小企業",
+      "中堅企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "生産性向上"
+    ],
+    "description": "中堅・中小企業の大規模設備投資を補助",
+    "tags": [
+      "大規模投資",
+      "工場新設",
+      "拠点新設"
+    ]
+  },
+  {
+    "name": "蓄電池に係る供給確保計画（経済安全保障推進法）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/economic_security/",
+    "max_amount": null,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "設備投資",
+      "経済安全保障"
+    ],
+    "description": "蓄電池の国内生産基盤強化を支援",
+    "tags": [
+      "蓄電池",
+      "経済安全保障",
+      "サプライチェーン"
+    ]
+  },
+  {
+    "name": "半導体に係る供給確保計画（経済安全保障推進法）",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/mono_info_service/joho/laws/semiconductor.html",
+    "max_amount": null,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "設備投資",
+      "経済安全保障"
+    ],
+    "description": "半導体の国内生産基盤強化を支援",
+    "tags": [
+      "半導体",
+      "経済安全保障",
+      "製造基盤"
+    ]
+  },
+  {
+    "name": "SBIR推進プログラム（NEDO実施分）",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP2_100193.html",
+    "max_amount": 500000000,
+    "subsidy_rate": 1,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "IT",
+      "エネルギー"
+    ],
+    "purposes": [
+      "研究開発",
+      "事業化"
+    ],
+    "description": "スタートアップ等の研究開発・事業化を支援",
+    "tags": [
+      "SBIR",
+      "スタートアップ",
+      "研究開発"
+    ]
+  },
+  {
+    "name": "需要家主導による太陽光発電導入促進補助金",
+    "managing_org": "経済産業省",
+    "official_url": "https://demand-side-pv.jp/",
+    "max_amount": null,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "再生可能エネルギー"
+    ],
+    "description": "需要家が主導する太陽光発電の導入を支援",
+    "tags": [
+      "太陽光",
+      "PPA",
+      "再エネ"
+    ]
+  },
+  {
+    "name": "GXサプライチェーン構築支援事業",
+    "managing_org": "経済産業省",
+    "official_url": "https://www.meti.go.jp/policy/energy_environment/global_warming/GX/",
+    "max_amount": null,
+    "subsidy_rate": 0.5,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "脱炭素",
+      "設備投資",
+      "サプライチェーン"
+    ],
+    "description": "GX関連製品の製造基盤構築を支援",
+    "tags": [
+      "GX",
+      "サプライチェーン",
+      "製造基盤"
+    ]
+  },
+  {
+    "name": "工場・事業場における先導的な脱炭素化取組推進事業（SHIFT事業）",
+    "managing_org": "経済産業省",
+    "official_url": "https://shift.env.go.jp/",
+    "max_amount": 100000000,
+    "subsidy_rate": 0.33,
+    "target_size": [
+      "中小企業",
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "脱炭素",
+      "省エネ"
+    ],
+    "description": "工場のCO2排出削減計画策定・設備導入支援",
+    "tags": [
+      "SHIFT",
+      "脱炭素",
+      "CO2削減"
+    ]
+  },
+  {
+    "name": "中小企業イノベーション創出推進事業（SBIRフェーズ3事業）",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100218.html",
+    "max_amount": 2000000000,
+    "subsidy_rate": 0.67,
+    "target_size": [
+      "小規模事業者",
+      "中小企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "IT",
+      "エネルギー"
+    ],
+    "purposes": [
+      "研究開発",
+      "事業化"
+    ],
+    "description": "中小・スタートアップの大規模事業化を支援",
+    "tags": [
+      "SBIR",
+      "フェーズ3",
+      "事業化"
+    ]
+  },
+  {
+    "name": "カーボンリサイクル実証研究拠点における技術開発・実証事業",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100167.html",
+    "max_amount": null,
+    "subsidy_rate": 1,
+    "target_size": [
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "エネルギー"
+    ],
+    "purposes": [
+      "脱炭素",
+      "研究開発"
+    ],
+    "description": "CO2を資源活用するカーボンリサイクル技術開発",
+    "tags": [
+      "カーボンリサイクル",
+      "CCUS",
+      "NEDO"
+    ]
+  },
+  {
+    "name": "燃料アンモニア利用・生産技術開発事業",
+    "managing_org": "NEDO",
+    "official_url": "https://www.nedo.go.jp/activities/ZZJP_100180.html",
+    "max_amount": null,
+    "subsidy_rate": 1,
+    "target_size": [
+      "中堅企業",
+      "大企業"
+    ],
+    "target_industries": [
+      "製造業",
+      "エネルギー"
+    ],
+    "purposes": [
+      "脱炭素",
+      "研究開発"
+    ],
+    "description": "燃料アンモニアの利用・生産技術を開発",
+    "tags": [
+      "アンモニア",
+      "脱炭素燃料",
+      "NEDO"
+    ]
+  },
+  {
+    "name": "小規模事業者持続化補助金",
+    "managing_org": "中小企業庁",
+    "official_url": "https://r3.jizokukahojokin.info/",
+    "max_amount": 2000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "販路開拓",
+      "デジタル化"
+    ],
+    "description": "小規模事業者の販路開拓・業務効率化を支援",
+    "tags": [
+      "IT導入",
+      "EC",
+      "デジタル化",
+      "小規模"
+    ]
+  },
+  {
+    "name": "中小企業デジタル化応援隊事業",
+    "managing_org": "中小企業庁",
+    "official_url": "https://digitalization-support.jp/",
+    "max_amount": 300000,
+    "subsidy_rate": 75,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "デジタル化支援"
+    ],
+    "description": "IT専門家による中小企業デジタル化支援",
+    "tags": [
+      "デジタル化",
+      "IT専門家",
+      "伴走支援"
+    ]
+  },
+  {
+    "name": "サイバーセキュリティお助け隊サービス",
+    "managing_org": "経済産業省・中小企業庁",
+    "official_url": "https://www.ipa.go.jp/security/otasuketai-pr/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "サイバーセキュリティ"
+    ],
+    "description": "中小企業向けセキュリティ監視・対応支援",
+    "tags": [
+      "サイバーセキュリティ",
+      "IPA",
+      "監視"
+    ]
+  },
+  {
+    "name": "中小企業等経営強化法に基づく経営力向上計画",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/kyoka/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "税制優遇"
+    ],
+    "description": "IT設備等の即時償却・税額控除を適用",
+    "tags": [
+      "税制優遇",
+      "IT設備",
+      "経営力向上"
+    ]
+  },
+  {
+    "name": "中小企業投資促進税制",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/zaimu/zeisei/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "税制優遇"
+    ],
+    "description": "ソフトウェア等IT設備の特別償却・税額控除",
+    "tags": [
+      "税制優遇",
+      "ソフトウェア",
+      "設備投資"
+    ]
+  },
+  {
+    "name": "中小企業経営強化税制",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/kyoka/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "設備投資",
+      "税制優遇"
+    ],
+    "description": "デジタル化設備の即時償却・税額控除",
+    "tags": [
+      "税制優遇",
+      "デジタル化",
+      "即時償却"
+    ]
+  },
+  {
+    "name": "事業承継・引継ぎ補助金（経営革新事業）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://jsh.go.jp/",
+    "max_amount": 8000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業承継",
+      "経営革新"
+    ],
+    "description": "事業承継後のIT導入等経営革新を支援",
+    "tags": [
+      "事業承継",
+      "IT導入",
+      "経営革新"
+    ]
+  },
+  {
+    "name": "事業承継・引継ぎ補助金（専門家活用事業）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://jsh.go.jp/",
+    "max_amount": 6000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "事業承継",
+      "M&A"
+    ],
+    "description": "M&A時のシステム統合等専門家費用を支援",
+    "tags": [
+      "事業承継",
+      "M&A",
+      "専門家活用"
+    ]
+  },
+  {
+    "name": "JAPANブランド育成支援等事業",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/shogyo/chiiki/japan_brand/",
+    "max_amount": 5000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "ブランド化"
+    ],
+    "description": "越境EC等を活用した海外販路開拓を支援",
+    "tags": [
+      "越境EC",
+      "海外展開",
+      "ブランド"
+    ]
+  },
+  {
+    "name": "経営革新計画承認制度",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/keiei/kakushin/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "経営革新",
+      "融資優遇"
+    ],
+    "description": "IT活用等の経営革新計画で融資優遇等",
+    "tags": [
+      "経営革新",
+      "融資優遇",
+      "デジタル化"
+    ]
+  },
+  {
+    "name": "中小企業等セキュリティ対策支援事業（SECURITY ACTION制度）",
+    "managing_org": "経済産業省・中小企業庁",
+    "official_url": "https://www.ipa.go.jp/security/security-action/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "サイバーセキュリティ"
+    ],
+    "description": "中小企業の情報セキュリティ対策自己宣言制度",
+    "tags": [
+      "セキュリティ",
+      "SECURITY ACTION",
+      "IPA"
+    ]
+  },
+  {
+    "name": "中小企業向けテレワーク促進助成金（東京都連携）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.metro.tokyo.lg.jp/",
+    "max_amount": 2500000,
+    "subsidy_rate": 50,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "テレワーク",
+      "デジタル化"
+    ],
+    "description": "テレワーク用クラウド・IT機器導入支援",
+    "tags": [
+      "テレワーク",
+      "クラウド",
+      "IT機器"
+    ]
+  },
+  {
+    "name": "IT導入補助金（セキュリティ対策推進枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 1000000,
+    "subsidy_rate": 50,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "サイバーセキュリティ"
+    ],
+    "description": "サイバーセキュリティサービス導入費を補助",
+    "tags": [
+      "セキュリティ",
+      "IT導入",
+      "サイバー対策"
+    ]
+  },
+  {
+    "name": "IT導入補助金（通常枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 4500000,
+    "subsidy_rate": 50,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "業務効率化",
+      "デジタル化"
+    ],
+    "description": "ソフトウェア・クラウド等のIT導入を補助",
+    "tags": [
+      "ソフトウェア",
+      "クラウド",
+      "業務効率化"
+    ]
+  },
+  {
+    "name": "IT導入補助金（インボイス枠・インボイス対応類型）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 3500000,
+    "subsidy_rate": 75,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "インボイス対応",
+      "デジタル化"
+    ],
+    "description": "インボイス対応の会計・受発注ソフト導入補助",
+    "tags": [
+      "インボイス",
+      "会計ソフト",
+      "受発注"
+    ]
+  },
+  {
+    "name": "IT導入補助金（インボイス枠・電子取引類型）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 3500000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "電子取引",
+      "デジタル化"
+    ],
+    "description": "電子受発注システム等の導入費を補助",
+    "tags": [
+      "電子取引",
+      "EDI",
+      "受発注"
+    ]
+  },
+  {
+    "name": "IT導入補助金（複数社連携IT導入枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://it-shien.smrj.go.jp/",
+    "max_amount": 30000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "地域連携",
+      "デジタル化"
+    ],
+    "description": "複数企業が連携したIT導入プロジェクトを支援",
+    "tags": [
+      "連携",
+      "地域",
+      "IT導入"
+    ]
+  },
+  {
+    "name": "中小企業向けDX投資計画策定支援事業",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.smrj.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "DX推進",
+      "経営支援"
+    ],
+    "description": "中小企業のDX投資計画策定を専門家が支援",
+    "tags": [
+      "DX",
+      "専門家派遣",
+      "計画策定"
+    ]
+  },
+  {
+    "name": "中小企業BCP策定支援事業（IT-BCP含む）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/bcp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "BCP",
+      "事業継続"
+    ],
+    "description": "IT-BCPを含む事業継続計画の策定支援",
+    "tags": [
+      "BCP",
+      "災害対策",
+      "IT-BCP"
+    ]
+  },
+  {
+    "name": "中小企業基盤整備機構 EC活用支援事業",
+    "managing_org": "中小企業庁（中小機構）",
+    "official_url": "https://ec.smrj.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "EC支援",
+      "販路開拓"
+    ],
+    "description": "ECサイト構築・運営のハンズオン支援",
+    "tags": [
+      "EC",
+      "ネットショップ",
+      "販路開拓"
+    ]
+  },
+  {
+    "name": "商店街活性化・観光消費創出事業",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.chusho.meti.go.jp/shogyo/shogyo/",
+    "max_amount": 20000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "商店街組合"
+    ],
+    "target_industries": [
+      "小売業",
+      "サービス業"
+    ],
+    "purposes": [
+      "デジタル化",
+      "商店街活性化"
+    ],
+    "description": "商店街のキャッシュレス・デジタル化等を支援",
+    "tags": [
+      "商店街",
+      "キャッシュレス",
+      "デジタル化"
+    ]
+  },
+  {
+    "name": "中小企業等事業再構築促進基金（デジタル枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://jigyou-saikouchiku.go.jp/",
+    "max_amount": 60000000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "DX推進",
+      "事業再構築"
+    ],
+    "description": "DXを活用した事業再構築・転換を支援",
+    "tags": [
+      "DX",
+      "事業再構築",
+      "デジタル"
+    ]
+  },
+  {
+    "name": "ものづくり補助金（デジタル枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://portal.monodukuri-hojo.jp/",
+    "max_amount": 12500000,
+    "subsidy_rate": 66,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "製造業",
+      "全業種"
+    ],
+    "purposes": [
+      "DX推進",
+      "生産性向上"
+    ],
+    "description": "DXに資する革新的製品・サービス開発を支援",
+    "tags": [
+      "DX",
+      "ものづくり",
+      "生産性向上"
+    ]
+  },
+  {
+    "name": "ものづくり補助金（グローバル市場開拓枠）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://portal.monodukuri-hojo.jp/",
+    "max_amount": 30000000,
+    "subsidy_rate": 50,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "海外展開",
+      "DX推進"
+    ],
+    "description": "海外EC等グローバル市場開拓のIT活用を支援",
+    "tags": [
+      "海外展開",
+      "越境EC",
+      "グローバル"
+    ]
+  },
+  {
+    "name": "中小企業DX推進計画認定制度（みらデジ）",
+    "managing_org": "中小企業庁",
+    "official_url": "https://www.miradigi.go.jp/",
+    "max_amount": 0,
+    "subsidy_rate": 0,
+    "target_size": [
+      "中小企業",
+      "小規模事業者"
+    ],
+    "target_industries": [
+      "全業種"
+    ],
+    "purposes": [
+      "DX診断",
+      "デジタル化"
+    ],
+    "description": "DX推進状況を無料診断し支援策を紹介",
+    "tags": [
+      "DX診断",
+      "みらデジ",
+      "デジタル化"
+    ]
+  }
+]

@@ -22,18 +22,123 @@ export type ShindanResult = {
   official_url?: string | null
 }
 
-// 当サイトが持つ補助金の一覧（slug → 名前・URLのマップ）
-const ourSubsidyMap = Object.fromEntries(
+type LightHojokin = {
+  name: string
+  managing_org: string
+  official_url: string
+  max_amount: number
+  subsidy_rate: number
+  target_size: string[]
+  target_industries: string[]
+  purposes: string[]
+  description: string
+  tags: string[]
+}
+
+// Tier1: 詳細ページあり（内部リンク）
+const tier1Map = Object.fromEntries(
   allHojokin.map((h) => [h.slug, { name: h.name, official_url: h.official_url }])
 )
 
-const ourSubsidyList = allHojokin
-  .map((h) => `- ${h.name}（slug: ${h.slug}）: ${h.purpose}、最大${h.max_amount >= 1000000 ? Math.round(h.max_amount / 10000) + '万円' : h.max_amount + '円'}`)
-  .join('\n')
+// Tier2: 軽量データ（外部リンク）
+function loadTier2(): LightHojokin[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    return require('@/data/hojokin-light.json') as LightHojokin[]
+  } catch {
+    return []
+  }
+}
+
+// 入力からタグを生成
+function inputToTags(input: ShindanInput): string[] {
+  const tags: string[] = []
+
+  // 業種マッピング
+  const industryMap: Record<string, string[]> = {
+    '製造業': ['製造', '設備', 'ものづくり'],
+    'IT・ソフトウェア': ['IT', 'DX', 'デジタル', 'ソフトウェア'],
+    '小売業': ['小売', '販路', '店舗'],
+    '飲食業': ['飲食', '食品', '店舗'],
+    '建設業': ['建設', '工事', '住宅'],
+    'サービス業': ['サービス', '観光'],
+    '卸売業': ['卸売', '流通'],
+  }
+  tags.push(...(industryMap[input.industry] ?? []))
+
+  // 目的マッピング
+  const purposeMap: Record<string, string[]> = {
+    'ITツール・システム導入': ['IT', 'DX', 'デジタル', 'システム'],
+    '設備・機械の購入': ['設備', '機械', 'ものづくり'],
+    'HP・広告・販路拡大': ['販路', '広告', 'HP', 'EC'],
+    '省力化・自動化': ['省力化', '自動化', 'ロボット'],
+    '新製品・サービス開発': ['研究開発', 'イノベーション', '新製品'],
+  }
+  tags.push(...(purposeMap[input.purpose] ?? []))
+
+  // 規模
+  const emp = input.employees
+  if (emp === '1〜5人' || emp === '6〜20人') tags.push('小規模事業者')
+  if (emp !== '301人以上') tags.push('中小企業')
+
+  // 設立年数
+  if (input.established_years === '1年未満' || input.established_years === '1〜3年') {
+    tags.push('創業', 'スタートアップ')
+  }
+
+  return [...new Set(tags)]
+}
+
+// タグマッチングで候補を絞り込む
+function filterByTags(
+  items: LightHojokin[],
+  inputTags: string[],
+  industry: string,
+  targetSize: string,
+  limit: number
+): LightHojokin[] {
+  const scored = items.map((item) => {
+    let score = 0
+    // タグマッチ
+    for (const t of inputTags) {
+      if (item.tags?.some(tag => tag.includes(t) || t.includes(tag))) score += 2
+    }
+    // 業種マッチ
+    if (item.target_industries?.includes(industry) || item.target_industries?.includes('全業種')) score += 3
+    // 規模マッチ
+    if (item.target_size?.includes(targetSize) || item.target_size?.includes('中小企業')) score += 2
+
+    return { item, score }
+  })
+
+  return scored
+    .filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(s => s.item)
+}
 
 export async function runShindan(input: ShindanInput): Promise<ShindanResult[]> {
+  const tier2 = loadTier2()
+  const inputTags = inputToTags(input)
+
+  // 従業員数から規模を判定
+  const emp = input.employees
+  const targetSize = (emp === '1〜5人' || emp === '6〜20人') ? '小規模事業者' : '中小企業'
+
+  // Tier1を全件含める（36件）
+  const tier1List = allHojokin.map(h =>
+    `- [詳細あり] ${h.name}（slug: ${h.slug}）: ${h.purpose}、最大${h.max_amount >= 10000 ? Math.round(h.max_amount / 10000) + '万円' : h.max_amount + '円'}`
+  ).join('\n')
+
+  // Tier2からタグマッチで上位30件を絞り込む
+  const tier2Filtered = filterByTags(tier2, inputTags, input.industry, targetSize, 30)
+  const tier2List = tier2Filtered.map(h =>
+    `- [外部リンク] ${h.name}（${h.managing_org}）: ${h.description}、最大${h.max_amount > 0 ? Math.round(h.max_amount / 10000) + '万円' : '要確認'}`
+  ).join('\n')
+
   const prompt = `あなたは日本の中小企業補助金・助成金の専門家です。
-以下の企業情報をもとに、この企業が実際に申請できる可能性が高い補助金・助成金をランキング形式で提示してください。
+以下の企業情報をもとに、この企業が実際に申請できる可能性が高い補助金・助成金をランキング形式で5件提示してください。
 
 【企業情報】
 - 業種：${input.industry}
@@ -42,32 +147,34 @@ export async function runShindan(input: ShindanInput): Promise<ShindanResult[]> 
 - 補助金を使いたい目的：${input.purpose}
 - 設立年数：${input.established_years}
 
-【当サイトで詳細解説している補助金・助成金】
-（これらのslugは当サイトの詳細ページにリンクできます）
-${ourSubsidyList}
+【詳細ページあり（推奨）】
+${tier1List}
 
-【重要なルール】
-1. 上記リストにある補助金を推薦する場合は、必ず対応するslugを使用してください
-2. 上記リストにない補助金でもこの企業に適している場合は積極的に推薦してください。その場合はslugをnullにし、official_urlに公式URLを入れてください
-3. 企業の実情に合った補助金を正確に推薦してください。条件を満たせない補助金は推薦しないでください
-4. 雇用・人材系（助成金）も積極的に含めてください
-5. 上位3〜5件を返してください
+【外部リンク候補】
+${tier2List}
 
-以下のJSON形式のみで返答してください（説明文・コードブロック不要）：
+【ルール】
+1. 詳細ページありの補助金を推薦する場合はslugを使用
+2. 外部リンク候補の補助金はslug=null、official_urlを"外部リンク:補助金名"形式で記載
+3. リストにない補助金でも適切なものがあればslug=null、official_urlに公式URLを記載
+4. 企業の条件を実際に満たせる補助金のみ推薦
+5. 必ず5件返す
+
+JSON形式のみで返答:
 [
   {
     "slug": "it-donyu または null",
-    "name": "補助金・助成金名",
-    "reason": "この企業がこの補助金に適している具体的な理由（60字以内）",
+    "name": "補助金名",
+    "reason": "適している理由（60字以内）",
     "match_score": 85,
-    "caution": "申請上の注意点（なければnull）",
-    "official_url": "slugがnullの場合の公式URL（slugがある場合はnull）"
+    "caution": "注意点（なければnull）",
+    "official_url": "slugがnullの場合のURL"
   }
 ]`
 
   const response = await client.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 1500,
+    max_tokens: 2000,
     messages: [{ role: 'user', content: prompt }],
   })
 
@@ -75,10 +182,19 @@ ${ourSubsidyList}
   const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
   const parsed = JSON.parse(cleaned) as ShindanResult[]
 
-  // slugが当サイトに存在するか検証し、存在しない場合はnullに修正
+  // 外部リンク候補のURLを解決
+  const tier2ByName = Object.fromEntries(tier2Filtered.map(h => [h.name, h.official_url]))
+
   return parsed.map((r) => {
-    if (r.slug && !ourSubsidyMap[r.slug]) {
+    // Tier1のslugを検証
+    if (r.slug && !tier1Map[r.slug]) {
       return { ...r, slug: null, official_url: r.official_url ?? null }
+    }
+    // Tier2の外部URLを解決
+    if (!r.slug && r.official_url?.startsWith('外部リンク:')) {
+      const name = r.official_url.replace('外部リンク:', '')
+      const url = tier2ByName[name] ?? null
+      return { ...r, official_url: url }
     }
     return r
   })

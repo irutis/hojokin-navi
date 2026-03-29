@@ -1,0 +1,77 @@
+{
+  "slug": "jinzai-kakuho",
+  "name": "人材確保等支援助成金",
+  "official_name": "人材確保等支援助成金（雇用管理制度助成コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 570000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "雇用管理制度の導入・改善による離職率の低下と人材確保",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "制度導入に要した費用（コンサルタント・研修等）"
+  ],
+  "ineligible_expenses": [
+    "給与・賞与",
+    "日常的な業務費用",
+    "汎用機器"
+  ],
+  "eligibility_conditions": [
+    "雇用保険適用事業主であること",
+    "評価・処遇制度、研修制度、健康づくり制度、メンター制度のいずれかを新たに導入すること",
+    "制度導入後1年間の離職率を目標値以下に維持すること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "雇用管理制度整備計画の認定申請（制度導入前に申請必須）",
+    "計画認定後、制度を導入・実施",
+    "1年間の雇用管理制度の運用",
+    "離職率の確認（目標達成の確認）",
+    "目標達成助成の支給申請"
+  ],
+  "rejection_reasons": [
+    "制度整備計画の認定前に制度を導入してしまった",
+    "1年後の離職率が目標値を超えてしまった",
+    "就業規則・労使協定等の書類不備",
+    "形式的な制度導入で実態が伴っていない",
+    "申請期限を過ぎた"
+  ],
+  "success_tips": [
+    "必ず計画認定を先に受けてから制度を導入する（順番が重要）",
+    "離職率目標は現実的な値で設定する",
+    "制度の実施記録（研修実績・面談記録等）をきちんと保管する",
+    "社労士に依頼すると書類整備がスムーズ"
+  ],
+  "affiliate_cta": {
+    "text": "人材定着を社労士に相談する",
+    "url_placeholder": "AFFILIATE_SHAROUSHI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "hatarakikata",
+    "tokutei-kibo"
+  ],
+  "tags": [
+    "人材確保",
+    "定着",
+    "離職防止",
+    "雇用管理",
+    "助成金"
+  ],
+  "monthly_searches": 18000,
+  "last_updated": "2026-03-28"
+}

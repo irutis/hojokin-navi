@@ -1,0 +1,89 @@
+{
+  "slug": "kaigai-tenkai",
+  "name": "中小企業海外展開支援補助金",
+  "official_name": "新市場開拓に向けた海外展開支援事業費補助金",
+  "category": "海外展開・輸出",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 5000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "製造業",
+    "サービス業",
+    "情報通信業"
+  ],
+  "purpose": "中小企業の海外市場開拓・輸出促進に向けた費用を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "海外展示会出展費",
+    "現地市場調査費",
+    "翻訳・通訳費",
+    "海外向けWebサイト制作費",
+    "現地コンサルタント費用"
+  ],
+  "ineligible_expenses": [
+    "輸送費・関税",
+    "現地拠点の設立費用",
+    "商品の製造費",
+    "国内での販売促進費"
+  ],
+  "eligibility_conditions": [
+    "中小企業者等であること",
+    "海外展開に向けた具体的な計画があること",
+    "JETROや地域の支援機関との連携が望ましい",
+    "補助対象の事業が日本から海外に向けた取引であること"
+  ],
+  "company_size_limit": {
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    }
+  },
+  "application_flow": [
+    "JETRO・商工会等の海外展開支援機関に相談",
+    "事業計画書・海外展開計画の作成",
+    "公募期間中に申請",
+    "採択後、海外展示会出展・市場調査等を実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "海外での販売計画・ターゲット市場の根拠が不明確",
+    "競合製品・サービスとの差別化が不十分",
+    "海外展開の実現可能性（語学・現地パートナー）が低い",
+    "補助金をもらってもすぐに海外展開できないと判断された",
+    "対象経費が補助対象外"
+  ],
+  "success_tips": [
+    "JETROの無料相談を活用して、ターゲット市場の市場調査データを取得する",
+    "既存の海外顧客・引き合いがあると採択率が上がる",
+    "海外展示会は規模の大きい有名展示会（CES・MEDICA等）を選ぶと評価されやすい",
+    "現地パートナー企業とのMOU（了解覚書）を事前に締結しておく"
+  ],
+  "affiliate_cta": {
+    "text": "海外展開を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "monozukuri",
+    "innovation-souzou",
+    "jizokuka"
+  ],
+  "tags": [
+    "海外展開",
+    "輸出",
+    "グローバル",
+    "展示会",
+    "補助金"
+  ],
+  "monthly_searches": 15000,
+  "last_updated": "2026-03-28"
+}

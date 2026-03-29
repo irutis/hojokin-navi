@@ -1,0 +1,82 @@
+{
+  "slug": "hatarakikata",
+  "name": "働き方改革推進支援助成金",
+  "official_name": "働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 2000000,
+  "subsidy_rate": 0.75,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "時間外労働の削減・年次有給休暇取得促進に向けた環境整備",
+  "deadline": "随時受付（予算上限あり）",
+  "next_expected": "継続制度（年度更新）",
+  "eligible_expenses": [
+    "労務管理ソフト・機器導入費",
+    "研修費",
+    "コンサルタント費用",
+    "就業規則等の作成・変更費用"
+  ],
+  "ineligible_expenses": [
+    "汎用PCやスマートフォン",
+    "効果が不明確な研修",
+    "役員への研修費"
+  ],
+  "eligibility_conditions": [
+    "中小企業（労働基準法別表第1適用）であること",
+    "時間外労働時間数の設定を行った36協定を締結・届出していること",
+    "時間外労働削減や年次有給休暇取得促進の取組を実施すること",
+    "雇用保険適用事業主であること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "交付申請書・事業実施計画の作成",
+    "労働局への申請",
+    "交付決定後に取組開始",
+    "成果目標の達成確認",
+    "支給申請（取組終了後2ヶ月以内）",
+    "支給決定"
+  ],
+  "rejection_reasons": [
+    "36協定の届出が申請前に完了していない",
+    "成果目標（時間外削減・年休取得）を達成できなかった",
+    "対象経費の領収書・証拠書類が不備",
+    "交付決定前に取組を開始してしまった",
+    "申請期限を過ぎた"
+  ],
+  "success_tips": [
+    "社労士と連携して36協定の整備と申請書類を同時進行で準備する",
+    "成果目標は現実的な数値で設定する（達成できないと不支給になる）",
+    "取組前後の時間外労働時間を記録・比較できる仕組みを整える",
+    "予算上限があるため、年度初めの早期申請が有利"
+  ],
+  "affiliate_cta": {
+    "text": "働き方改革を社労士に相談する",
+    "url_placeholder": "AFFILIATE_SHAROUSHI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "koyo-chosei",
+    "tokutei-kibo"
+  ],
+  "tags": [
+    "働き方改革",
+    "時間外労働",
+    "有給休暇",
+    "助成金",
+    "労働環境"
+  ],
+  "monthly_searches": 40000,
+  "last_updated": "2026-03-28"
+}

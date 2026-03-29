@@ -1,0 +1,56 @@
+{
+  "slug": "career-up",
+  "name": "キャリアアップ助成金",
+  "official_name": "キャリアアップ助成金（正社員化コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 570000,
+  "subsidy_rate": 1.0,
+  "target_company_size": ["中小企業", "小規模事業者", "大企業"],
+  "target_industries": ["全業種"],
+  "purpose": "非正規雇用労働者の正社員転換・処遇改善",
+  "deadline": "随時受付",
+  "next_expected": "継続制度（年度更新）",
+  "eligible_expenses": ["正社員転換に伴う賃金増加分（助成金として支給）"],
+  "ineligible_expenses": ["正社員転換前の賃金", "役員報酬", "退職金"],
+  "eligibility_conditions": [
+    "雇用保険適用事業所であること",
+    "キャリアアップ計画を作成・提出していること",
+    "有期契約・パート・派遣労働者を正社員に転換すること",
+    "転換後6ヶ月間、正社員として雇用を継続すること",
+    "転換後の賃金が転換前より3%以上増加していること"
+  ],
+  "company_size_limit": {
+    "all": { "capital": null, "employees": null }
+  },
+  "application_flow": [
+    "キャリアアップ計画書の作成・労働局への提出",
+    "就業規則等に正社員転換規定を整備",
+    "対象労働者を正社員に転換",
+    "転換後6ヶ月の賃金支払い",
+    "支給申請（転換後6ヶ月経過後2ヶ月以内）",
+    "支給決定・受給"
+  ],
+  "rejection_reasons": [
+    "キャリアアップ計画書を転換前に提出していない",
+    "就業規則に正社員転換規定がない・規定が不十分",
+    "転換後の賃金増加が3%未満",
+    "転換前の雇用期間が6ヶ月未満（短すぎる）",
+    "申請期限（6ヶ月経過後2ヶ月以内）を過ぎた"
+  ],
+  "success_tips": [
+    "転換の前に必ずキャリアアップ計画書を提出する（事後提出は不可）",
+    "就業規則の正社員転換規定を社労士に確認してもらう",
+    "賃金増加3%の計算方法を事前に確認する（基本給・諸手当の扱いに注意）",
+    "社労士に依頼すると申請漏れを防げる"
+  ],
+  "affiliate_cta": {
+    "text": "社労士に助成金申請を相談する",
+    "url_placeholder": "AFFILIATE_SHAROUSHI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": ["koyo-chosei", "hatarakikata", "tokutei-kibo"],
+  "tags": ["雇用", "正社員化", "非正規", "人材", "助成金"],
+  "monthly_searches": 90000,
+  "last_updated": "2026-03-28"
+}

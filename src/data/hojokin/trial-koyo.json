@@ -1,0 +1,80 @@
+{
+  "slug": "trial-koyo",
+  "name": "トライアル雇用助成金",
+  "official_name": "トライアル雇用助成金（一般トライアルコース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 120000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "就職困難者を試行雇用し、その後の常用雇用につなげる",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "試行雇用期間中の賃金相当額（助成金として支給）"
+  ],
+  "ineligible_expenses": [
+    "常用雇用後の賃金",
+    "役員報酬",
+    "試行期間外の費用"
+  ],
+  "eligibility_conditions": [
+    "ハローワークの紹介でトライアル雇用対象者を雇用すること",
+    "雇用保険適用事業所であること",
+    "試行雇用期間（原則3ヶ月）を設けること",
+    "試行雇用後に常用雇用への移行を検討すること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "ハローワークで求人申し込み（トライアル雇用の旨を明記）",
+    "ハローワーク紹介の対象者を面接・採用",
+    "トライアル雇用開始（雇用開始から2週間以内に申請）",
+    "3ヶ月間のトライアル雇用実施",
+    "支給申請（試行雇用終了翌日から1ヶ月以内）",
+    "常用雇用への移行または終了"
+  ],
+  "rejection_reasons": [
+    "ハローワーク紹介以外のルートで採用した場合",
+    "雇用開始から2週間以内に申請しなかった",
+    "対象者（就職困難者）の要件を満たしていない",
+    "申請書類（出勤簿・賃金台帳等）が不備",
+    "支給申請の期限を過ぎた"
+  ],
+  "success_tips": [
+    "必ずハローワーク経由で求人し、紹介状をもらった人を採用する",
+    "雇用開始後すぐに申請書を準備する（2週間以内が必須）",
+    "出勤簿・賃金台帳・雇用契約書を整備しておく",
+    "常用雇用につなげる前提で採用・育成計画を立てる"
+  ],
+  "affiliate_cta": {
+    "text": "採用・助成金を社労士に相談する",
+    "url_placeholder": "AFFILIATE_SHAROUSHI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "hatarakikata",
+    "tokutei-kibo"
+  ],
+  "tags": [
+    "雇用",
+    "試行雇用",
+    "就職困難者",
+    "助成金",
+    "採用"
+  ],
+  "monthly_searches": 25000,
+  "last_updated": "2026-03-28"
+}

@@ -10,6 +10,15 @@ import souzokuJigyo from './souzoku-jigyo.json'
 import koyoChousei from './koyo-chosei.json'
 import tokuteiKibo from './tokutei-kibo.json'
 import innovationSouzou from './innovation-souzou.json'
+import careerUp from './career-up.json'
+import hatarakikata from './hatarakikata.json'
+import trialKoyo from './trial-koyo.json'
+import sogyou from './sogyou.json'
+import jinzaiKakuho from './jinzai-kakuho.json'
+import goTech from './go-tech.json'
+import kaigaiTenkai from './kaigai-tenkai.json'
+import shoeneShift from './shoene-shift.json'
+import joshiKigyoka from './joshi-kigyoka.json'
 
 export type Hojokin = {
   slug: string
@@ -51,6 +60,15 @@ export const allHojokin: Hojokin[] = [
   koyoChousei as Hojokin,
   tokuteiKibo as Hojokin,
   innovationSouzou as Hojokin,
+  careerUp as Hojokin,
+  hatarakikata as Hojokin,
+  trialKoyo as Hojokin,
+  sogyou as Hojokin,
+  jinzaiKakuho as Hojokin,
+  goTech as Hojokin,
+  kaigaiTenkai as Hojokin,
+  shoeneShift as Hojokin,
+  joshiKigyoka as Hojokin,
 ]
 
 export function getHojokinBySlug(slug: string): Hojokin | undefined {

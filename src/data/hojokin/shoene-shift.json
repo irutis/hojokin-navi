@@ -1,0 +1,84 @@
+{
+  "slug": "shoene-shift",
+  "name": "省エネ補助金（SHIFT事業）",
+  "official_name": "工場・事業場における先導的な脱炭素化取組推進事業（SHIFT事業）",
+  "category": "省エネ・脱炭素",
+  "managing_org": "環境省",
+  "max_amount": 100000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者",
+    "大企業"
+  ],
+  "target_industries": [
+    "製造業",
+    "物流業",
+    "小売業",
+    "オフィス"
+  ],
+  "purpose": "工場・事業場の脱炭素化に向けた設備更新・省エネ対策を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "省エネ設備・機器の導入費",
+    "省エネ改修工事費",
+    "エネルギー管理システム（EMS）導入費"
+  ],
+  "ineligible_expenses": [
+    "建物本体の建設費",
+    "汎用の事務機器",
+    "省エネ効果が確認できない設備"
+  ],
+  "eligibility_conditions": [
+    "省エネ診断等を受けて省エネ余地が確認されていること",
+    "CO2削減効果が見込める設備導入であること",
+    "中長期計画に基づく取組であること",
+    "補助事業終了後も継続的に省エネ・CO2削減に取り組むこと"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "省エネ診断の受診（環境省認定の診断機関に依頼）",
+    "省エネ計画書・CO2削減計画の作成",
+    "公募期間中に電子申請",
+    "採択後、省エネ設備の導入・工事",
+    "実績報告（CO2削減量の報告）",
+    "補助金受領"
+  ],
+  "rejection_reasons": [
+    "省エネ診断を受けていない・CO2削減量の根拠がない",
+    "削減見込みCO2量が要件（原単位で1%以上等）を下回る",
+    "対象設備が補助対象外",
+    "申請書類（設備仕様書・見積書）が不備",
+    "既に導入済み・発注済みの設備を申請した"
+  ],
+  "success_tips": [
+    "まず環境省の省エネ診断（無料または低コスト）を受けてデータを取得する",
+    "CO2削減量の計算は専門家（エネルギー管理士等）に依頼すると精度が上がる",
+    "高効率空調・高効率照明・インバーター導入は採択実績が多い",
+    "複数年計画で段階的に申請することで、より大きな設備更新も対応できる"
+  ],
+  "affiliate_cta": {
+    "text": "省エネ設備導入を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "shoene-setsubi",
+    "monozukuri"
+  ],
+  "tags": [
+    "省エネ",
+    "脱炭素",
+    "CO2削減",
+    "設備投資",
+    "環境"
+  ],
+  "monthly_searches": 20000,
+  "last_updated": "2026-03-28"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "joshi-kigyoka",
+  "name": "女性・若者・シニア起業家支援資金",
+  "official_name": "女性、若者／シニア起業家支援資金",
+  "category": "創業・スタートアップ",
+  "managing_org": "日本政策金融公庫",
+  "max_amount": 72000000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "創業予定者",
+    "創業後7年以内"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "女性・35歳未満・55歳以上の起業家の事業立ち上げ・成長を低利融資で支援",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "設備資金",
+    "運転資金"
+  ],
+  "ineligible_expenses": [
+    "個人消費",
+    "借入金の返済",
+    "土地の取得費（原則）"
+  ],
+  "eligibility_conditions": [
+    "女性、または35歳未満、または55歳以上であること",
+    "新たに事業を始める方、または事業開始後7年以内であること",
+    "日本政策金融公庫の審査に通過すること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "日本政策金融公庫の支店・オンラインに相談",
+    "借入申込書・事業計画書の作成",
+    "面談・審査",
+    "融資実行"
+  ],
+  "rejection_reasons": [
+    "事業計画の収支予測が非現実的",
+    "自己資金が少なすぎる（目安：必要資金の1/10以上）",
+    "信用情報に問題がある（延滞等）",
+    "業種・事業内容が融資対象外",
+    "返済能力の説明が不十分"
+  ],
+  "success_tips": [
+    "自己資金をできる限り用意する（公庫は自己資金の存在を重視する）",
+    "事業計画書は商工会・創業支援センターで添削を受ける",
+    "過去の職務経験と事業内容の関連性をアピールする",
+    "最初から大きい金額を申請せず、返済できる範囲で申請する"
+  ],
+  "affiliate_cta": {
+    "text": "創業を会計ソフトで効率化する（freee）",
+    "url_placeholder": "AFFILIATE_FREEE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
+  },
+  "related_subsidies": [
+    "sogyou",
+    "jizokuka"
+  ],
+  "tags": [
+    "創業",
+    "女性起業家",
+    "若者",
+    "シニア",
+    "融資"
+  ],
+  "monthly_searches": 22000,
+  "last_updated": "2026-03-28"
+}

@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: base, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
     { url: `${base}/search`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
+    { url: `${base}/research`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     ...hojokinPages,
   ]
 }

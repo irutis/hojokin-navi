@@ -121,6 +121,8 @@ export default function Home() {
             <Link href="/gyoshu" className="hover:text-white transition-colors">業種別補助金</Link>
             <Link href="/research" className="hover:text-white transition-colors">採択率データ</Link>
             <Link href="/search" className="hover:text-white transition-colors">全件検索</Link>
+            <Link href="/about" className="hover:text-white transition-colors">運営者情報</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">プライバシーポリシー</Link>
           </div>
           <p className="text-center text-xs">
             © 2026 補助金申請ガイド ｜ 本サイトの情報は参考情報です。申請前に必ず公式サイトをご確認ください。

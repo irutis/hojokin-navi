@@ -49,11 +49,18 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
     <main className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <Link href="/" className="text-blue-700 font-bold text-lg">補助金申請ガイド</Link>
-          <span className="text-gray-400 mx-2">/</span>
-          <span className="text-gray-600 text-sm">{h.name}</span>
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
+        <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm overflow-hidden">
+            <Link href="/" className="text-blue-700 font-bold text-lg shrink-0">補助金申請ガイド</Link>
+            <span className="text-gray-400 shrink-0">/</span>
+            <span className="text-gray-600 truncate">{h.name}</span>
+          </div>
+          <nav className="hidden sm:flex items-center gap-1 text-sm shrink-0 ml-4">
+            <Link href="/gyoshu" className="text-gray-500 hover:text-blue-700 px-3 py-1.5 rounded-lg hover:bg-blue-50 transition-colors">業種別</Link>
+            <Link href="/research" className="text-gray-500 hover:text-blue-700 px-3 py-1.5 rounded-lg hover:bg-blue-50 transition-colors">採択率</Link>
+            <Link href="/" className="bg-blue-600 text-white px-3 py-1.5 rounded-lg hover:bg-blue-700 transition-colors font-medium">AI診断</Link>
+          </nav>
         </div>
       </header>
 
@@ -221,8 +228,16 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
           </section>
         )}
 
-        <div className="mt-8 text-center">
-          <Link href="/" className="text-blue-600 text-sm hover:underline">← トップに戻る・AI診断を受ける</Link>
+        {/* フッターナビ */}
+        <div className="mt-8 border-t border-gray-200 pt-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <Link href="/" className="text-sm text-gray-500 hover:text-blue-600 transition-colors">← AI診断に戻る</Link>
+            <div className="flex gap-3 text-sm">
+              <Link href="/gyoshu" className="text-gray-500 hover:text-blue-600 transition-colors">業種別補助金</Link>
+              <Link href="/research" className="text-gray-500 hover:text-blue-600 transition-colors">採択率データ</Link>
+              <Link href="/search" className="text-gray-500 hover:text-blue-600 transition-colors">全件検索</Link>
+            </div>
+          </div>
         </div>
       </div>
     </main>

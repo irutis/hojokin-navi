@@ -168,11 +168,17 @@ export default function ResearchPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <Link href="/" className="text-blue-700 font-bold text-lg">補助金申請ガイド</Link>
-          <span className="text-gray-400 mx-2">/</span>
-          <span className="text-gray-600 text-sm">補助金採択率データ2026</span>
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
+        <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm">
+            <Link href="/" className="text-blue-700 font-bold text-lg">補助金申請ガイド</Link>
+            <span className="text-gray-400">/</span>
+            <span className="text-gray-600">採択率データ</span>
+          </div>
+          <nav className="hidden sm:flex items-center gap-1 text-sm">
+            <Link href="/gyoshu" className="text-gray-500 hover:text-blue-700 px-3 py-1.5 rounded-lg hover:bg-blue-50 transition-colors">業種別</Link>
+            <Link href="/search" className="text-gray-500 hover:text-blue-700 px-3 py-1.5 rounded-lg hover:bg-blue-50 transition-colors">全件検索</Link>
+          </nav>
         </div>
       </header>
 
@@ -208,19 +214,27 @@ export default function ResearchPage() {
               <tbody className="divide-y divide-gray-100">
                 {adoptionData.map((d) => (
                   <tr key={d.slug} className="hover:bg-gray-50">
-                    <td className="px-6 py-4">
+                    <td className="px-6 py-4 min-w-[180px]">
                       <Link href={`/hojokin/${d.slug}`} className="font-medium text-blue-700 hover:underline">
                         {d.name}
                       </Link>
-                      <p className="text-xs text-gray-400 mt-0.5">{d.note}</p>
+                      <p className="text-xs text-gray-400 mt-0.5 line-clamp-1">{d.note}</p>
                     </td>
-                    <td className="px-4 py-4 text-center">
-                      <span className="font-bold text-gray-800">{d.rate2024}%</span>
+                    <td className="px-4 py-4 min-w-[120px]">
+                      <div className="flex items-center gap-2">
+                        <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className={`h-2 rounded-full ${d.rate2024 >= 80 ? 'bg-green-500' : d.rate2024 >= 60 ? 'bg-blue-500' : d.rate2024 >= 45 ? 'bg-yellow-500' : 'bg-red-400'}`}
+                            style={{ width: `${d.rate2024}%` }}
+                          />
+                        </div>
+                        <span className="font-bold text-gray-800 text-xs shrink-0">{d.rate2024}%</span>
+                      </div>
                     </td>
-                    <td className="px-4 py-4 text-center text-gray-500">
+                    <td className="px-4 py-4 text-center text-gray-400 text-xs">
                       {d.rate2023 ? `${d.rate2023}%` : '—'}
                     </td>
-                    <td className="px-4 py-4 text-center text-gray-700">
+                    <td className="px-4 py-4 text-center text-gray-700 text-xs font-medium">
                       {formatAmount(d.avgAmount)}
                     </td>
                     <td className="px-4 py-4 text-center">

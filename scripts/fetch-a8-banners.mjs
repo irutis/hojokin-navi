@@ -51,7 +51,18 @@ async function main() {
     console.log('✅ ログイン成功')
 
     // ─── 参加中プログラム一覧 ───
-    await page.goto('https://www.a8.net/a8v2/siteProgram.f4d?action=list&status=2', { waitUntil: 'networkidle' })
+    await page.goto('https://pub.a8.net/a8v2/media/programList.do?status=2', { waitUntil: 'domcontentloaded', timeout: 60000 })
+    await page.waitForTimeout(2000)
+
+    // デバッグ: 現在のURLとページのリンクを確認
+    console.log('プログラム一覧URL:', page.url())
+    const links = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('a[href]'))
+        .map(a => a.href)
+        .filter(h => h.includes('program') || h.includes('Program') || h.includes('freee') || h.includes('money'))
+        .slice(0, 20)
+    })
+    console.log('関連リンク:', links.join('\n'))
 
     let updated = 0
 

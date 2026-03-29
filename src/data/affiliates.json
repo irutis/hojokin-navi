@@ -10,16 +10,6 @@
     "program_name_keyword": "freee会計"
   },
   {
-    "id": "moneyforward-cloud",
-    "name": "マネーフォワード クラウド",
-    "description": "会計・給与・経費を一括管理。補助金申請にも",
-    "color": "blue",
-    "a8_ins_id": "s00000011623001",
-    "banner_html": "",
-    "fallback_url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY",
-    "program_name_keyword": "マネーフォワード クラウド確定申告"
-  },
-  {
     "id": "moneyforward-kaishaseturitu",
     "name": "マネーフォワード 会社設立",
     "description": "設立手続きをオンラインで完結。創業補助金と併用",

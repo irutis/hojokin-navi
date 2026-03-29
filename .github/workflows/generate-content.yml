@@ -1,9 +1,9 @@
-name: 自律コンテンツ生成
+name: 自律コンテンツ生成・データ同期
 
 on:
   schedule:
     - cron: '0 1 * * *'  # 毎日JST 10:00に実行
-  workflow_dispatch:       # 手動実行も可能
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -21,7 +21,13 @@ jobs:
 
       - run: npm ci
 
-      - name: コンテンツ生成
+      - name: J-Grantsデータ同期
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: node scripts/sync-jgrants.mjs
+
+      - name: コンテンツ自動生成
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-content.mjs
@@ -29,7 +35,7 @@ jobs:
       - name: 変更をコミット・プッシュ
         run: |
           git config user.name "hojokin-navi-bot"
-          git config user.email "bot@hojokin-db.jp"
-          git add src/data/hojokin/
-          git diff --staged --quiet || git commit -m "auto: 補助金データ自動更新 $(date '+%Y-%m-%d')"
+          git config user.email "bot@hojokin-guide.jp"
+          git add -A
+          git diff --staged --quiet || git commit -m "auto: 補助金データ・コンテンツ自動更新 $(date '+%Y-%m-%d')"
           git push

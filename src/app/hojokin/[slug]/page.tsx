@@ -24,8 +24,31 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
 
   const related = allHojokin.filter((r) => h.related_subsidies.includes(r.slug))
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${h.name}の申請方法・条件・不採択理由【2026年最新】`,
+    description: `${h.name}の対象条件、補助額（最大${formatAmount(h.max_amount)}）、申請フロー、よくある不採択理由をわかりやすく解説。`,
+    dateModified: h.last_updated,
+    author: { '@type': 'Organization', name: '補助金申請ガイド' },
+    publisher: { '@type': 'Organization', name: '補助金申請ガイド' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://hojokin-navi-eta.vercel.app/hojokin/${h.slug}` },
+  }
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: h.rejection_reasons.map((reason, i) => ({
+      '@type': 'Question',
+      name: `${h.name}の不採択理由${i + 1}は？`,
+      acceptedAnswer: { '@type': 'Answer', text: reason },
+    })),
+  }
+
   return (
     <main className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <Link href="/" className="text-blue-700 font-bold text-lg">補助金申請ガイド</Link>

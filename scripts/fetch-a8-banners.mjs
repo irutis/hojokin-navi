@@ -51,18 +51,17 @@ async function main() {
     console.log('✅ ログイン成功')
 
     // ─── 参加中プログラム一覧 ───
-    await page.goto('https://pub.a8.net/a8v2/media/programList.do?status=2', { waitUntil: 'domcontentloaded', timeout: 60000 })
-    await page.waitForTimeout(2000)
+    await page.goto('https://pub.a8.net/a8v2/media/programList.do?status=2', { waitUntil: 'networkidle', timeout: 60000 })
+    await page.waitForTimeout(3000)
 
-    // デバッグ: 現在のURLとページのリンクを確認
+    // デバッグ: ページのテキストと全リンクを確認
     console.log('プログラム一覧URL:', page.url())
-    const links = await page.evaluate(() => {
-      return Array.from(document.querySelectorAll('a[href]'))
-        .map(a => a.href)
-        .filter(h => h.includes('program') || h.includes('Program') || h.includes('freee') || h.includes('money'))
-        .slice(0, 20)
+    const pageText = await page.evaluate(() => document.body?.innerText?.slice(0, 1000) ?? '')
+    console.log('ページテキスト:\n', pageText)
+    const allLinks = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('a[href]')).map(a => `${a.textContent?.trim()} → ${a.href}`).slice(0, 30)
     })
-    console.log('関連リンク:', links.join('\n'))
+    console.log('全リンク:', allLinks.join('\n'))
 
     let updated = 0
 

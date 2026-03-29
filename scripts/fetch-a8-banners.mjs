@@ -1,7 +1,6 @@
 /**
  * A8.net バナーHTML自動取得スクリプト
- * 環境変数: A8_EMAIL, A8_PASSWORD
- * 出力: src/data/affiliates.json の banner_html を更新
+ * 環境変数: A8_LOGIN_ID, A8_PASSWORD
  */
 
 import { chromium } from 'playwright'
@@ -12,7 +11,7 @@ import { dirname, join } from 'path'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const AFFILIATES_PATH = join(__dirname, '../src/data/affiliates.json')
 
-const LOGIN_ID = process.env.A8_LOGIN_ID  // A8.netの会員ID（英数字）
+const LOGIN_ID = process.env.A8_LOGIN_ID
 const PASSWORD = process.env.A8_PASSWORD
 
 if (!LOGIN_ID || !PASSWORD) {
@@ -20,8 +19,7 @@ if (!LOGIN_ID || !PASSWORD) {
   process.exit(1)
 }
 
-// バナーサイズ優先順（幅x高さ）
-const PREFERRED_SIZES = ['468x60', '300x250', '728x90', '320x50']
+const PREFERRED_SIZES = ['300x250', '468x60', '728x90', '320x50']
 
 async function main() {
   const affiliates = JSON.parse(readFileSync(AFFILIATES_PATH, 'utf-8'))
@@ -36,128 +34,72 @@ async function main() {
     // ─── ログイン ───
     console.log('A8.net にログイン中...')
     await page.goto('https://pub.a8.net/a8v2/asLoginAction.do', { waitUntil: 'domcontentloaded', timeout: 60000 })
-
     await page.fill('input[name="login"]', LOGIN_ID)
     await page.fill('input[name="passwd"]', PASSWORD)
     await page.click('input[type="submit"]')
     await page.waitForNavigation({ waitUntil: 'networkidle', timeout: 30000 }).catch(() => {})
 
-    const currentUrl = page.url()
-    console.log('遷移先URL:', currentUrl)
-    if (currentUrl.includes('loginAction') || currentUrl.includes('login')) {
-      console.error('❌ ログイン失敗。A8_LOGIN_ID（会員ID）とパスワードを確認してください')
+    if (page.url().includes('loginAction')) {
+      console.error('❌ ログイン失敗')
       process.exit(1)
     }
     console.log('✅ ログイン成功')
 
-    // ─── 参加中プログラム一覧 ───
-    await page.goto('https://pub.a8.net/a8v2/media/partnerProgramListAction.do?act=search&viewPage=', { waitUntil: 'networkidle', timeout: 60000 })
-    await page.waitForTimeout(2000)
-
     let updated = 0
-    const PARTNER_LIST_URL = 'https://pub.a8.net/a8v2/media/partnerProgramListAction.do?act=search&viewPage='
 
     for (const affiliate of affiliates) {
-      console.log(`\n🔍 ${affiliate.name} のバナーを検索中...`)
+      console.log(`\n🔍 ${affiliate.name} のバナーを取得中...`)
 
       try {
-        // 参加中プログラム一覧でキーワード検索
+        if (!affiliate.a8_ins_id) {
+          console.warn(`  ⚠️ a8_ins_id が未設定`)
+          continue
+        }
+
+        // 広告リンクページへ直接移動
         await page.goto(
-          `${PARTNER_LIST_URL}&keyword=${encodeURIComponent(affiliate.program_name_keyword)}`,
+          `https://pub.a8.net/a8v2/media/linkAction.do?insId=${affiliate.a8_ins_id}`,
           { waitUntil: 'networkidle', timeout: 60000 }
         )
-        await page.waitForTimeout(2000)
-
-        // プログラム行から広告リンクURLを抽出
-        const programRows = await page.evaluate(() => {
-          const rows = []
-          document.querySelectorAll('a[href*="linkAction"]').forEach(a => {
-            const row = a.closest('tr') || a.closest('div') || a.closest('li')
-            rows.push({ name: row?.textContent?.replace(/\s+/g, ' ').trim().slice(0, 80) ?? '', linkUrl: a.href })
-          })
-          return rows
-        })
-
-        // 最初のlinkActionリンクを使用（キーワード検索済みなので先頭が最関連）
-        let linkUrl = programRows[0]?.linkUrl
-        if (!linkUrl) {
-          console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
-          continue
-        }
-
-        if (!linkUrl) {
-          console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
-          continue
-        }
-
-        // 広告リンクページへ移動（バナー画像タブを探す）
-        await page.goto(linkUrl, { waitUntil: 'networkidle', timeout: 60000 })
-        await page.waitForTimeout(1000)
-        console.log('  広告リンクURL:', page.url())
-
-        // JS描画待ち後にtextarea内容を取得
+        // JSレンダリング待ち
         await page.waitForTimeout(5000)
-        const bodyText = await page.evaluate(() => document.body?.innerText?.slice(0, 2000) ?? '')
-        console.log('  ページ本文:\n', bodyText)
-        const textareaCount = await page.locator('textarea').count()
-        console.log('  textarea数:', textareaCount)
-        if (textareaCount > 0) {
-          for (let i = 0; i < Math.min(textareaCount, 5); i++) {
-            const val = await page.locator('textarea').nth(i).inputValue().catch(() => '')
-            console.log(`  textarea[${i}]:`, val.slice(0, 200))
-          }
-        }
 
-        // バナーHTMLをtextareaから取得
+        // textareaからバナーHTMLを取得（優先サイズ順）
         let bannerHtml = ''
         const textareas = await page.locator('textarea').all()
-        for (const ta of textareas) {
-          const val = await ta.inputValue().catch(() => '')
-          if (val.includes('a8.net') && (val.includes('<a ') || val.includes('<img '))) {
-            for (const size of PREFERRED_SIZES) {
-              const [w, h] = size.split('x')
-              if (val.includes(`width="${w}"`) && val.includes(`height="${h}"`)) {
-                bannerHtml = val.trim()
-                console.log(`  ✅ ${size} バナーをtextareaから取得`)
-                break
-              }
+
+        for (const size of PREFERRED_SIZES) {
+          const [w, h] = size.split('x')
+          for (const ta of textareas) {
+            const val = await ta.inputValue().catch(() => '')
+            if (
+              val.includes('a8.net') &&
+              val.includes('<img') &&
+              val.includes(`width="${w}"`) &&
+              val.includes(`height="${h}"`)
+            ) {
+              bannerHtml = val.trim()
+              console.log(`  ✅ ${size} バナーを取得`)
+              break
             }
-            // サイズ不明・テキストリンクのみは使用しない
           }
           if (bannerHtml) break
-        }
-
-        // textareaになければimgタグから構築
-        if (!bannerHtml) {
-          const imgs = await page.locator('img[src*="a8.net"], img[src*="a8img"]').all()
-          for (const img of imgs) {
-            const w = await img.getAttribute('width') || ''
-            const h = await img.getAttribute('height') || ''
-            for (const size of PREFERRED_SIZES) {
-              const [pw, ph] = size.split('x')
-              if (w === pw && h === ph) {
-                const outer = await img.evaluate((el) => {
-                  const a = el.closest('a')
-                  return a ? a.outerHTML : el.outerHTML
-                })
-                bannerHtml = outer
-                console.log(`  ✅ imgから ${size} バナーを取得`)
-                break
-              }
-            }
-            if (bannerHtml) break
-          }
         }
 
         if (bannerHtml) {
           affiliate.banner_html = bannerHtml
           updated++
         } else {
-          console.warn(`  ⚠️ バナーHTMLが見つかりませんでした（フォールバックURLを使用）`)
+          console.warn(`  ⚠️ バナー画像が見つかりませんでした（フォールバック使用）`)
+          // textareaが40個ある場合は内容確認
+          if (textareas.length > 0) {
+            const sample = await textareas[0].inputValue().catch(() => '')
+            console.log(`  サンプル: ${sample.slice(0, 100)}`)
+          }
         }
 
       } catch (err) {
-        console.warn(`  ⚠️ ${affiliate.name} の取得中にエラー: ${err.message}`)
+        console.warn(`  ⚠️ エラー: ${err.message}`)
       }
 
       await new Promise((r) => setTimeout(r, 1000))
@@ -165,7 +107,6 @@ async function main() {
 
     writeFileSync(AFFILIATES_PATH, JSON.stringify(affiliates, null, 2), 'utf-8')
     console.log(`\n✅ 完了: ${updated}/${affiliates.length} 件のバナーを更新`)
-    console.log(`📄 ${AFFILIATES_PATH} に保存しました`)
 
   } finally {
     await browser.close()

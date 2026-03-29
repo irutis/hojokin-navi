@@ -50,119 +50,95 @@ async function main() {
     }
     console.log('✅ ログイン成功')
 
-    // ─── ダッシュボードから参加中プログラム一覧へ ───
-    // ログイン後のダッシュボードのリンクを調査
-    const dashboardLinks = await page.evaluate(() => {
-      return Array.from(document.querySelectorAll('a[href]')).map(a => `${a.textContent?.trim()} → ${a.href}`)
-    })
-    console.log('ダッシュボードリンク:', dashboardLinks.join('\n'))
-
-    // 参加プログラムへのリンクを探す
-    const programLink = await page.locator('a:has-text("参加"), a:has-text("プログラム"), a[href*="program"], a[href*="Program"]').first()
-    if (await programLink.count() > 0) {
-      const href = await programLink.getAttribute('href')
-      console.log('プログラムリンク:', href)
-      await page.goto(href.startsWith('http') ? href : `https://pub.a8.net${href}`, { waitUntil: 'networkidle', timeout: 60000 })
-    } else {
-      // 直接URLを試す
-      await page.goto('https://pub.a8.net/a8v2/media/siteProgram.do?status=2', { waitUntil: 'networkidle', timeout: 60000 })
-    }
+    // ─── 参加中プログラム一覧 ───
+    await page.goto('https://pub.a8.net/a8v2/media/partnerProgramListAction.do?act=search&viewPage=', { waitUntil: 'networkidle', timeout: 60000 })
     await page.waitForTimeout(2000)
-    console.log('プログラム一覧URL:', page.url())
-    const pageText2 = await page.evaluate(() => document.body?.innerText?.slice(0, 500) ?? '')
-    console.log('ページ内容:', pageText2)
+    console.log('参加中プログラム一覧URL:', page.url())
 
     let updated = 0
+    const PARTNER_LIST_URL = 'https://pub.a8.net/a8v2/media/partnerProgramListAction.do?act=search&viewPage='
 
     for (const affiliate of affiliates) {
       console.log(`\n🔍 ${affiliate.name} のバナーを検索中...`)
 
       try {
-        // プログラム名でリンクを探す
-        const programLink = await page.locator(`a:has-text("${affiliate.program_name_keyword}")`).first()
-        const exists = await programLink.count() > 0
+        // 参加中プログラム一覧でキーワード検索
+        await page.goto(
+          `${PARTNER_LIST_URL}&keyword=${encodeURIComponent(affiliate.program_name_keyword)}`,
+          { waitUntil: 'networkidle', timeout: 60000 }
+        )
+        await page.waitForTimeout(2000)
 
-        if (!exists) {
-          // 検索でも試みる
-          await page.goto(
-            `https://www.a8.net/a8v2/siteProgram.f4d?action=list&status=2&keyword=${encodeURIComponent(affiliate.program_name_keyword)}`,
-            { waitUntil: 'networkidle' }
-          )
-        }
-
-        // プログラムページへ移動
-        const link = await page.locator(`a:has-text("${affiliate.program_name_keyword}")`).first()
-        if (await link.count() === 0) {
-          console.warn(`⚠️ ${affiliate.name} が見つかりませんでした`)
-          continue
-        }
-
-        // 広告素材ページへ
-        const href = await link.getAttribute('href')
-        const programId = href?.match(/program_id=(\d+)/)?.[1] || href?.match(/pid=(\d+)/)?.[1]
-
-        if (!programId) {
-          // プログラムページを開いて素材リンクを探す
-          await link.click()
+        // プログラム名のリンクを探す（広告素材リンク）
+        const materialLink = await page.locator('a:has-text("広告素材"), a[href*="material"], a[href*="banner"]').first()
+        if (await materialLink.count() === 0) {
+          // プログラム名のリンクをクリックしてみる
+          const progLink = await page.locator(`a:has-text("${affiliate.program_name_keyword.split('　')[0]}")`).first()
+          if (await progLink.count() === 0) {
+            console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
+            // デバッグ: ページテキスト
+            const txt = await page.evaluate(() => document.body?.innerText?.slice(0, 300) ?? '')
+            console.log('  ページ内容:', txt)
+            continue
+          }
+          await progLink.click()
           await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
-          const materialLink = await page.locator('a:has-text("広告素材"), a:has-text("バナー"), a[href*="material"]').first()
-          if (await materialLink.count() > 0) {
-            await materialLink.click()
-            await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
-          }
+          await page.waitForTimeout(1000)
         } else {
-          await page.goto(
-            `https://www.a8.net/a8v2/siteProgramBanner.f4d?program_id=${programId}`,
-            { waitUntil: 'networkidle' }
-          )
+          await materialLink.click()
+          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+          await page.waitForTimeout(1000)
         }
 
-        // バナーHTMLを取得
+        console.log('  素材ページURL:', page.url())
+
+        // 素材ページから広告素材リンクを再度探す
+        const mat2 = await page.locator('a:has-text("広告素材"), a:has-text("バナー素材"), a[href*="material"]').first()
+        if (await mat2.count() > 0) {
+          await mat2.click()
+          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+          await page.waitForTimeout(1000)
+          console.log('  素材一覧URL:', page.url())
+        }
+
+        // バナーHTMLをtextareaから取得
         let bannerHtml = ''
-
-        for (const size of PREFERRED_SIZES) {
-          const [width, height] = size.split('x')
-
-          // テキストエリアやコードブロックからHTMLを探す
-          const codeBlocks = await page.locator('textarea, .banner-code, input[type="text"][value*="a8.net"]').all()
-
-          for (const block of codeBlocks) {
-            const val = await block.inputValue().catch(() => '') || await block.textContent().catch(() => '') || ''
-            if (val.includes(`width="${width}"`) && val.includes(`height="${height}"`)) {
-              bannerHtml = val.trim()
-              break
+        const textareas = await page.locator('textarea').all()
+        for (const ta of textareas) {
+          const val = await ta.inputValue().catch(() => '')
+          if (val.includes('a8.net') && (val.includes('<a ') || val.includes('<img '))) {
+            for (const size of PREFERRED_SIZES) {
+              const [w, h] = size.split('x')
+              if (val.includes(`width="${w}"`) && val.includes(`height="${h}"`)) {
+                bannerHtml = val.trim()
+                console.log(`  ✅ ${size} バナーをtextareaから取得`)
+                break
+              }
             }
-            // widthxheight形式
-            if (val.includes(`${width}x${height}`) || val.includes(`${width}×${height}`)) {
+            if (!bannerHtml && val.includes('<a ')) {
               bannerHtml = val.trim()
-              break
+              console.log(`  ✅ バナーHTMLを取得（サイズ不明）`)
             }
           }
-
-          if (bannerHtml) {
-            console.log(`  ✅ ${size} バナーを取得`)
-            break
-          }
+          if (bannerHtml) break
         }
 
+        // textareaになければimgタグから構築
         if (!bannerHtml) {
-          // img タグから直接取得を試みる
-          const imgs = await page.locator('img[src*="a8.net"]').all()
+          const imgs = await page.locator('img[src*="a8.net"], img[src*="a8img"]').all()
           for (const img of imgs) {
-            const src = await img.getAttribute('src') || ''
             const w = await img.getAttribute('width') || ''
             const h = await img.getAttribute('height') || ''
-
             for (const size of PREFERRED_SIZES) {
               const [pw, ph] = size.split('x')
               if (w === pw && h === ph) {
-                const parentA = await img.locator('xpath=..').first()
-                const parentTag = await parentA.evaluate((el) => el.tagName.toLowerCase())
-                if (parentTag === 'a') {
-                  bannerHtml = await parentA.evaluate((el) => el.outerHTML)
-                  console.log(`  ✅ imgから ${size} バナーを取得`)
-                  break
-                }
+                const outer = await img.evaluate((el) => {
+                  const a = el.closest('a')
+                  return a ? a.outerHTML : el.outerHTML
+                })
+                bannerHtml = outer
+                console.log(`  ✅ imgから ${size} バナーを取得`)
+                break
               }
             }
             if (bannerHtml) break
@@ -180,8 +156,6 @@ async function main() {
         console.warn(`  ⚠️ ${affiliate.name} の取得中にエラー: ${err.message}`)
       }
 
-      // 参加中プログラム一覧に戻る
-      await page.goto('https://www.a8.net/a8v2/siteProgram.f4d?action=list&status=2', { waitUntil: 'networkidle' }).catch(() => {})
       await new Promise((r) => setTimeout(r, 1000))
     }
 

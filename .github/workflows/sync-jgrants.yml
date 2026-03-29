@@ -14,7 +14,13 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
+      - name: 環境変数の確認
+        run: |
+          echo "SUPABASE_URL設定: ${{ secrets.SUPABASE_URL != '' }}"
+          echo "SUPABASE_SERVICE_KEY設定: ${{ secrets.SUPABASE_SERVICE_KEY != '' }}"
       - run: node scripts/sync-jgrants.mjs
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}

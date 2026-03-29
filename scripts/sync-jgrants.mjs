@@ -1,12 +1,37 @@
 /**
- * J-Grants API → Supabase 同期スクリプト（高速版）
- * 基本データのみ保存してタイムアウトを回避
+ * J-Grants API → Supabase 同期スクリプト（堅牢版）
  */
 import { createClient } from '@supabase/supabase-js'
 
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
-const SUPABASE_KEY = process.env.SUPABASE_SERVICE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+// 複数の環境変数名に対応
+const SUPABASE_URL =
+  process.env.NEXT_PUBLIC_SUPABASE_URL ||
+  process.env.SUPABASE_URL ||
+  ''
+
+const SUPABASE_KEY =
+  process.env.SUPABASE_SERVICE_KEY ||
+  process.env.SUPABASE_ANON_KEY ||
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+  ''
+
 const BASE_URL = 'https://api.jgrants-portal.go.jp/exp/v1/public'
+
+// 環境変数チェック
+if (!SUPABASE_URL) {
+  console.error('❌ エラー: Supabase URLが設定されていません')
+  console.error('必要な環境変数: SUPABASE_URL または NEXT_PUBLIC_SUPABASE_URL')
+  process.exit(1)
+}
+
+if (!SUPABASE_KEY) {
+  console.error('❌ エラー: Supabase Keyが設定されていません')
+  console.error('必要な環境変数: SUPABASE_SERVICE_KEY')
+  process.exit(1)
+}
+
+console.log(`✅ Supabase URL: ${SUPABASE_URL.slice(0, 40)}...`)
+console.log(`✅ Supabase Key: ${SUPABASE_KEY.slice(0, 20)}...`)
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY)
 
@@ -17,23 +42,41 @@ const KEYWORDS = [
 ]
 
 async function fetchSubsidies(keyword) {
-  const params = new URLSearchParams({
-    keyword,
-    sort: 'acceptance_end_datetime',
-    order: 'DESC',
-    acceptance: '1',
-    limit: '100',
-  })
-  const res = await fetch(`${BASE_URL}/subsidies?${params}`, {
-    headers: { Accept: 'application/json' },
-  })
-  if (!res.ok) return []
-  const data = await res.json()
-  return data.result ?? []
+  try {
+    const params = new URLSearchParams({
+      keyword,
+      sort: 'acceptance_end_datetime',
+      order: 'DESC',
+      acceptance: '1',
+      limit: '100',
+    })
+    const res = await fetch(`${BASE_URL}/subsidies?${params}`, {
+      headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout(15000),
+    })
+    if (!res.ok) {
+      console.warn(`⚠️ キーワード「${keyword}」: HTTP ${res.status}`)
+      return []
+    }
+    const data = await res.json()
+    return data.result ?? []
+  } catch (e) {
+    console.warn(`⚠️ キーワード「${keyword}」フェッチ失敗: ${e.message}`)
+    return []
+  }
 }
 
 async function main() {
-  console.log('J-Grants → Supabase 同期開始（高速版）')
+  console.log('J-Grants → Supabase 同期開始')
+
+  // Supabase接続テスト
+  const { error: pingError } = await supabase.from('subsidies').select('id').limit(1)
+  if (pingError) {
+    console.error('❌ Supabase接続エラー:', pingError.message)
+    console.error('テーブルが存在するか、RLSポリシーを確認してください')
+    process.exit(1)
+  }
+  console.log('✅ Supabase接続確認OK')
 
   const seen = new Set()
   const allItems = []
@@ -50,8 +93,13 @@ async function main() {
 
   console.log(`取得件数: ${allItems.length}件`)
 
-  // 10件ずつ小さいバッチで保存（タイムアウト回避）
+  if (allItems.length === 0) {
+    console.warn('⚠️ J-Grants APIから0件取得。APIが変更された可能性があります。')
+    process.exit(0)
+  }
+
   let saved = 0
+  let errors = 0
   for (let i = 0; i < allItems.length; i += 10) {
     const batch = allItems.slice(i, i + 10)
 
@@ -75,6 +123,7 @@ async function main() {
 
     if (error) {
       console.error(`バッチ${i}エラー:`, error.message)
+      errors++
       await new Promise(r => setTimeout(r, 2000))
     } else {
       saved += rows.length
@@ -84,7 +133,10 @@ async function main() {
     await new Promise(r => setTimeout(r, 300))
   }
 
-  console.log(`\n同期完了: ${saved}件`)
+  console.log(`\n同期完了: ${saved}件保存 / ${errors}エラー`)
 }
 
-main().catch(console.error)
+main().catch((e) => {
+  console.error('❌ 予期しないエラー:', e)
+  process.exit(1)
+})

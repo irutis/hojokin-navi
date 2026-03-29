@@ -29,21 +29,20 @@ jobs:
 
       - name: 環境変数チェック
         run: |
-          if [ -z "${{ secrets.A8_EMAIL }}" ]; then
-            echo "❌ A8_EMAIL が設定されていません"
-            echo "GitHub Settings > Secrets > Actions に A8_EMAIL を追加してください"
+          if [ -z "${{ secrets.A8_LOGIN_ID }}" ]; then
+            echo "❌ A8_LOGIN_ID が設定されていません"
+            echo "GitHub Settings > Secrets > Actions に A8_LOGIN_ID（A8.netの会員ID）を追加してください"
             exit 1
           fi
           if [ -z "${{ secrets.A8_PASSWORD }}" ]; then
             echo "❌ A8_PASSWORD が設定されていません"
-            echo "GitHub Settings > Secrets > Actions に A8_PASSWORD を追加してください"
             exit 1
           fi
           echo "✅ 環境変数OK"
 
       - name: A8.net バナー取得
         env:
-          A8_EMAIL: ${{ secrets.A8_EMAIL }}
+          A8_LOGIN_ID: ${{ secrets.A8_LOGIN_ID }}
           A8_PASSWORD: ${{ secrets.A8_PASSWORD }}
         run: node scripts/fetch-a8-banners.mjs
 

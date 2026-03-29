@@ -109,10 +109,7 @@ async function main() {
                 break
               }
             }
-            if (!bannerHtml && val.includes('<a ')) {
-              bannerHtml = val.trim()
-              console.log(`  ✅ バナーHTMLを取得（サイズ不明）`)
-            }
+            // サイズ不明・テキストリンクのみは使用しない
           }
           if (bannerHtml) break
         }

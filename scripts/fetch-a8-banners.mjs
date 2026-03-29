@@ -90,10 +90,28 @@ async function main() {
           continue
         }
 
-        // 広告リンクページへ移動
+        // 広告リンクページへ移動（バナー画像タブを探す）
         await page.goto(linkUrl, { waitUntil: 'networkidle', timeout: 60000 })
         await page.waitForTimeout(1000)
         console.log('  広告リンクURL:', page.url())
+
+        // ページ内のタブ・リンクを確認してバナー画像ページへ遷移
+        const pageLinks2 = await page.evaluate(() => {
+          return Array.from(document.querySelectorAll('a, button, li'))
+            .map(el => `${el.tagName} "${el.textContent?.trim()}" href="${el.getAttribute('href') || ''}"`)
+            .filter(s => s.includes('バナー') || s.includes('banner') || s.includes('画像') || s.includes('image') || s.includes('img'))
+            .slice(0, 20)
+        })
+        console.log('  バナー関連要素:', pageLinks2.join('\n  '))
+
+        // バナータブ・リンクをクリック
+        const bannerTab = await page.locator('a:has-text("バナー"), button:has-text("バナー"), li:has-text("バナー広告"), a[href*="banner"], a[href*="imgLink"]').first()
+        if (await bannerTab.count() > 0) {
+          await bannerTab.click()
+          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+          await page.waitForTimeout(1000)
+          console.log('  バナーページURL:', page.url())
+        }
 
         // バナーHTMLをtextareaから取得
         let bannerHtml = ''

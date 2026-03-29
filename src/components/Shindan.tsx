@@ -109,14 +109,17 @@ export default function Shindan() {
         <div className="space-y-4">
           {results.map((r, i) => (
             <div
-              key={r.slug}
+              key={r.slug ?? r.name}
               className={`rounded-xl p-5 border-2 ${i === 0 ? 'border-yellow-400 bg-yellow-50' : 'border-gray-200 bg-white'}`}
             >
-              <div className="flex items-center gap-2 mb-2">
-                <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${i === 0 ? 'bg-yellow-400 text-yellow-900' : 'bg-gray-100 text-gray-600'}`}>
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
+                <span className={`text-xs font-bold px-2.5 py-1 rounded-full shrink-0 ${i === 0 ? 'bg-yellow-400 text-yellow-900' : 'bg-gray-100 text-gray-600'}`}>
                   {i === 0 ? '🏆 最有力' : `第${i + 1}候補`}
                 </span>
-                <span className="font-bold text-gray-800 text-lg">{r.name}</span>
+                {!r.slug && (
+                  <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full shrink-0">公式サイトへ</span>
+                )}
+                <span className="font-bold text-gray-800 text-base">{r.name}</span>
                 <span className="ml-auto text-sm font-bold text-blue-600 shrink-0">適合度 {r.match_score}%</span>
               </div>
               <p className="text-sm text-gray-600 mb-3 leading-relaxed">{r.reason}</p>
@@ -125,12 +128,23 @@ export default function Shindan() {
                   ⚠️ {r.caution}
                 </p>
               )}
-              <Link
-                href={`/hojokin/${r.slug}`}
-                className="inline-block w-full text-center bg-blue-600 text-white font-bold px-4 py-3 rounded-xl hover:bg-blue-700 transition-colors text-sm"
-              >
-                申請方法・不採択理由を詳しく見る →
-              </Link>
+              {r.slug ? (
+                <Link
+                  href={`/hojokin/${r.slug}`}
+                  className="inline-block w-full text-center bg-blue-600 text-white font-bold px-4 py-3 rounded-xl hover:bg-blue-700 transition-colors text-sm"
+                >
+                  申請方法・不採択理由を詳しく見る →
+                </Link>
+              ) : r.official_url ? (
+                <a
+                  href={r.official_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full text-center bg-gray-700 text-white font-bold px-4 py-3 rounded-xl hover:bg-gray-800 transition-colors text-sm"
+                >
+                  🏛️ 公式サイトで詳細を見る →
+                </a>
+              ) : null}
             </div>
           ))}
         </div>

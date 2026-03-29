@@ -50,18 +50,27 @@ async function main() {
     }
     console.log('✅ ログイン成功')
 
-    // ─── 参加中プログラム一覧 ───
-    await page.goto('https://pub.a8.net/a8v2/media/programList.do?status=2', { waitUntil: 'networkidle', timeout: 60000 })
-    await page.waitForTimeout(3000)
-
-    // デバッグ: ページのテキストと全リンクを確認
-    console.log('プログラム一覧URL:', page.url())
-    const pageText = await page.evaluate(() => document.body?.innerText?.slice(0, 1000) ?? '')
-    console.log('ページテキスト:\n', pageText)
-    const allLinks = await page.evaluate(() => {
-      return Array.from(document.querySelectorAll('a[href]')).map(a => `${a.textContent?.trim()} → ${a.href}`).slice(0, 30)
+    // ─── ダッシュボードから参加中プログラム一覧へ ───
+    // ログイン後のダッシュボードのリンクを調査
+    const dashboardLinks = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('a[href]')).map(a => `${a.textContent?.trim()} → ${a.href}`)
     })
-    console.log('全リンク:', allLinks.join('\n'))
+    console.log('ダッシュボードリンク:', dashboardLinks.join('\n'))
+
+    // 参加プログラムへのリンクを探す
+    const programLink = await page.locator('a:has-text("参加"), a:has-text("プログラム"), a[href*="program"], a[href*="Program"]').first()
+    if (await programLink.count() > 0) {
+      const href = await programLink.getAttribute('href')
+      console.log('プログラムリンク:', href)
+      await page.goto(href.startsWith('http') ? href : `https://pub.a8.net${href}`, { waitUntil: 'networkidle', timeout: 60000 })
+    } else {
+      // 直接URLを試す
+      await page.goto('https://pub.a8.net/a8v2/media/siteProgram.do?status=2', { waitUntil: 'networkidle', timeout: 60000 })
+    }
+    await page.waitForTimeout(2000)
+    console.log('プログラム一覧URL:', page.url())
+    const pageText2 = await page.evaluate(() => document.body?.innerText?.slice(0, 500) ?? '')
+    console.log('ページ内容:', pageText2)
 
     let updated = 0
 

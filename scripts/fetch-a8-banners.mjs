@@ -35,14 +35,74 @@ async function main() {
   try {
     // ─── ログイン ───
     console.log('A8.net にログイン中...')
-    await page.goto('https://www.a8.net/a8v2/authManualLogin.f4d', { waitUntil: 'networkidle' })
+    await page.goto('https://www.a8.net/a8v2/authManualLogin.f4d', { waitUntil: 'domcontentloaded', timeout: 60000 })
+    await page.waitForTimeout(3000)
 
-    await page.fill('input[name="login_id"]', EMAIL)
-    await page.fill('input[name="password"]', PASSWORD)
+    // デバッグ用: ページHTMLのform要素を確認
+    const formHtml = await page.evaluate(() => {
+      const inputs = document.querySelectorAll('input')
+      return Array.from(inputs).map(el => `name="${el.name}" type="${el.type}" id="${el.id}"`).join('\n')
+    })
+    console.log('フォーム要素:\n', formHtml)
+
+    // 複数のセレクタを試みる
+    const emailSelectors = [
+      'input[name="login_id"]',
+      'input[name="loginId"]',
+      'input[name="email"]',
+      'input[name="mail"]',
+      'input[type="email"]',
+      'input[name="id"]',
+      '#login_id',
+      '#loginId',
+      '#email',
+    ]
+    const passwordSelectors = [
+      'input[name="password"]',
+      'input[name="passwd"]',
+      'input[name="pass"]',
+      'input[type="password"]',
+      '#password',
+      '#passwd',
+    ]
+
+    let emailFilled = false
+    for (const sel of emailSelectors) {
+      const el = await page.locator(sel).first()
+      if (await el.count() > 0) {
+        await el.fill(EMAIL)
+        console.log(`✅ メール入力: ${sel}`)
+        emailFilled = true
+        break
+      }
+    }
+    if (!emailFilled) {
+      await page.screenshot({ path: '/tmp/a8-login-debug.png' })
+      console.error('❌ メール入力欄が見つかりません')
+      process.exit(1)
+    }
+
+    let passFilled = false
+    for (const sel of passwordSelectors) {
+      const el = await page.locator(sel).first()
+      if (await el.count() > 0) {
+        await el.fill(PASSWORD)
+        console.log(`✅ パスワード入力: ${sel}`)
+        passFilled = true
+        break
+      }
+    }
+    if (!passFilled) {
+      console.error('❌ パスワード入力欄が見つかりません')
+      process.exit(1)
+    }
+
     await page.click('input[type="submit"], button[type="submit"]')
-    await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+    await page.waitForNavigation({ waitUntil: 'networkidle', timeout: 30000 }).catch(() => {})
 
-    if (page.url().includes('authManualLogin')) {
+    const currentUrl = page.url()
+    console.log('遷移先URL:', currentUrl)
+    if (currentUrl.includes('authManualLogin') || currentUrl.includes('login')) {
       console.error('❌ ログイン失敗。認証情報を確認してください')
       process.exit(1)
     }

@@ -69,36 +69,56 @@ async function main() {
         )
         await page.waitForTimeout(2000)
 
-        // ページ内のリンクをデバッグ確認
-        const pageLinks = await page.evaluate(() => {
-          return Array.from(document.querySelectorAll('table a, .list a, .content a, #main a, td a'))
-            .map(a => `${a.textContent?.trim()} → ${a.href}`)
-            .filter(s => s.length > 5)
-            .slice(0, 30)
+        // プログラム行からプログラム名とinsIdを抽出
+        const programRows = await page.evaluate(() => {
+          const rows = []
+          // 各行のプログラム名と広告リンクURLを取得
+          document.querySelectorAll('tr, .programRow, .program-item').forEach(row => {
+            const nameEl = row.querySelector('.programName, .program-name, td:first-child, h3, h4')
+            const linkEl = row.querySelector('a[href*="linkAction"]')
+            if (nameEl && linkEl) {
+              rows.push({
+                name: nameEl.textContent?.trim(),
+                linkUrl: linkEl.href,
+              })
+            }
+          })
+          // フォールバック: 全 linkAction リンクを取得
+          if (rows.length === 0) {
+            document.querySelectorAll('a[href*="linkAction"]').forEach(a => {
+              const row = a.closest('tr') || a.closest('div') || a.closest('li')
+              const allText = row?.textContent?.trim().slice(0, 100) ?? ''
+              rows.push({ name: allText, linkUrl: a.href })
+            })
+          }
+          return rows
         })
-        console.log('  コンテンツエリアリンク:', pageLinks.join('\n  '))
+        console.log('  プログラム行:', JSON.stringify(programRows.slice(0, 5)))
 
-        // プログラム名のリンクを本文エリアから探す（ナビメニュー除外）
-        const progLink = await page.locator(`table a:has-text("${affiliate.program_name_keyword.split('　')[0]}"), td a:has-text("${affiliate.program_name_keyword.split('　')[0]}")`).first()
-        if (await progLink.count() === 0) {
+        // キーワードでマッチするプログラムを探す
+        const keyword = affiliate.program_name_keyword
+        const matched = programRows.find(r =>
+          r.name.includes(keyword.split('　')[0]) ||
+          r.name.includes(keyword.split(' ')[0]) ||
+          keyword.includes(r.name.split(/\s/)[0])
+        )
+
+        let linkUrl = matched?.linkUrl
+        if (!linkUrl && programRows.length > 0) {
+          // マッチしない場合は1番目を使用
+          linkUrl = programRows[0].linkUrl
+          console.log(`  ⚠️ 完全マッチなし。最初のプログラムを使用: ${programRows[0].name}`)
+        }
+
+        if (!linkUrl) {
           console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
           continue
         }
 
-        // プログラム詳細ページへ
-        await progLink.click()
-        await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+        // 広告リンクページへ移動
+        await page.goto(linkUrl, { waitUntil: 'networkidle', timeout: 60000 })
         await page.waitForTimeout(1000)
-        console.log('  詳細ページURL:', page.url())
-
-        // 広告素材リンクを探す（テーブル内・コンテンツ内のみ）
-        const mat2 = await page.locator('table a:has-text("広告素材"), td a:has-text("広告素材"), td a:has-text("バナー"), a[href*="bannerListAction"], a[href*="materialList"]').first()
-        if (await mat2.count() > 0) {
-          const matHref = await mat2.getAttribute('href')
-          await page.goto(matHref.startsWith('http') ? matHref : `https://pub.a8.net${matHref}`, { waitUntil: 'networkidle', timeout: 60000 })
-          await page.waitForTimeout(1000)
-          console.log('  素材一覧URL:', page.url())
-        }
+        console.log('  広告リンクURL:', page.url())
 
         // バナーHTMLをtextareaから取得
         let bannerHtml = ''

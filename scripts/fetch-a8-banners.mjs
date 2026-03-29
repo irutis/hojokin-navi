@@ -95,21 +95,18 @@ async function main() {
         await page.waitForTimeout(1000)
         console.log('  広告リンクURL:', page.url())
 
-        // ページ内の全リンクをダンプ
-        const allPageLinks = await page.evaluate(() => {
-          return Array.from(document.querySelectorAll('a[href]'))
-            .map(a => `"${a.textContent?.trim().slice(0,30)}" → ${a.href}`)
-            .slice(0, 50)
-        })
-        console.log('  全リンク:\n  ', allPageLinks.join('\n  '))
-
-        // ページテキストとタブ構造を確認
-        const pageTabs = await page.evaluate(() => {
-          return Array.from(document.querySelectorAll('ul li, .tab, [class*="tab"], nav a'))
-            .map(el => `${el.tagName}.${el.className} "${el.textContent?.trim().slice(0,30)}"`)
-            .slice(0, 20)
-        })
-        console.log('  タブ/メニュー:\n  ', pageTabs.join('\n  '))
+        // JS描画待ち後にtextarea内容を取得
+        await page.waitForTimeout(5000)
+        const bodyText = await page.evaluate(() => document.body?.innerText?.slice(0, 2000) ?? '')
+        console.log('  ページ本文:\n', bodyText)
+        const textareaCount = await page.locator('textarea').count()
+        console.log('  textarea数:', textareaCount)
+        if (textareaCount > 0) {
+          for (let i = 0; i < Math.min(textareaCount, 5); i++) {
+            const val = await page.locator('textarea').nth(i).inputValue().catch(() => '')
+            console.log(`  textarea[${i}]:`, val.slice(0, 200))
+          }
+        }
 
         // バナーHTMLをtextareaから取得
         let bannerHtml = ''

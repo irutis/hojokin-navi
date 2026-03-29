@@ -1,0 +1,80 @@
+{
+  "slug": "bcp-hojokin",
+  "name": "中小企業BCP策定支援補助金",
+  "official_name": "中小企業強靱化・BCP策定支援事業",
+  "category": "経営強化・BCP",
+  "managing_org": "中小企業庁・各都道府県",
+  "max_amount": 1500000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "自然災害・感染症等のリスクに備えた事業継続計画（BCP）の策定・設備整備を支援",
+  "deadline": "公募期間中（都道府県によって異なる）",
+  "next_expected": "継続予定",
+  "eligible_expenses": [
+    "BCP策定コンサルタント費用",
+    "防災設備・備品購入費",
+    "自家発電設備",
+    "バックアップシステム導入費"
+  ],
+  "ineligible_expenses": [
+    "建物本体の改修費",
+    "通常の消耗品",
+    "保険料"
+  ],
+  "eligibility_conditions": [
+    "中小企業・小規模事業者であること",
+    "BCPを新たに策定または改訂すること",
+    "都道府県の認定を受けること（自治体によって要件が異なる）"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "都道府県・商工会への相談",
+    "BCP策定計画の作成",
+    "補助金申請",
+    "BCP策定・設備導入",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "BCPの内容が形式的で実効性がない",
+    "対象経費の証憑不備",
+    "都道府県の要件を満たしていない",
+    "BCP策定が補助金申請前に完了していた"
+  ],
+  "success_tips": [
+    "中小企業BCP策定支援ツール（中小企業庁提供・無料）を活用する",
+    "地域のBCP策定勉強会・セミナーに参加して基礎知識を習得する",
+    "自治体によっては専門家派遣（無料）と組み合わせて申請できる",
+    "サプライチェーン全体のリスク対策を含めると評価が高くなる"
+  ],
+  "affiliate_cta": {
+    "text": "BCP策定を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "monozukuri",
+    "jigyou-saikouchiku",
+    "shoene-setsubi"
+  ],
+  "tags": [
+    "BCP",
+    "事業継続",
+    "防災",
+    "リスク管理",
+    "補助金"
+  ],
+  "monthly_searches": 15000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.chusho.meti.go.jp/bcp/"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "monozukuri-digital",
+  "name": "ものづくり補助金（デジタル枠）",
+  "official_name": "ものづくり・商業・サービス生産性向上促進補助金（デジタル枠）",
+  "category": "デジタル化",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 7500000,
+  "subsidy_rate": 0.67,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "製造業",
+    "サービス業",
+    "情報通信業"
+  ],
+  "purpose": "DX推進・サイバーセキュリティ対策強化に資する設備投資・システム開発",
+  "deadline": "公募期間中（年3〜4回）",
+  "next_expected": "2026年度も継続",
+  "eligible_expenses": [
+    "デジタル化設備・ソフトウェア",
+    "AI・IoTシステム開発費",
+    "クラウド移行費",
+    "セキュリティ対策費"
+  ],
+  "ineligible_expenses": [
+    "汎用PC単体",
+    "スマートフォン単体",
+    "デジタル化と無関係な設備"
+  ],
+  "eligibility_conditions": [
+    "中小企業・小規模事業者であること",
+    "DXに資する革新的な設備投資・システム開発であること",
+    "認定経営革新等支援機関の確認を受けること",
+    "付加価値額が年率平均3%以上増加する計画であること"
+  ],
+  "company_size_limit": {
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    }
+  },
+  "application_flow": [
+    "認定支援機関（商工会・税理士等）への相談",
+    "事業計画書の作成",
+    "電子申請（jGrants）",
+    "審査・採択",
+    "交付決定後に設備投資・開発実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "DXの革新性・新規性が通常の設備更新と変わらない",
+    "付加価値額増加の根拠・計算が不十分",
+    "認定支援機関の確認書がない",
+    "サイバーセキュリティ対策（SECURITY ACTION等）が未実施"
+  ],
+  "success_tips": [
+    "AI・クラウド・IoTを活用した業務変革をテーマにすると評価が高い",
+    "セキュリティ対策（SECURITY ACTION二つ星）の宣言を事前に完了させる",
+    "通常枠と異なりデジタル・DXに特化した内容であることを明確に記載する",
+    "過去の採択事例（中小機構公表）を参考に革新性の記載方法を学ぶ"
+  ],
+  "affiliate_cta": {
+    "text": "DX推進を会計・クラウドツールで始める（freee）",
+    "url_placeholder": "AFFILIATE_FREEE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
+  },
+  "related_subsidies": [
+    "monozukuri",
+    "it-donyu",
+    "innovation-souzou"
+  ],
+  "tags": [
+    "DX",
+    "デジタル化",
+    "AI",
+    "IoT",
+    "ものづくり補助金"
+  ],
+  "monthly_searches": 25000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://portal.monodukuri-hojo.jp/"
+}

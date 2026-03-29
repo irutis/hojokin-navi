@@ -1,0 +1,79 @@
+{
+  "slug": "ma-hojokin",
+  "name": "M&A補助金（中小企業M&A支援機関登録制度）",
+  "official_name": "中小企業M&A推進計画・中小M&Aガイドライン",
+  "category": "事業承継・M&A",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 2000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "後継者不足を解消するM&Aの仲介・FA費用等を補助",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "M&A仲介・FA手数料",
+    "デューデリジェンス費用",
+    "専門家相談費用",
+    "バリュエーション費用"
+  ],
+  "ineligible_expenses": [
+    "M&A成約後の経営支援費用",
+    "統合後のシステム費用",
+    "金融機関手数料"
+  ],
+  "eligibility_conditions": [
+    "中小企業・小規模事業者であること",
+    "中小M&Aガイドラインに準拠した支援機関を活用すること",
+    "補助対象のM&Aが成約すること（または相談段階も対象のコースあり）"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "中小企業庁登録支援機関への相談",
+    "M&A支援計画の作成",
+    "補助金申請",
+    "M&Aプロセスの実施",
+    "成約後に実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "登録支援機関以外のM&A仲介を利用した",
+    "成約に至らなかった（成約要件のコース）",
+    "対象経費の証憑書類不備",
+    "中小企業の範囲を超えている"
+  ],
+  "success_tips": [
+    "中小企業庁のM&A支援機関登録リストから選ぶ（未登録業者は補助対象外）",
+    "事業承継補助金と組み合わせて活用できる場合がある",
+    "後継者不在なら早めに着手（M&Aは平均1〜2年かかる）",
+    "よろず支援拠点・商工会での無料相談から始めると補助金活用のアドバイスがもらえる"
+  ],
+  "affiliate_cta": {
+    "text": "M&A・事業承継を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "souzoku-jigyo",
+    "jizokuka"
+  ],
+  "tags": [
+    "M&A",
+    "事業承継",
+    "後継者",
+    "売却",
+    "補助金"
+  ],
+  "monthly_searches": 18000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.chusho.meti.go.jp/zaimu/shoukei/index.html"
+}

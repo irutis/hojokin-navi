@@ -19,6 +19,21 @@ import goTech from './go-tech.json'
 import kaigaiTenkai from './kaigai-tenkai.json'
 import shoeneShift from './shoene-shift.json'
 import joshiKigyoka from './joshi-kigyoka.json'
+import ryoritsuShien from './ryoritsu-shien.json'
+import gyomuKaizen from './gyomu-kaizen.json'
+import jinzaiKaihatsu from './jinzai-kaihatsu.json'
+import shogaishaKoyo from './shogaisha-koyo.json'
+import maHojokin from './ma-hojokin.json'
+import bcpHojokin from './bcp-hojokin.json'
+import zebHojokin from './zeb-hojokin.json'
+import inboundHojokin from './inbound-hojokin.json'
+import chushoTaishoku from './chusho-taishoku.json'
+import nogyouJisedai from './nogyou-jisedai.json'
+import tokuteiShogyo from './tokutei-shogyo.json'
+import smartNogyou from './smart-nogyou.json'
+import jizokukaInvoice from './jizokuka-invoice.json'
+import monozukuriDigital from './monozukuri-digital.json'
+import jizokukaSouzou from './jizokuka-souzou.json'
 
 export type Hojokin = {
   slug: string
@@ -70,6 +85,21 @@ export const allHojokin: Hojokin[] = [
   kaigaiTenkai as Hojokin,
   shoeneShift as Hojokin,
   joshiKigyoka as Hojokin,
+  ryoritsuShien as Hojokin,
+  gyomuKaizen as Hojokin,
+  jinzaiKaihatsu as Hojokin,
+  shogaishaKoyo as Hojokin,
+  maHojokin as Hojokin,
+  bcpHojokin as Hojokin,
+  zebHojokin as Hojokin,
+  inboundHojokin as Hojokin,
+  chushoTaishoku as Hojokin,
+  nogyouJisedai as Hojokin,
+  tokuteiShogyo as Hojokin,
+  smartNogyou as Hojokin,
+  jizokukaInvoice as Hojokin,
+  monozukuriDigital as Hojokin,
+  jizokukaSouzou as Hojokin,
 ]
 
 export function getHojokinBySlug(slug: string): Hojokin | undefined {

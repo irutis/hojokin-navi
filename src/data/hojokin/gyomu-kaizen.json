@@ -1,0 +1,82 @@
+{
+  "slug": "gyomu-kaizen",
+  "name": "業務改善助成金",
+  "official_name": "業務改善助成金（最低賃金引上げ支援）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 6000000,
+  "subsidy_rate": 0.9,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "最低賃金の引上げと生産性向上に向けた設備投資・人材育成を支援",
+  "deadline": "随時受付（予算上限あり・早期終了あり）",
+  "next_expected": "継続制度（年度更新）",
+  "eligible_expenses": [
+    "設備・機器購入費",
+    "PC・タブレット",
+    "研修費",
+    "コンサルタント費用",
+    "POSレジ・自動販売機"
+  ],
+  "ineligible_expenses": [
+    "自動車（業務専用を除く）",
+    "建設・建築工事",
+    "汎用性の高い事務機器単体"
+  ],
+  "eligibility_conditions": [
+    "中小企業・小規模事業者であること",
+    "事業場内最低賃金を30円以上引き上げること",
+    "引上げ後の賃金を労働者全員に適用すること",
+    "生産性向上に資する設備投資等を実施すること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "交付申請（設備投資前に提出必須）",
+    "交付決定後に設備投資・賃金引上げを実施",
+    "支給申請（事業完了後3ヶ月以内）",
+    "支給決定・受給"
+  ],
+  "rejection_reasons": [
+    "交付申請前に設備を発注・購入してしまった",
+    "賃金引上げが30円未満（1〜9円コースと混同）",
+    "引上げが一部の従業員のみで全員に適用されていない",
+    "設備と生産性向上の関連性が不明確",
+    "予算上限に達して受付終了（早期申請が重要）"
+  ],
+  "success_tips": [
+    "年度初めに予算が多いため4〜6月の早期申請が有利",
+    "POSレジ・自動化機器・PC等は採択実績が多く申請しやすい",
+    "賃金引上げ額が大きいほど補助率・上限額が有利になる",
+    "設備投資前に必ず交付申請を先行させる"
+  ],
+  "affiliate_cta": {
+    "text": "賃上げ・助成金を社労士に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "hatarakikata",
+    "it-donyu"
+  ],
+  "tags": [
+    "最低賃金",
+    "賃上げ",
+    "生産性向上",
+    "助成金",
+    "設備投資"
+  ],
+  "monthly_searches": 35000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/02.html"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "zeb-hojokin",
+  "name": "ZEB実証事業補助金",
+  "official_name": "ネット・ゼロ・エネルギー・ビル実証事業（ZEB）",
+  "category": "省エネ・脱炭素",
+  "managing_org": "環境省",
+  "max_amount": 500000000,
+  "subsidy_rate": 0.67,
+  "target_company_size": [
+    "中小企業",
+    "大企業",
+    "自治体"
+  ],
+  "target_industries": [
+    "建設業",
+    "不動産",
+    "サービス業",
+    "製造業"
+  ],
+  "purpose": "高断熱・高効率設備・再エネ導入によりエネルギー消費量を実質ゼロにする建築物の整備を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "高断熱建材費",
+    "高効率空調・照明費",
+    "太陽光発電システム",
+    "蓄電池",
+    "BEMS（ビルエネルギー管理システム）"
+  ],
+  "ineligible_expenses": [
+    "土地購入費",
+    "建物本体の一般建設費",
+    "テナント内装費"
+  ],
+  "eligibility_conditions": [
+    "ZEB（Nearly ZEB以上）を達成すること",
+    "建物の用途・規模が要件を満たすこと",
+    "省エネ計算書・エネルギー性能評価書を提出できること",
+    "建設後5年以上の実証・モニタリングに協力できること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "ZEB設計の検討・省エネ計算",
+    "公募期間中に申請",
+    "審査・採択",
+    "建設・設備導入",
+    "実績報告・モニタリング開始"
+  ],
+  "rejection_reasons": [
+    "ZEBの達成水準が要件（Nearly ZEB以上）を下回る",
+    "省エネ計算の根拠が不明確",
+    "モニタリング協力の実施体制が不十分",
+    "既存建物の改修で新築同等の性能が出ない"
+  ],
+  "success_tips": [
+    "ZEBプランナー（環境省登録）に設計段階から相談する",
+    "太陽光発電・蓄電池・高効率空調の組み合わせが最も採択されやすい",
+    "建築設計事務所とZEBプランナーの早期連携が採択の鍵",
+    "補助事業後のモニタリング・公表への協力が条件なので社内体制を整える"
+  ],
+  "affiliate_cta": {
+    "text": "省エネ・ZEB設計を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "shoene-setsubi",
+    "shoene-shift"
+  ],
+  "tags": [
+    "ZEB",
+    "省エネ",
+    "脱炭素",
+    "建築",
+    "補助金"
+  ],
+  "monthly_searches": 12000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.env.go.jp/earth/zeb.html"
+}

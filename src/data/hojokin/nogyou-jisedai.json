@@ -1,0 +1,78 @@
+{
+  "slug": "nogyou-jisedai",
+  "name": "農業次世代人材投資資金",
+  "official_name": "農業次世代人材投資資金（就農準備資金・経営開始資金）",
+  "category": "農業・農村",
+  "managing_org": "農林水産省",
+  "max_amount": 1500000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "農業者",
+    "新規就農者"
+  ],
+  "target_industries": [
+    "農業"
+  ],
+  "purpose": "新規就農者の就農準備・経営確立を資金面で支援（年間最大150万円×最大5年間）",
+  "deadline": "随時受付（都道府県経由）",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "就農準備期間中の生活費相当（就農準備資金）",
+    "経営開始初期の生活費相当（経営開始資金）"
+  ],
+  "ineligible_expenses": [
+    "農業機械・設備購入費（別途融資制度あり）",
+    "法人役員報酬"
+  ],
+  "eligibility_conditions": [
+    "原則50歳未満であること",
+    "農業を主業とする意欲・能力があること",
+    "独立・自営就農すること（農業法人等への就農は別コース）",
+    "認定新規就農者になること（市区町村の認定が必要）"
+  ],
+  "company_size_limit": {
+    "agriculture": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "農業委員会・農業振興センターへの相談",
+    "農業次世代人材投資計画の作成",
+    "市区町村による認定新規就農者の認定",
+    "都道府県への申請",
+    "資金交付（年1〜2回）"
+  ],
+  "rejection_reasons": [
+    "50歳以上（経営開始資金のみ対象外）",
+    "農業経営計画の実現可能性が低い（農地・販路が未確保）",
+    "認定新規就農者の認定を受けていない",
+    "他の国費補助と重複受給"
+  ],
+  "success_tips": [
+    "農業委員会に早めに相談し、認定新規就農者の要件（農地・機械・販路）を整理する",
+    "農業法人への就職（雇用就農資金）と自営就農（本資金）で支援内容が異なる",
+    "就農前に農業大学校・農業高校OB等の研修を受けると計画の実現性が高まる",
+    "農地の確保が認定の最大のハードル。農地中間管理機構を活用する"
+  ],
+  "affiliate_cta": {
+    "text": "農業経営を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "chiiki-mirai",
+    "sogyou",
+    "joshi-kigyoka"
+  ],
+  "tags": [
+    "農業",
+    "新規就農",
+    "農業次世代",
+    "補助金",
+    "就農"
+  ],
+  "monthly_searches": 18000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.maff.go.jp/j/new_farmer/n_syunou/roudou.html"
+}

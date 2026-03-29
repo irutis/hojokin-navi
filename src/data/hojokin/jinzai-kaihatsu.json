@@ -1,0 +1,82 @@
+{
+  "slug": "jinzai-kaihatsu",
+  "name": "人材開発支援助成金",
+  "official_name": "人材開発支援助成金（人への投資促進コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 5000000,
+  "subsidy_rate": 0.75,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "従業員のデジタル・グリーン等の成長分野スキル習得のための研修費用を支援",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "研修受講料",
+    "外部講師謝金",
+    "教材費",
+    "受講者の賃金（Off-JT）"
+  ],
+  "ineligible_expenses": [
+    "資格取得後の更新費用",
+    "業務上必須の法定研修",
+    "研修と関係ない旅費・宿泊費"
+  ],
+  "eligibility_conditions": [
+    "雇用保険適用事業主であること",
+    "訓練計画届を事前に労働局に提出していること",
+    "対象者が雇用保険被保険者であること",
+    "訓練の時間数・内容が要件を満たすこと"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "訓練計画書の作成・労働局へ提出（研修開始1ヶ月前まで）",
+    "研修の実施",
+    "支給申請（訓練終了翌日から2ヶ月以内）",
+    "支給決定・受給"
+  ],
+  "rejection_reasons": [
+    "訓練計画届の提出が研修開始後だった",
+    "研修時間数が要件（OFF-JT 10時間以上等）を下回る",
+    "受講者の出席記録・修了証が不備",
+    "研修内容が業務に直結しない・汎用的すぎる",
+    "申請期限（2ヶ月以内）を過ぎた"
+  ],
+  "success_tips": [
+    "研修開始の1ヶ月以上前に訓練計画届を提出する（これが最重要）",
+    "DX・AI・クラウド・データ分析系の研修は審査が通りやすい",
+    "社労士と連携して計画届の様式を正確に作成する",
+    "複数の従業員を同時に受講させるとまとめて申請できて効率的"
+  ],
+  "affiliate_cta": {
+    "text": "研修助成金を社労士に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "hatarakikata",
+    "it-donyu"
+  ],
+  "tags": [
+    "研修",
+    "人材育成",
+    "DX",
+    "スキルアップ",
+    "助成金"
+  ],
+  "monthly_searches": 32000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+}

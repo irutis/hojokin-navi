@@ -1,0 +1,78 @@
+{
+  "slug": "chusho-taishoku",
+  "name": "中小企業退職金共済制度",
+  "official_name": "中小企業退職金共済制度（中退共）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省・勤労者退職金共済機構",
+  "max_amount": 240000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種（一部業種は別制度）"
+  ],
+  "purpose": "中小企業の従業員退職金制度の整備と掛金助成",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "退職金共済掛金（加入後一定期間の掛金の一部を国が助成）"
+  ],
+  "ineligible_expenses": [
+    "役員分の掛金",
+    "個人事業主本人分"
+  ],
+  "eligibility_conditions": [
+    "中小企業・小規模事業者であること（業種別の資本金・従業員数要件あり）",
+    "中退共に新規加入すること",
+    "掛金を毎月納付すること"
+  ],
+  "company_size_limit": {
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "retail": {
+      "capital": 50000000,
+      "employees": 50
+    }
+  },
+  "application_flow": [
+    "中退共の加入申込書の作成",
+    "金融機関・商工会等での申し込み手続き",
+    "掛金の毎月納付開始",
+    "助成金は自動適用（申請不要）"
+  ],
+  "rejection_reasons": [
+    "中小企業の範囲を超えている（資本金・従業員数）",
+    "既に他の退職金制度（確定給付年金等）と重複加入",
+    "掛金の滞納"
+  ],
+  "success_tips": [
+    "新規加入後4ヶ月目〜1年間、掛金の50%（月上限5,000円）が国から助成される",
+    "掛金は月5,000円〜30,000円で選択でき、従業員ごとに設定可能",
+    "退職金は中退共から直接従業員に支払われるため会社のキャッシュフロー負担がない",
+    "法人税の損金算入が可能で節税効果もある"
+  ],
+  "affiliate_cta": {
+    "text": "退職金制度を社労士に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "jinzai-kakuho",
+    "hatarakikata"
+  ],
+  "tags": [
+    "退職金",
+    "中退共",
+    "福利厚生",
+    "助成",
+    "人材定着"
+  ],
+  "monthly_searches": 25000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://chutaikyo.taisyokukin.go.jp/"
+}

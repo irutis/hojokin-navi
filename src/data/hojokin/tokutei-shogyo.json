@@ -1,0 +1,84 @@
+{
+  "slug": "tokutei-shogyo",
+  "name": "商業施設等活性化補助金",
+  "official_name": "商業・サービス競争力強化連携支援事業（商店街活性化）",
+  "category": "地域・商業活性化",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 30000000,
+  "subsidy_rate": 0.67,
+  "target_company_size": [
+    "商店街振興組合",
+    "小売業",
+    "サービス業"
+  ],
+  "target_industries": [
+    "小売業",
+    "サービス業",
+    "飲食業"
+  ],
+  "purpose": "商店街・商業集積地の活性化に向けた環境整備・集客イベント・共同施設整備を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "共同施設整備費",
+    "空き店舗活用費",
+    "集客イベント費",
+    "多言語対応・Wi-Fi整備費",
+    "商店街アプリ・Webサイト制作費"
+  ],
+  "ineligible_expenses": [
+    "個店の内装工事",
+    "個店の在庫・商品購入費",
+    "建物本体の建設費"
+  ],
+  "eligibility_conditions": [
+    "商店街振興組合・商工会・商工会議所等が主体であること",
+    "複数の店舗が連携した取組であること",
+    "地域の課題解決につながる具体的な計画があること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "商工会・商工会議所への相談",
+    "商店街活性化計画の作成（複数店舗の合意形成が必要）",
+    "公募期間中に申請",
+    "採択後、活性化事業の実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "個店単独の申請（複数店舗の連携が必要）",
+    "商店街全体への波及効果が不明確",
+    "イベントが単発で継続性がない",
+    "地域の課題・ニーズの根拠（来街者数データ等）が不足"
+  ],
+  "success_tips": [
+    "空き店舗率のデータ・来街者数の推移など課題を数値で示す",
+    "継続的な集客につながる仕組み（定期イベント・デジタル集客）をセットで提案する",
+    "観光客・インバウンドとの連携要素を入れると評価が上がりやすい",
+    "補助対象は商店街全体の事業なので、個店への還元計画も明示する"
+  ],
+  "affiliate_cta": {
+    "text": "商業活性化事業を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "jizokuka",
+    "inbound-hojokin",
+    "it-donyu"
+  ],
+  "tags": [
+    "商店街",
+    "地域活性化",
+    "小売",
+    "サービス業",
+    "補助金"
+  ],
+  "monthly_searches": 12000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.chusho.meti.go.jp/shogyo/shogyo/"
+}

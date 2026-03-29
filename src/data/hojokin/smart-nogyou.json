@@ -1,0 +1,83 @@
+{
+  "slug": "smart-nogyou",
+  "name": "スマート農業実証プロジェクト",
+  "official_name": "スマート農業技術の開発・実証・普及プロジェクト",
+  "category": "農業・農村",
+  "managing_org": "農林水産省",
+  "max_amount": 50000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "農業者",
+    "農業法人",
+    "企業"
+  ],
+  "target_industries": [
+    "農業"
+  ],
+  "purpose": "ドローン・AI・IoT等の先端技術を活用したスマート農業の実証・導入を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "ドローン・農業用ロボット購入費",
+    "センサー・IoT機器",
+    "AI解析ソフト",
+    "実証実験費用"
+  ],
+  "ineligible_expenses": [
+    "汎用PCのみ",
+    "建物・倉庫の建設費",
+    "農地購入費"
+  ],
+  "eligibility_conditions": [
+    "農業者・農業法人または農業参入企業であること",
+    "スマート農業技術の実証・普及計画があること",
+    "技術提供企業との連携体制があること",
+    "実証後のデータ公開・普及活動に協力できること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "農林水産省・農業試験場への相談",
+    "コンソーシアム（農業者＋技術企業）の組成",
+    "実証計画書の作成",
+    "公募期間中に申請",
+    "採択後、実証実施・データ収集",
+    "実績報告・成果公表"
+  ],
+  "rejection_reasons": [
+    "既に普及している技術の導入（実証の新規性がない）",
+    "コンソーシアムの連携体制が形式的",
+    "実証後の普及計画が不明確",
+    "データ公開への協力が難しい体制"
+  ],
+  "success_tips": [
+    "農機メーカー・IT企業と早期に連携してコンソーシアムを組む",
+    "実証データを農林水産省・農研機構と共有する協定を結ぶと採択率が上がる",
+    "複数農家・地域での面的展開計画があると評価される",
+    "新規就農者向けのスマート農業導入支援も加えると差別化できる"
+  ],
+  "affiliate_cta": {
+    "text": "スマート農業導入を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "nogyou-jisedai",
+    "chiiki-mirai",
+    "innovation-souzou"
+  ],
+  "tags": [
+    "スマート農業",
+    "ドローン",
+    "AI",
+    "IoT",
+    "農業補助金"
+  ],
+  "monthly_searches": 10000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.maff.go.jp/j/kanbo/smart/"
+}

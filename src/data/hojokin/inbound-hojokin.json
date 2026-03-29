@@ -1,0 +1,84 @@
+{
+  "slug": "inbound-hojokin",
+  "name": "インバウンド対応強化補助金",
+  "official_name": "訪日外国人旅行者受入環境整備緊急対策事業",
+  "category": "観光・インバウンド",
+  "managing_org": "観光庁",
+  "max_amount": 10000000,
+  "subsidy_rate": 0.5,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "宿泊業",
+    "飲食業",
+    "小売業",
+    "観光業"
+  ],
+  "purpose": "訪日外国人の受け入れ環境整備（多言語対応・キャッシュレス・Wi-Fi等）を支援",
+  "deadline": "公募期間中（年1〜2回）",
+  "next_expected": "2026年度公募予定",
+  "eligible_expenses": [
+    "多言語サインボード",
+    "翻訳・通訳システム",
+    "キャッシュレス端末",
+    "無料Wi-Fi整備",
+    "訪日外国人向けWebサイト制作"
+  ],
+  "ineligible_expenses": [
+    "建物本体工事",
+    "日常的な消耗品",
+    "国内向けのみの設備"
+  ],
+  "eligibility_conditions": [
+    "訪日外国人の受け入れ実績があること（または受け入れ計画があること）",
+    "多言語対応・キャッシュレス等の整備計画が具体的であること",
+    "補助対象施設が日本国内にあること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "観光庁・都道府県観光局への相談",
+    "受け入れ環境整備計画の作成",
+    "公募期間中に申請",
+    "採択後、整備実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "訪日外国人受け入れの実績・計画が不明確",
+    "整備内容が国内客向けのみで外国人対応効果が薄い",
+    "対象経費の見積書・仕様書が不備",
+    "事業所が観光地・訪日外国人が訪れる地域でない"
+  ],
+  "success_tips": [
+    "インバウンド客数・想定来訪数のデータを具体的に示す",
+    "多言語対応（英語・中国語・韓国語）とキャッシュレスの組み合わせが評価されやすい",
+    "SNS・口コミサイト（Google・TripAdvisor）での外国語対応実績があると有利",
+    "地域の観光協会と連携した申請は評価が上がりやすい"
+  ],
+  "affiliate_cta": {
+    "text": "インバウンド対策を専門家に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "jizokuka",
+    "it-donyu",
+    "kaigai-tenkai"
+  ],
+  "tags": [
+    "インバウンド",
+    "観光",
+    "多言語",
+    "キャッシュレス",
+    "補助金"
+  ],
+  "monthly_searches": 22000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.mlit.go.jp/kankocho/shisaku/sangyou/torikumi.html"
+}

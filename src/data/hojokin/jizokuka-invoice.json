@@ -1,0 +1,86 @@
+{
+  "slug": "jizokuka-invoice",
+  "name": "持続化補助金（インボイス枠）",
+  "official_name": "小規模事業者持続化補助金（インボイス特例）",
+  "category": "販路開拓・小規模",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 1000000,
+  "subsidy_rate": 0.75,
+  "target_company_size": [
+    "小規模事業者",
+    "個人事業主"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "インボイス発行事業者に転換した小規模事業者の販路開拓・生産性向上を支援",
+  "deadline": "公募期間中（年3〜4回）",
+  "next_expected": "2026年度も継続予定",
+  "eligible_expenses": [
+    "機械装置費",
+    "広報費",
+    "ウェブサイト関連費",
+    "展示会出展費",
+    "新商品開発費"
+  ],
+  "ineligible_expenses": [
+    "人件費（原則）",
+    "汎用品の購入",
+    "補助事業と直接関係のない経費"
+  ],
+  "eligibility_conditions": [
+    "小規模事業者（製造業・宿泊・娯楽：従業員20人以下、他：5人以下）であること",
+    "2021年9月30日〜2023年9月30日の間にインボイス発行事業者の登録申請をしていること",
+    "商工会・商工会議所の支援を受けて事業計画を策定すること"
+  ],
+  "company_size_limit": {
+    "manufacturing": {
+      "capital": null,
+      "employees": 20
+    },
+    "service": {
+      "capital": null,
+      "employees": 5
+    }
+  },
+  "application_flow": [
+    "地域の商工会・商工会議所に相談",
+    "経営計画書・補助事業計画書の作成",
+    "商工会・商工会議所の確認書発行",
+    "電子申請（jGrants）",
+    "採択後に補助事業実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "インボイス登録の時期が特例期間外",
+    "販路開拓の具体性が乏しい（どこに・どうやって売るか不明）",
+    "商工会・商工会議所の確認書がない",
+    "補助事業の効果測定方法が不明確"
+  ],
+  "success_tips": [
+    "通常枠（補助上限50〜200万円）とインボイス枠（上限100万円加算）を組み合わせて申請できる",
+    "商工会の担当者と密に連携して計画書を磨く（添削を必ず受ける）",
+    "新規顧客獲得・新市場開拓の具体的な数値目標を設定する",
+    "ECサイト構築・SNS広告費も対象なのでデジタル集客と組み合わせると効果的"
+  ],
+  "affiliate_cta": {
+    "text": "持続化補助金を会計ソフトで管理する（freee）",
+    "url_placeholder": "AFFILIATE_FREEE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
+  },
+  "related_subsidies": [
+    "jizokuka",
+    "denshi-invoice",
+    "it-donyu"
+  ],
+  "tags": [
+    "持続化補助金",
+    "インボイス",
+    "小規模事業者",
+    "販路開拓",
+    "個人事業主"
+  ],
+  "monthly_searches": 30000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://s23.jizokukahojokin.info/"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "ryoritsu-shien",
+  "name": "両立支援等助成金",
+  "official_name": "両立支援等助成金（出生時両立支援コース）",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省",
+  "max_amount": 730000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "男性従業員の育児休業取得促進・仕事と育児の両立支援",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "育休取得促進に伴う代替要員確保等の費用（助成金として支給）"
+  ],
+  "ineligible_expenses": [
+    "役員報酬",
+    "育休取得者本人の賃金"
+  ],
+  "eligibility_conditions": [
+    "雇用保険適用事業主であること",
+    "育児・介護休業法に基づく雇用環境整備措置を実施していること",
+    "男性従業員が子の出生後8週間以内に合計5日以上の育休を取得すること",
+    "育休取得前と復帰後に面談を実施し記録すること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": 300
+    }
+  },
+  "application_flow": [
+    "育児・介護休業規程の整備（未整備の場合）",
+    "男性従業員が育児休業を取得",
+    "育休終了後に支給申請（取得日翌日から2ヶ月以内）",
+    "支給決定・受給"
+  ],
+  "rejection_reasons": [
+    "育休期間が5日未満（合計日数の計算ミス）",
+    "育休前・復帰後面談の記録が残っていない",
+    "就業規則・育児介護休業規程が未整備",
+    "申請期限（育休終了翌日から2ヶ月以内）を過ぎた",
+    "育休取得者が雇用保険被保険者でない"
+  ],
+  "success_tips": [
+    "育休取得前に必ず面談を実施し議事録を残す",
+    "育休期間5日は連続でなくても合算できる（分割取得可）",
+    "社労士に相談すると書類整備から申請まで一括対応できる",
+    "中小企業向けに加算措置があり最大73万円まで受給できる"
+  ],
+  "affiliate_cta": {
+    "text": "育児休業助成金を社労士に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "hatarakikata",
+    "koyo-chosei"
+  ],
+  "tags": [
+    "育児",
+    "男性育休",
+    "両立支援",
+    "助成金",
+    "雇用"
+  ],
+  "monthly_searches": 28000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokugyou_katei.html"
+}

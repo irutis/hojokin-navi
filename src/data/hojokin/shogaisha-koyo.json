@@ -1,0 +1,74 @@
+{
+  "slug": "shogaisha-koyo",
+  "name": "障害者雇用納付金・障害者雇用助成金",
+  "official_name": "障害者雇用調整金・在宅就業障害者特例調整金",
+  "category": "雇用・人材",
+  "managing_org": "厚生労働省・高齢・障害・求職者雇用支援機構",
+  "max_amount": 2130000,
+  "subsidy_rate": 1.0,
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "障害者の法定雇用率達成・超過雇用に対する調整金支給と雇用促進",
+  "deadline": "随時受付",
+  "next_expected": "継続制度",
+  "eligible_expenses": [
+    "障害者雇用に伴う設備改善費・支援費（助成金として支給）"
+  ],
+  "ineligible_expenses": [
+    "法定雇用率未達成企業の一般経費"
+  ],
+  "eligibility_conditions": [
+    "障害者雇用促進法の適用事業主であること",
+    "法定雇用率（2.5%以上）を超えて障害者を雇用していること",
+    "ハローワークへの障害者雇用状況報告を提出していること"
+  ],
+  "company_size_limit": {
+    "all": {
+      "capital": null,
+      "employees": null
+    }
+  },
+  "application_flow": [
+    "ハローワークへの障害者雇用状況報告（毎年6月1日基準）",
+    "法定雇用率超過分の確認",
+    "調整金の申請（翌年度に申請）",
+    "支給決定・受給"
+  ],
+  "rejection_reasons": [
+    "雇用障害者のカウント方法の誤り（週所定労働時間による違い）",
+    "雇用状況報告書の未提出・遅延",
+    "在籍確認書類の不備",
+    "雇用カウント対象外の障害者を含めた計算ミス"
+  ],
+  "success_tips": [
+    "短時間（20時間以上30時間未満）勤務の障害者は0.5カウントになるため注意",
+    "特例子会社制度を活用するとグループ全体で雇用率を通算できる",
+    "ジョブコーチ（職場適応援助者）助成金も同時活用できる",
+    "納付金を支払うより法定雇用率を達成した方がトータルコストを削減できる"
+  ],
+  "affiliate_cta": {
+    "text": "障害者雇用を社労士に相談する",
+    "url_placeholder": "AFFILIATE_GENERAL",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
+  },
+  "related_subsidies": [
+    "career-up",
+    "jinzai-kakuho",
+    "tokutei-kibo"
+  ],
+  "tags": [
+    "障害者雇用",
+    "法定雇用率",
+    "助成金",
+    "雇用"
+  ],
+  "monthly_searches": 20000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.jeed.go.jp/disability/employer/index.html"
+}

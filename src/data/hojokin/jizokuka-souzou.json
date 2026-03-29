@@ -1,0 +1,84 @@
+{
+  "slug": "jizokuka-souzou",
+  "name": "持続化補助金（創業枠）",
+  "official_name": "小規模事業者持続化補助金（創業枠）",
+  "category": "創業・スタートアップ",
+  "managing_org": "経済産業省・中小企業庁",
+  "max_amount": 2000000,
+  "subsidy_rate": 0.75,
+  "target_company_size": [
+    "創業後5年未満の小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
+  "purpose": "創業間もない小規模事業者の販路開拓・生産性向上を支援（通常枠より高い補助上限）",
+  "deadline": "公募期間中（年3〜4回）",
+  "next_expected": "2026年度も継続予定",
+  "eligible_expenses": [
+    "広報費",
+    "機械装置費",
+    "展示会出展費",
+    "ウェブサイト制作費",
+    "新商品開発費"
+  ],
+  "ineligible_expenses": [
+    "人件費（原則）",
+    "汎用品の購入",
+    "フランチャイズ加盟金"
+  ],
+  "eligibility_conditions": [
+    "創業後5年未満の小規模事業者であること",
+    "産業競争力強化法の認定を受けた市区町村の創業支援等事業を受けていること",
+    "商工会・商工会議所の支援を受けて事業計画を策定すること"
+  ],
+  "company_size_limit": {
+    "manufacturing": {
+      "capital": null,
+      "employees": 20
+    },
+    "service": {
+      "capital": null,
+      "employees": 5
+    }
+  },
+  "application_flow": [
+    "市区町村の創業支援事業を受講・修了",
+    "商工会・商工会議所に相談・計画書作成",
+    "電子申請",
+    "採択後に事業実施",
+    "実績報告・補助金受領"
+  ],
+  "rejection_reasons": [
+    "創業5年以上経過している",
+    "認定市区町村の創業支援事業を受けていない",
+    "販路開拓の具体性が不足",
+    "商工会確認書がない"
+  ],
+  "success_tips": [
+    "まず市区町村のよろず支援拠点・創業スクールに相談して創業支援事業の受講証明を取得する",
+    "通常枠（上限50〜200万円）より上限200万円と高いため、創業後は積極的に活用すべき",
+    "ECサイト・SNS広告費も対象なのでデジタル集客計画を入れると評価されやすい",
+    "競合分析・ターゲット顧客の明確化が採択の鍵"
+  ],
+  "affiliate_cta": {
+    "text": "創業を会計ソフトで効率化する（freee）",
+    "url_placeholder": "AFFILIATE_FREEE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
+  },
+  "related_subsidies": [
+    "sogyou",
+    "jizokuka",
+    "jizokuka-invoice"
+  ],
+  "tags": [
+    "創業",
+    "持続化補助金",
+    "小規模事業者",
+    "販路開拓",
+    "起業"
+  ],
+  "monthly_searches": 20000,
+  "last_updated": "2026-03-28",
+  "official_url": "https://s23.jizokukahojokin.info/"
+}

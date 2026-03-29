@@ -99,7 +99,7 @@ export default async function SearchPage({
               {subsidies?.map((s) => (
                 <a
                   key={s.id}
-                  href={`https://jgrants-portal.go.jp/subsidy/${s.id}`}
+                  href={`https://www.jgrants-portal.go.jp/subsidy/${s.id}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:border-blue-400 hover:shadow-md transition-all"

@@ -95,23 +95,21 @@ async function main() {
         await page.waitForTimeout(1000)
         console.log('  広告リンクURL:', page.url())
 
-        // ページ内のタブ・リンクを確認してバナー画像ページへ遷移
-        const pageLinks2 = await page.evaluate(() => {
-          return Array.from(document.querySelectorAll('a, button, li'))
-            .map(el => `${el.tagName} "${el.textContent?.trim()}" href="${el.getAttribute('href') || ''}"`)
-            .filter(s => s.includes('バナー') || s.includes('banner') || s.includes('画像') || s.includes('image') || s.includes('img'))
+        // ページ内の全リンクをダンプ
+        const allPageLinks = await page.evaluate(() => {
+          return Array.from(document.querySelectorAll('a[href]'))
+            .map(a => `"${a.textContent?.trim().slice(0,30)}" → ${a.href}`)
+            .slice(0, 50)
+        })
+        console.log('  全リンク:\n  ', allPageLinks.join('\n  '))
+
+        // ページテキストとタブ構造を確認
+        const pageTabs = await page.evaluate(() => {
+          return Array.from(document.querySelectorAll('ul li, .tab, [class*="tab"], nav a'))
+            .map(el => `${el.tagName}.${el.className} "${el.textContent?.trim().slice(0,30)}"`)
             .slice(0, 20)
         })
-        console.log('  バナー関連要素:', pageLinks2.join('\n  '))
-
-        // バナータブ・リンクをクリック
-        const bannerTab = await page.locator('a:has-text("バナー"), button:has-text("バナー"), li:has-text("バナー広告"), a[href*="banner"], a[href*="imgLink"]').first()
-        if (await bannerTab.count() > 0) {
-          await bannerTab.click()
-          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
-          await page.waitForTimeout(1000)
-          console.log('  バナーページURL:', page.url())
-        }
+        console.log('  タブ/メニュー:\n  ', pageTabs.join('\n  '))
 
         // バナーHTMLをtextareaから取得
         let bannerHtml = ''

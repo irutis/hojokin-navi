@@ -6,13 +6,25 @@
   "managing_org": "厚生労働省",
   "max_amount": 570000,
   "subsidy_rate": 1.0,
-  "target_company_size": ["中小企業", "小規模事業者", "大企業"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "非正規雇用労働者の正社員転換・処遇改善",
   "deadline": "随時受付",
   "next_expected": "継続制度（年度更新）",
-  "eligible_expenses": ["正社員転換に伴う賃金増加分（助成金として支給）"],
-  "ineligible_expenses": ["正社員転換前の賃金", "役員報酬", "退職金"],
+  "eligible_expenses": [
+    "正社員転換に伴う賃金増加分（助成金として支給）"
+  ],
+  "ineligible_expenses": [
+    "正社員転換前の賃金",
+    "役員報酬",
+    "退職金"
+  ],
   "eligibility_conditions": [
     "雇用保険適用事業所であること",
     "キャリアアップ計画を作成・提出していること",
@@ -21,7 +33,10 @@
     "転換後の賃金が転換前より3%以上増加していること"
   ],
   "company_size_limit": {
-    "all": { "capital": null, "employees": null }
+    "all": {
+      "capital": null,
+      "employees": null
+    }
   },
   "application_flow": [
     "キャリアアップ計画書の作成・労働局への提出",
@@ -49,8 +64,19 @@
     "url_placeholder": "AFFILIATE_SHAROUSHI",
     "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["koyo-chosei", "hatarakikata", "tokutei-kibo"],
-  "tags": ["雇用", "正社員化", "非正規", "人材", "助成金"],
+  "related_subsidies": [
+    "koyo-chosei",
+    "hatarakikata",
+    "tokutei-kibo"
+  ],
+  "tags": [
+    "雇用",
+    "正社員化",
+    "非正規",
+    "人材",
+    "助成金"
+  ],
   "monthly_searches": 90000,
-  "last_updated": "2026-03-28"
+  "last_updated": "2026-03-28",
+  "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html"
 }

@@ -64,7 +64,17 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
             {h.category}
           </span>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mt-3 mb-2">{h.name}</h1>
-          <p className="text-gray-500 text-sm mb-6">{h.official_name} ／ 管轄：{h.managing_org}</p>
+          <div className="flex items-center flex-wrap gap-3 mb-6">
+            <p className="text-gray-500 text-sm">{h.official_name} ／ 管轄：{h.managing_org}</p>
+            <a
+              href={h.official_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-xs text-blue-600 border border-blue-200 bg-blue-50 px-2.5 py-1 rounded-full hover:bg-blue-100 transition-colors"
+            >
+              🏛️ 公式サイト →
+            </a>
+          </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             <div className="bg-blue-50 rounded-xl p-4 text-center">

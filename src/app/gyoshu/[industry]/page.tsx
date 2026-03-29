@@ -114,12 +114,22 @@ export default async function IndustryPage({ params }: { params: Promise<{ indus
                       <span className="text-gray-500">{h.deadline}</span>
                     </div>
                   </div>
-                  <Link
-                    href={`/hojokin/${h.slug}`}
-                    className="shrink-0 bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-                  >
-                    詳細 →
-                  </Link>
+                  <div className="shrink-0 flex flex-col gap-2">
+                    <Link
+                      href={`/hojokin/${h.slug}`}
+                      className="bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-center"
+                    >
+                      詳細 →
+                    </Link>
+                    <a
+                      href={h.official_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-gray-500 border border-gray-200 px-3 py-1.5 rounded-lg hover:bg-gray-50 transition-colors text-center"
+                    >
+                      🏛️ 公式
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}

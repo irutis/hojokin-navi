@@ -69,34 +69,33 @@ async function main() {
         )
         await page.waitForTimeout(2000)
 
-        // プログラム名のリンクを探す（広告素材リンク）
-        const materialLink = await page.locator('a:has-text("広告素材"), a[href*="material"], a[href*="banner"]').first()
-        if (await materialLink.count() === 0) {
-          // プログラム名のリンクをクリックしてみる
-          const progLink = await page.locator(`a:has-text("${affiliate.program_name_keyword.split('　')[0]}")`).first()
-          if (await progLink.count() === 0) {
-            console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
-            // デバッグ: ページテキスト
-            const txt = await page.evaluate(() => document.body?.innerText?.slice(0, 300) ?? '')
-            console.log('  ページ内容:', txt)
-            continue
-          }
-          await progLink.click()
-          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
-          await page.waitForTimeout(1000)
-        } else {
-          await materialLink.click()
-          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
-          await page.waitForTimeout(1000)
+        // ページ内のリンクをデバッグ確認
+        const pageLinks = await page.evaluate(() => {
+          return Array.from(document.querySelectorAll('table a, .list a, .content a, #main a, td a'))
+            .map(a => `${a.textContent?.trim()} → ${a.href}`)
+            .filter(s => s.length > 5)
+            .slice(0, 30)
+        })
+        console.log('  コンテンツエリアリンク:', pageLinks.join('\n  '))
+
+        // プログラム名のリンクを本文エリアから探す（ナビメニュー除外）
+        const progLink = await page.locator(`table a:has-text("${affiliate.program_name_keyword.split('　')[0]}"), td a:has-text("${affiliate.program_name_keyword.split('　')[0]}")`).first()
+        if (await progLink.count() === 0) {
+          console.warn(`  ⚠️ ${affiliate.name} が見つかりませんでした`)
+          continue
         }
 
-        console.log('  素材ページURL:', page.url())
+        // プログラム詳細ページへ
+        await progLink.click()
+        await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+        await page.waitForTimeout(1000)
+        console.log('  詳細ページURL:', page.url())
 
-        // 素材ページから広告素材リンクを再度探す
-        const mat2 = await page.locator('a:has-text("広告素材"), a:has-text("バナー素材"), a[href*="material"]').first()
+        // 広告素材リンクを探す（テーブル内・コンテンツ内のみ）
+        const mat2 = await page.locator('table a:has-text("広告素材"), td a:has-text("広告素材"), td a:has-text("バナー"), a[href*="bannerListAction"], a[href*="materialList"]').first()
         if (await mat2.count() > 0) {
-          await mat2.click()
-          await page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {})
+          const matHref = await mat2.getAttribute('href')
+          await page.goto(matHref.startsWith('http') ? matHref : `https://pub.a8.net${matHref}`, { waitUntil: 'networkidle', timeout: 60000 })
           await page.waitForTimeout(1000)
           console.log('  素材一覧URL:', page.url())
         }

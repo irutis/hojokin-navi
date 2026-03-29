@@ -47,6 +47,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 補助金申請におすすめのツール（アフィリエイト） */}
+      <section className="max-w-4xl mx-auto px-4 mt-10">
+        <h2 className="text-sm font-medium text-gray-500 mb-3">📌 補助金申請・会計管理におすすめのツール</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y" target="_blank" rel="nofollow noopener noreferrer"
+            className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-green-400 hover:shadow-sm transition-all">
+            <span className="text-2xl">🟢</span>
+            <div>
+              <p className="font-bold text-gray-800 text-sm">freee会計</p>
+              <p className="text-xs text-gray-500">補助金の経費管理・確定申告</p>
+            </div>
+            <span className="ml-auto text-xs text-green-600 font-medium shrink-0">無料で試す →</span>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY" target="_blank" rel="nofollow noopener noreferrer"
+            className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all">
+            <span className="text-2xl">🔵</span>
+            <div>
+              <p className="font-bold text-gray-800 text-sm">マネーフォワード クラウド</p>
+              <p className="text-xs text-gray-500">会計・給与・経費を一括管理</p>
+            </div>
+            <span className="ml-auto text-xs text-blue-600 font-medium shrink-0">無料で試す →</span>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AZR8P+BDM8Z6+4JGQ+HVFKY" target="_blank" rel="nofollow noopener noreferrer"
+            className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-purple-400 hover:shadow-sm transition-all">
+            <span className="text-2xl">🟣</span>
+            <div>
+              <p className="font-bold text-gray-800 text-sm">マネーフォワード 会社設立</p>
+              <p className="text-xs text-gray-500">創業補助金と同時活用できる</p>
+            </div>
+            <span className="ml-auto text-xs text-purple-600 font-medium shrink-0">無料で試す →</span>
+          </a>
+        </div>
+      </section>
+
       {/* 業種別ナビ */}
       <section className="max-w-4xl mx-auto px-4 mt-12">
         <div className="flex items-center justify-between mb-4">

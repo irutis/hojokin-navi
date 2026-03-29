@@ -50,12 +50,13 @@ export default function AffiliateBanners() {
   const affiliates = affiliatesData as Affiliate[]
 
   return (
-    <div className="space-y-3">
+    <div className="flex flex-wrap gap-3 justify-center">
       {affiliates.map((affiliate) =>
         affiliate.banner_html ? (
           <div
             key={affiliate.id}
-            className="w-full overflow-hidden rounded-2xl shadow-md"
+            className="overflow-hidden rounded-xl shadow-sm border border-gray-100 shrink-0"
+            style={{ width: 300, height: 250 }}
             dangerouslySetInnerHTML={{ __html: affiliate.banner_html }}
           />
         ) : (

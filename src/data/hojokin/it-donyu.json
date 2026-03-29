@@ -6,8 +6,13 @@
   "managing_org": "経済産業省・中小企業庁",
   "max_amount": 4500000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業", "小規模事業者"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "ITツール・ソフトウェア導入による業務効率化",
   "deadline": "2025-12-31",
   "next_expected": "2026年度も継続予定",
@@ -30,10 +35,22 @@
     "ITベンダー・サービス事業者と共同申請すること"
   ],
   "company_size_limit": {
-    "retail_food": { "capital": 50000000, "employees": 50 },
-    "service": { "capital": 50000000, "employees": 100 },
-    "wholesale": { "capital": 100000000, "employees": 100 },
-    "manufacturing": { "capital": 300000000, "employees": 300 }
+    "retail_food": {
+      "capital": 50000000,
+      "employees": 50
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    },
+    "wholesale": {
+      "capital": 100000000,
+      "employees": 100
+    },
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    }
   },
   "application_flow": [
     "gBizIDプライム取得（2〜3週間かかるため早めに）",
@@ -58,10 +75,20 @@
   ],
   "affiliate_cta": {
     "text": "申請サポートを専門家に依頼する",
-    "url_placeholder": "AFFILIATE_IT_DONYU"
+    "url_placeholder": "AFFILIATE_IT_DONYU",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
   },
-  "related_subsidies": ["monozukuri", "shorikika"],
-  "tags": ["IT", "デジタル化", "ソフトウェア", "クラウド", "業務効率化"],
+  "related_subsidies": [
+    "monozukuri",
+    "shorikika"
+  ],
+  "tags": [
+    "IT",
+    "デジタル化",
+    "ソフトウェア",
+    "クラウド",
+    "業務効率化"
+  ],
   "monthly_searches": 180000,
   "last_updated": "2026-03-28"
 }

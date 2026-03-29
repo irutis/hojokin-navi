@@ -6,8 +6,14 @@
   "managing_org": "厚生労働省",
   "max_amount": 15000,
   "subsidy_rate": 0.75,
-  "target_company_size": ["中小企業", "中堅企業", "大企業"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "中堅企業",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "景気変動等による一時的な事業縮小時の休業・教育訓練への助成",
   "deadline": "随時受付",
   "next_expected": "恒久制度",
@@ -28,7 +34,10 @@
     "計画届を事前に提出していること"
   ],
   "company_size_limit": {
-    "all": { "capital": null, "employees": null }
+    "all": {
+      "capital": null,
+      "employees": null
+    }
   },
   "application_flow": [
     "労使協定の締結",
@@ -50,10 +59,20 @@
   ],
   "affiliate_cta": {
     "text": "社労士に雇用調整助成金を相談する",
-    "url_placeholder": "AFFILIATE_SHAROUSHI"
+    "url_placeholder": "AFFILIATE_SHAROUSHI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["shorikika", "jigyou-saikouchiku"],
-  "tags": ["雇用", "休業", "助成金", "厚生労働省", "人件費"],
+  "related_subsidies": [
+    "shorikika",
+    "jigyou-saikouchiku"
+  ],
+  "tags": [
+    "雇用",
+    "休業",
+    "助成金",
+    "厚生労働省",
+    "人件費"
+  ],
   "monthly_searches": 90000,
   "last_updated": "2026-03-28"
 }

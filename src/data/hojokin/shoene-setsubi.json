@@ -6,8 +6,17 @@
   "managing_org": "経済産業省・資源エネルギー庁",
   "max_amount": 150000000,
   "subsidy_rate": 0.33,
-  "target_company_size": ["中小企業", "中堅企業", "大企業"],
-  "target_industries": ["製造業", "物流業", "農業", "サービス業"],
+  "target_company_size": [
+    "中小企業",
+    "中堅企業",
+    "大企業"
+  ],
+  "target_industries": [
+    "製造業",
+    "物流業",
+    "農業",
+    "サービス業"
+  ],
   "purpose": "省エネ設備への更新・導入によるエネルギーコスト削減と脱炭素化",
   "deadline": "2026年度公募予定",
   "next_expected": "毎年度継続",
@@ -27,7 +36,10 @@
     "日本国内の事業所で使用すること"
   ],
   "company_size_limit": {
-    "all": { "capital": null, "employees": null }
+    "all": {
+      "capital": null,
+      "employees": null
+    }
   },
   "application_flow": [
     "省エネ診断の実施（任意だが推奨）",
@@ -49,10 +61,20 @@
   ],
   "affiliate_cta": {
     "text": "省エネ設備の専門家に相談する",
-    "url_placeholder": "AFFILIATE_SHOENE"
+    "url_placeholder": "AFFILIATE_SHOENE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["shorikika", "monozukuri"],
-  "tags": ["省エネ", "脱炭素", "設備投資", "エネルギーコスト", "製造業"],
+  "related_subsidies": [
+    "shorikika",
+    "monozukuri"
+  ],
+  "tags": [
+    "省エネ",
+    "脱炭素",
+    "設備投資",
+    "エネルギーコスト",
+    "製造業"
+  ],
   "monthly_searches": 40000,
   "last_updated": "2026-03-28"
 }

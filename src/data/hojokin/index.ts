@@ -31,7 +31,7 @@ export type Hojokin = {
   application_flow: string[]
   rejection_reasons: string[]
   success_tips: string[]
-  affiliate_cta: { text: string; url_placeholder: string }
+  affiliate_cta: { text: string; url_placeholder: string; url: string }
   related_subsidies: string[]
   tags: string[]
   monthly_searches: number

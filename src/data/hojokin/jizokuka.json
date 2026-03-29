@@ -6,8 +6,12 @@
   "managing_org": "日本商工会議所・全国商工会連合会",
   "max_amount": 2000000,
   "subsidy_rate": 0.667,
-  "target_company_size": ["小規模事業者"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "販路開拓・生産性向上に向けた取組",
   "deadline": "年4回程度（第17回：2026年3月末予定）",
   "next_expected": "年4回公募継続",
@@ -37,8 +41,12 @@
     "持続的な経営に向けた経営計画を策定していること"
   ],
   "company_size_limit": {
-    "commerce_service": { "employees": 5 },
-    "manufacturing_others": { "employees": 20 }
+    "commerce_service": {
+      "employees": 5
+    },
+    "manufacturing_others": {
+      "employees": 20
+    }
   },
   "application_flow": [
     "地域の商工会・商工会議所に相談（経営計画書の確認・押印が必要）",
@@ -64,10 +72,20 @@
   ],
   "affiliate_cta": {
     "text": "地域の商工会・商工会議所を探す",
-    "url_placeholder": "AFFILIATE_JIZOKUKA"
+    "url_placeholder": "AFFILIATE_JIZOKUKA",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["it-donyu", "monozukuri"],
-  "tags": ["小規模事業者", "販路拡大", "HP制作", "広告", "個人事業主"],
+  "related_subsidies": [
+    "it-donyu",
+    "monozukuri"
+  ],
+  "tags": [
+    "小規模事業者",
+    "販路拡大",
+    "HP制作",
+    "広告",
+    "個人事業主"
+  ],
   "monthly_searches": 75000,
   "last_updated": "2026-03-28"
 }

@@ -6,8 +6,13 @@
   "managing_org": "中小企業庁",
   "max_amount": 8000000,
   "subsidy_rate": 0.667,
-  "target_company_size": ["中小企業", "小規模事業者"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "事業承継・M&Aを契機とした経営革新や廃業・再チャレンジの支援",
   "deadline": "2026年度公募予定",
   "next_expected": "毎年度継続",
@@ -29,8 +34,14 @@
     "認定支援機関の確認を受けた事業計画を策定すること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "service": { "capital": 50000000, "employees": 100 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    }
   },
   "application_flow": [
     "認定支援機関に相談・事業計画策定",
@@ -51,10 +62,20 @@
   ],
   "affiliate_cta": {
     "text": "事業承継の専門家に無料相談する",
-    "url_placeholder": "AFFILIATE_SOUZOKU"
+    "url_placeholder": "AFFILIATE_SOUZOKU",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BDM8Z6+4JGQ+HVFKY"
   },
-  "related_subsidies": ["jigyou-saikouchiku", "jizokuka"],
-  "tags": ["事業承継", "M&A", "引継ぎ", "廃業", "再チャレンジ"],
+  "related_subsidies": [
+    "jigyou-saikouchiku",
+    "jizokuka"
+  ],
+  "tags": [
+    "事業承継",
+    "M&A",
+    "引継ぎ",
+    "廃業",
+    "再チャレンジ"
+  ],
   "monthly_searches": 25000,
   "last_updated": "2026-03-28"
 }

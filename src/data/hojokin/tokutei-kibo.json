@@ -6,8 +6,14 @@
   "managing_org": "厚生労働省",
   "max_amount": 1200000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業", "中堅企業", "大企業"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "中堅企業",
+    "大企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "高齢者・障害者・母子家庭の母等の就職困難者を雇い入れた事業主への助成",
   "deadline": "随時受付",
   "next_expected": "恒久制度",
@@ -24,7 +30,10 @@
     "対象者を継続して雇用する意思があること"
   ],
   "company_size_limit": {
-    "all": { "capital": null, "employees": null }
+    "all": {
+      "capital": null,
+      "employees": null
+    }
   },
   "application_flow": [
     "ハローワークに求人申込み",
@@ -43,10 +52,20 @@
   ],
   "affiliate_cta": {
     "text": "採用・助成金の専門家に相談する",
-    "url_placeholder": "AFFILIATE_KOYO"
+    "url_placeholder": "AFFILIATE_KOYO",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["koyo-chosei", "shorikika"],
-  "tags": ["雇用助成金", "採用", "高齢者", "障害者", "厚生労働省"],
+  "related_subsidies": [
+    "koyo-chosei",
+    "shorikika"
+  ],
+  "tags": [
+    "雇用助成金",
+    "採用",
+    "高齢者",
+    "障害者",
+    "厚生労働省"
+  ],
   "monthly_searches": 18000,
   "last_updated": "2026-03-28"
 }

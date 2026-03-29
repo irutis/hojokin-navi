@@ -6,8 +6,16 @@
   "managing_org": "経済産業省・地方経済産業局",
   "max_amount": 50000000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業", "中堅企業"],
-  "target_industries": ["製造業", "農林水産業", "観光業", "サービス業"],
+  "target_company_size": [
+    "中小企業",
+    "中堅企業"
+  ],
+  "target_industries": [
+    "製造業",
+    "農林水産業",
+    "観光業",
+    "サービス業"
+  ],
   "purpose": "地域の特性を活かした事業への投資促進・地域経済の活性化",
   "deadline": "各地方局により異なる",
   "next_expected": "毎年度継続",
@@ -28,8 +36,14 @@
     "地域への経済的波及効果が見込まれること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "service": { "capital": 50000000, "employees": 100 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    }
   },
   "application_flow": [
     "都道府県に地域経済牽引事業計画を申請・承認取得",
@@ -49,10 +63,20 @@
   ],
   "affiliate_cta": {
     "text": "補助金申請の専門家に相談する",
-    "url_placeholder": "AFFILIATE_CHIIKI"
+    "url_placeholder": "AFFILIATE_CHIIKI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["jigyou-saikouchiku", "jizokuka"],
-  "tags": ["地域活性化", "観光", "農業", "製造業", "地方"],
+  "related_subsidies": [
+    "jigyou-saikouchiku",
+    "jizokuka"
+  ],
+  "tags": [
+    "地域活性化",
+    "観光",
+    "農業",
+    "製造業",
+    "地方"
+  ],
   "monthly_searches": 15000,
   "last_updated": "2026-03-28"
 }

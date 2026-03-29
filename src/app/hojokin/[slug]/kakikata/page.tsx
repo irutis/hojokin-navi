@@ -18,6 +18,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 // 補助金ごとの申請書ガイドデータ
+const AFFILIATE_URLS: Record<string, string> = {
+  AFFILIATE_FREEE: 'https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y',
+  AFFILIATE_MITSUMOA: 'https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY',
+  AFFILIATE_GENERAL: 'https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY',
+}
+
 const kakikataData: Record<string, {
   overview: string
   keyPoints: { title: string; good: string; bad: string }[]
@@ -142,7 +148,11 @@ export default async function KakikataPage({ params }: { params: Promise<{ slug:
   const h = getHojokinBySlug(slug)
   if (!h) notFound()
 
-  const data = kakikataData[slug] ?? getDefaultData(h.name)
+  const rawData = kakikataData[slug] ?? getDefaultData(h.name)
+  const data = {
+    ...rawData,
+    affiliateUrl: AFFILIATE_URLS[rawData.affiliatePlaceholder] ?? 'https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY',
+  }
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -219,7 +229,9 @@ export default async function KakikataPage({ params }: { params: Promise<{ slug:
           <h2 className="font-bold text-lg mb-2">申請書の作成でお困りですか？</h2>
           <p className="text-blue-200 text-sm mb-4">専門家に依頼することで採択率が大幅に向上します。まずは無料相談から。</p>
           <a
-            href="#"
+            href={data.affiliateUrl}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
             className="inline-block bg-white text-blue-700 font-bold px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors"
           >
             {data.affiliateText}

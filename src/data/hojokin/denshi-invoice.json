@@ -6,8 +6,12 @@
   "managing_org": "日本商工会議所・全国商工会連合会",
   "max_amount": 1000000,
   "subsidy_rate": 0.667,
-  "target_company_size": ["小規模事業者"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "インボイス制度対応のための経費支援",
   "deadline": "2026年度公募予定",
   "next_expected": "継続予定",
@@ -28,8 +32,14 @@
     "インボイス制度に対応するための取組であること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": null, "employees": 20 },
-    "service": { "capital": null, "employees": 5 }
+    "manufacturing": {
+      "capital": null,
+      "employees": 20
+    },
+    "service": {
+      "capital": null,
+      "employees": 5
+    }
   },
   "application_flow": [
     "商工会議所・商工会に相談・申請書類準備",
@@ -50,10 +60,20 @@
   ],
   "affiliate_cta": {
     "text": "freeeでインボイス対応を始める",
-    "url_placeholder": "AFFILIATE_FREEE"
+    "url_placeholder": "AFFILIATE_FREEE",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BBTY5U+3SPO+9FL80Y"
   },
-  "related_subsidies": ["jizokuka", "it-donyu"],
-  "tags": ["インボイス", "会計ソフト", "小規模事業者", "デジタル化", "freee"],
+  "related_subsidies": [
+    "jizokuka",
+    "it-donyu"
+  ],
+  "tags": [
+    "インボイス",
+    "会計ソフト",
+    "小規模事業者",
+    "デジタル化",
+    "freee"
+  ],
   "monthly_searches": 35000,
   "last_updated": "2026-03-28"
 }

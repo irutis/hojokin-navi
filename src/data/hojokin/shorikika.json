@@ -6,8 +6,13 @@
   "managing_org": "中小企業庁",
   "max_amount": 15000000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業", "小規模事業者"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "小規模事業者"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "人手不足解消に向けた汎用製品（IoT・ロボット等）の導入",
   "deadline": "2026年度も継続公募予定",
   "next_expected": "随時公募（カタログ型）",
@@ -29,10 +34,22 @@
     "GビズIDプライムを保有していること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "wholesale": { "capital": 100000000, "employees": 100 },
-    "service": { "capital": 50000000, "employees": 100 },
-    "retail": { "capital": 50000000, "employees": 50 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "wholesale": {
+      "capital": 100000000,
+      "employees": 100
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    },
+    "retail": {
+      "capital": 50000000,
+      "employees": 50
+    }
   },
   "application_flow": [
     "GビズIDプライムの取得",
@@ -57,10 +74,20 @@
   ],
   "affiliate_cta": {
     "text": "省力化製品の導入相談をする",
-    "url_placeholder": "AFFILIATE_SHORIKIKA"
+    "url_placeholder": "AFFILIATE_SHORIKIKA",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["it-donyu", "monozukuri"],
-  "tags": ["人手不足", "ロボット", "IoT", "自動化", "省力化"],
+  "related_subsidies": [
+    "it-donyu",
+    "monozukuri"
+  ],
+  "tags": [
+    "人手不足",
+    "ロボット",
+    "IoT",
+    "自動化",
+    "省力化"
+  ],
   "monthly_searches": 45000,
   "last_updated": "2026-03-28"
 }

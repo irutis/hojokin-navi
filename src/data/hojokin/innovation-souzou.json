@@ -6,8 +6,17 @@
   "managing_org": "内閣府・各省庁",
   "max_amount": 30000000,
   "subsidy_rate": 0.667,
-  "target_company_size": ["中小企業", "スタートアップ"],
-  "target_industries": ["製造業", "IT", "医療", "農業", "建設"],
+  "target_company_size": [
+    "中小企業",
+    "スタートアップ"
+  ],
+  "target_industries": [
+    "製造業",
+    "IT",
+    "医療",
+    "農業",
+    "建設"
+  ],
   "purpose": "社会課題解決に向けた革新的な研究開発・事業化の支援",
   "deadline": "各省庁により異なる",
   "next_expected": "毎年度継続",
@@ -30,8 +39,14 @@
     "事業化の見込みがあること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "service": { "capital": 50000000, "employees": 100 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    }
   },
   "application_flow": [
     "公募テーマの確認（各省庁のウェブサイト）",
@@ -54,10 +69,20 @@
   ],
   "affiliate_cta": {
     "text": "研究開発補助金の専門家に相談する",
-    "url_placeholder": "AFFILIATE_INNOVATION"
+    "url_placeholder": "AFFILIATE_INNOVATION",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["monozukuri", "jigyou-saikouchiku"],
-  "tags": ["研究開発", "スタートアップ", "イノベーション", "SBIR", "技術開発"],
+  "related_subsidies": [
+    "monozukuri",
+    "jigyou-saikouchiku"
+  ],
+  "tags": [
+    "研究開発",
+    "スタートアップ",
+    "イノベーション",
+    "SBIR",
+    "技術開発"
+  ],
   "monthly_searches": 12000,
   "last_updated": "2026-03-28"
 }

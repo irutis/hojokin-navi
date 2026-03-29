@@ -6,8 +6,13 @@
   "managing_org": "中小企業庁",
   "max_amount": 150000000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業", "中堅企業"],
-  "target_industries": ["全業種"],
+  "target_company_size": [
+    "中小企業",
+    "中堅企業"
+  ],
+  "target_industries": [
+    "全業種"
+  ],
   "purpose": "コロナや市場変化に対応した新分野展開・業態転換・事業転換",
   "deadline": "2026年度公募予定",
   "next_expected": "2026年度継続予定",
@@ -33,10 +38,22 @@
     "補助事業終了後3〜5年で付加価値額の増加目標を達成すること"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "wholesale": { "capital": 100000000, "employees": 100 },
-    "service": { "capital": 50000000, "employees": 100 },
-    "retail_food": { "capital": 50000000, "employees": 50 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "wholesale": {
+      "capital": 100000000,
+      "employees": 100
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    },
+    "retail_food": {
+      "capital": 50000000,
+      "employees": 50
+    }
   },
   "application_flow": [
     "認定経営革新等支援機関（認定支援機関）を探す・相談",
@@ -61,10 +78,20 @@
   ],
   "affiliate_cta": {
     "text": "認定支援機関に無料相談する",
-    "url_placeholder": "AFFILIATE_SAIKOUCHIKU"
+    "url_placeholder": "AFFILIATE_SAIKOUCHIKU",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["monozukuri", "jizokuka"],
-  "tags": ["事業転換", "新分野展開", "業態転換", "コロナ対策", "大型補助金"],
+  "related_subsidies": [
+    "monozukuri",
+    "jizokuka"
+  ],
+  "tags": [
+    "事業転換",
+    "新分野展開",
+    "業態転換",
+    "コロナ対策",
+    "大型補助金"
+  ],
   "monthly_searches": 120000,
   "last_updated": "2026-03-28"
 }

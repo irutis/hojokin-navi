@@ -6,8 +6,15 @@
   "managing_org": "中小企業庁",
   "max_amount": 12500000,
   "subsidy_rate": 0.5,
-  "target_company_size": ["中小企業"],
-  "target_industries": ["製造業", "建設業", "サービス業", "その他"],
+  "target_company_size": [
+    "中小企業"
+  ],
+  "target_industries": [
+    "製造業",
+    "建設業",
+    "サービス業",
+    "その他"
+  ],
   "purpose": "革新的な製品・サービス開発や生産プロセス改善のための設備投資",
   "deadline": "2026-03-末（次回公募予定）",
   "next_expected": "年3〜4回公募",
@@ -34,10 +41,22 @@
     "革新的な製品・サービス開発または生産プロセス改善の具体的計画"
   ],
   "company_size_limit": {
-    "manufacturing": { "capital": 300000000, "employees": 300 },
-    "wholesale": { "capital": 100000000, "employees": 100 },
-    "service": { "capital": 50000000, "employees": 100 },
-    "retail": { "capital": 50000000, "employees": 50 }
+    "manufacturing": {
+      "capital": 300000000,
+      "employees": 300
+    },
+    "wholesale": {
+      "capital": 100000000,
+      "employees": 100
+    },
+    "service": {
+      "capital": 50000000,
+      "employees": 100
+    },
+    "retail": {
+      "capital": 50000000,
+      "employees": 50
+    }
   },
   "application_flow": [
     "公募開始の確認（中小企業庁のサイトで告知）",
@@ -64,10 +83,20 @@
   ],
   "affiliate_cta": {
     "text": "中小企業診断士に事業計画書作成を依頼する",
-    "url_placeholder": "AFFILIATE_MONOZUKURI"
+    "url_placeholder": "AFFILIATE_MONOZUKURI",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4AZR8P+BD0TDE+4JGQ+BZ8OY"
   },
-  "related_subsidies": ["it-donyu", "jizokuka"],
-  "tags": ["設備投資", "製造業", "生産性向上", "革新", "機械"],
+  "related_subsidies": [
+    "it-donyu",
+    "jizokuka"
+  ],
+  "tags": [
+    "設備投資",
+    "製造業",
+    "生産性向上",
+    "革新",
+    "機械"
+  ],
   "monthly_searches": 90000,
   "last_updated": "2026-03-28"
 }

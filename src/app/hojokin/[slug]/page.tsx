@@ -187,7 +187,9 @@ export default async function HojokinPage({ params }: { params: Promise<{ slug: 
           <h2 className="font-bold text-lg mb-2">申請サポートが必要ですか？</h2>
           <p className="text-blue-200 text-sm mb-4">専門家に相談することで採択率が大幅に向上します</p>
           <a
-            href="#"
+            href={h.affiliate_cta.url}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
             className="inline-block bg-white text-blue-700 font-bold px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors"
           >
             {h.affiliate_cta.text}

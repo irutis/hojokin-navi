@@ -112,7 +112,7 @@ async function main() {
       acceptance_end: item.acceptance_end_datetime ?? null,
       target_employees: item.target_number_of_employees ?? null,
       purpose: null,
-      detail_url: null,
+      detail_url: `https://jgrants-portal.go.jp/subsidy/${item.id}`,
       raw_data: item,
       updated_at: new Date().toISOString(),
     }))

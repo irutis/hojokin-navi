@@ -97,10 +97,16 @@ export default async function SearchPage({
             <p className="text-sm text-gray-500 mb-4">{subsidies?.length ?? 0}件表示</p>
             <div className="space-y-3">
               {subsidies?.map((s) => (
-                <div key={s.id} className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:border-blue-300 transition-colors">
+                <a
+                  key={s.id}
+                  href={`https://jgrants-portal.go.jp/subsidy/${s.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:border-blue-400 hover:shadow-md transition-all"
+                >
                   <div className="flex items-start justify-between gap-3 flex-wrap">
                     <div className="flex-1">
-                      <h2 className="font-bold text-gray-800 text-sm mb-2 leading-snug">{s.title}</h2>
+                      <h2 className="font-bold text-gray-800 text-sm mb-2 leading-snug group-hover:text-blue-700">{s.title}</h2>
                       <div className="flex flex-wrap gap-2 text-xs text-gray-500">
                         <span className="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{s.target_area ?? '全国'}</span>
                         {s.target_employees && (
@@ -114,20 +120,13 @@ export default async function SearchPage({
                       </div>
                     </div>
                     <div className="text-right shrink-0">
-                      <p className="font-bold text-blue-700 text-sm">{formatAmount(s.subsidy_max_limit)}</p>
-                      {s.detail_url && (
-                        <a
-                          href={s.detail_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-gray-400 hover:text-blue-600 mt-1 block"
-                        >
-                          公式サイト →
-                        </a>
-                      )}
+                      <p className="font-bold text-blue-700 text-sm mb-1">{formatAmount(s.subsidy_max_limit)}</p>
+                      <span className="text-xs text-blue-500 border border-blue-200 bg-blue-50 px-2 py-0.5 rounded-full">
+                        J-Grants →
+                      </span>
                     </div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
 

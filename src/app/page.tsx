@@ -1,6 +1,7 @@
 import Shindan from '@/components/Shindan'
 import HojokinCard from '@/components/HojokinCard'
 import AffiliateBanners from '@/components/AffiliateBanners'
+import AdUnit from '@/components/AdUnit'
 import { allHojokin } from '@/data/hojokin/index'
 import Link from 'next/link'
 
@@ -81,6 +82,10 @@ export default function Home() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="max-w-4xl mx-auto px-4 mt-8">
+        <AdUnit slot="4567890123" format="horizontal" />
       </section>
 
       <section className="max-w-4xl mx-auto px-4 py-12">
